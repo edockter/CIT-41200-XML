@@ -1,0 +1,146 @@
+iTunes and iTunesU Elements for the Introduction to XML lecture series
+
+Channel
+=======
+
+subtitle
+--------
+An introductory lecture series on XML
+
+author
+------
+Zakia Choudhry
+
+summary
+-------
+Understanding the fundamentals of HTML and CSS opens doors to many
+other types of Web development work. This series introduces the nuts and bolts of
+XML, which is a core component in developing native mobile applications on some
+platforms, and serves as a crucial building block of AJAX.
+
+owner
+-----
+	name: 	Zakia Choudhry
+        email:	zchoudhry@example.com
+
+
+
+Item 1
+======
+
+author
+------
+Zakia Choudhry
+
+subtitle
+--------
+An introduction to developing an XML document
+
+summary
+-------
+In this lecture, you'll learn about the basic building blocks of
+XML, and how to structure an XML document.
+
+category
+--------
+	code:	101102
+	
+duration
+--------
+41:22
+
+keywords
+--------
+xml, introduction, training
+
+
+
+Item 2
+======
+
+author
+------
+Zakia Choudhry
+
+subtitle
+--------
+Creating Document Type Definitions for XML files
+
+summary
+-------
+In this lecture, you'll learn what DTDs are used for, and how to use
+them to declare elements, attributes, and entities.
+
+category
+--------
+	code:	101102
+	
+duration
+--------
+44:19
+
+keywords
+--------
+xml, introduction, training, DTDs
+
+
+
+Item 3
+======
+
+author
+------
+Zakia Choudhry
+
+subtitle
+--------
+Creating Schemas to Validate XML Documents
+
+summary
+-------
+In this lecture, you'll learn about the advantages of schemas over
+DTDs, how to define simple and complex types, how to validate an instance
+document against a schema, and how to declare and use data types.
+
+category
+--------
+	code:	101102
+	
+duration
+--------
+39:05
+
+keywords
+--------
+xml, introduction, training, schemas
+
+
+
+Item 4
+======
+
+author
+------
+Zakia Choudhry
+
+subtitle
+--------
+Designing Schemas and Combining Schemas with Namespaces
+
+summary
+-------
+In this lecture, you'll learn about the three main schema designs,
+how to combine and validate multiple XML vocabularies in a single document,
+and how to apply stylesheets to elements in a compound document.
+
+category
+--------
+	code:	101102
+	
+duration
+--------
+46:37
+
+keywords
+--------
+xml, introduction, training, schemas, namespaces

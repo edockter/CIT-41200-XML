@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" 
+    xmlns:rec="http://example.com/chestershartland/recipe"
+    targetNamespace="http://example.com/chestershartland/recipe"
+    elementFormDefault="qualified" >
+    <element name="recipe">
+        <complexType>
+            <sequence>
+                <element name="itemName" type="string" />                
+                <element name="ingredients" type="rec:ingredientsType" />                                
+                <element name="directions" type="string" />                
+            </sequence>
+        </complexType>        
+    </element>    
+    <complexType name="ingredientsType">
+        <sequence>
+            <element name="ingredient" type="string" minOccurs="1" maxOccurs="unbounded" />
+        </sequence>
+    </complexType>
+</schema>

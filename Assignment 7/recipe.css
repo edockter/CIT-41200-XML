@@ -1,0 +1,34 @@
+/*
+   New Perspectives on XML
+   Tutorial 4
+   Case Problem 2
+   
+   Author:    Eric Dockter
+   Date:      10/20/2016
+   
+   Filename: recipe.css
+
+   This file contains styles used in the menurecipe.xml file.
+*/
+@namespace "http://example.com/chestershartland/recipe";
+
+recipe {
+   display: block;
+   margin-left: 20px;
+   margin-top: 20px;
+   border: 1px solid purple;
+   background: ivory;
+   padding: 10px;
+}
+itemName {
+   display: none;
+}
+ingredient {
+   display: block;
+   color: green;
+}
+directions {
+   display: block;
+   color: black;
+   margin-top: 10px;
+}

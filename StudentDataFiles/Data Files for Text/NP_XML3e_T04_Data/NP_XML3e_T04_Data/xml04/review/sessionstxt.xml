@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!--
+   New Perspectives on XML
+   Tutorial 4
+   Review Assignments
+
+   Higher Ed Test Prep PSAT writing skills course
+   Author:  
+   Date:     
+
+   Filename:         sessions.xml
+   Supporting Files: course.css, course.xsd, sessions.css, sessions.xsd
+-->
+
+   <sessions xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
+             xs:noNamespaceSchemaLocation="sessions.xsd">
+      <session>
+      	 <sessNum>1</sessNum>
+         <description>How to identify sentence errors</description>
+      </session>
+      <session>
+      	 <sessNum>2</sessNum>
+         <description>Advanced identification of sentence errors</description>
+      </session>
+      <session>
+      	 <sessNum>3</sessNum>
+         <description>How to improve sentences</description>
+      </session>
+      <session>
+      	 <sessNum>4</sessNum>
+         <description>Advanced sentence improvement</description>
+      </session>
+      <session>
+      	 <sessNum>5</sessNum>
+         <description>How to improve paragraphs</description>
+      </session>
+      <session>
+      	 <sessNum>6</sessNum>
+         <description>Advanced paragraph improvement</description>
+      </session>
+      <session>
+      	 <sessNum>7</sessNum>
+         <description>Combining Skills I</description>
+      </session>
+      <session>
+      	 <sessNum>8</sessNum>
+         <description>Combining Skills II</description>
+      </session>
+   </sessions>

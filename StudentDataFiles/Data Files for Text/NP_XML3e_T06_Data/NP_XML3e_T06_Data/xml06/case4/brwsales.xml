@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!--
+   New Perspectives on XML 3rd Edition
+   Tutorial 6
+   Case Problem 4
+
+   Monthly Sales from Big Red Wraps Stores
+
+   Filename:         brwsales.xml
+   Supporting Files: 
+
+-->
+
+<sales>
+	<monthly storeID="Store1">
+		<gross_sales month="January">26000</gross_sales>
+		<gross_sales month="February">24000</gross_sales>
+		<gross_sales month="March">27000</gross_sales>
+		<gross_sales month="April">28000</gross_sales>
+		<gross_sales month="May">29000</gross_sales>
+		<gross_sales month="June">32000</gross_sales>
+		<gross_sales month="July">33000</gross_sales>
+		<gross_sales month="August">34000</gross_sales>
+		<gross_sales month="September">30000</gross_sales>
+		<gross_sales month="October">32000</gross_sales>
+		<gross_sales month="November">30000</gross_sales>
+		<gross_sales month="December">30000</gross_sales>
+	</monthly>
+	<monthly storeID="Store2">
+		<gross_sales month="January">45000</gross_sales>
+		<gross_sales month="February">45000</gross_sales>
+		<gross_sales month="March">52000</gross_sales>
+		<gross_sales month="April">51000</gross_sales>
+		<gross_sales month="May">54000</gross_sales>
+		<gross_sales month="June">56000</gross_sales>
+		<gross_sales month="July">56000</gross_sales>
+		<gross_sales month="August">59000</gross_sales>
+		<gross_sales month="September">54000</gross_sales>
+		<gross_sales month="October">55000</gross_sales>
+		<gross_sales month="November">51000</gross_sales>
+		<gross_sales month="December">56000</gross_sales>
+	</monthly>
+	<monthly storeID="Store3">
+		<gross_sales month="January">19000</gross_sales>
+		<gross_sales month="February">21000</gross_sales>
+		<gross_sales month="March">23000</gross_sales>
+		<gross_sales month="April">25000</gross_sales>
+		<gross_sales month="May">26000</gross_sales>
+		<gross_sales month="June">26000</gross_sales>
+		<gross_sales month="July">28000</gross_sales>
+		<gross_sales month="August">26000</gross_sales>
+		<gross_sales month="September">25000</gross_sales>
+		<gross_sales month="October">26000</gross_sales>
+		<gross_sales month="November">25000</gross_sales>
+		<gross_sales month="December">25000</gross_sales>
+	</monthly>
+	<monthly storeID="Store4">
+		<gross_sales month="January">26000</gross_sales>
+		<gross_sales month="February">27000</gross_sales>
+		<gross_sales month="March">30000</gross_sales>
+		<gross_sales month="April">29000</gross_sales>
+		<gross_sales month="May">34000</gross_sales>
+		<gross_sales month="June">31000</gross_sales>
+		<gross_sales month="July">34000</gross_sales>
+		<gross_sales month="August">36000</gross_sales>
+		<gross_sales month="September">31000</gross_sales>
+		<gross_sales month="October">31000</gross_sales>
+		<gross_sales month="November">31000</gross_sales>
+		<gross_sales month="December">35000</gross_sales>
+	</monthly>
+	<monthly storeID="Store5">
+		<gross_sales month="January">45000</gross_sales>
+		<gross_sales month="February">41000</gross_sales>
+		<gross_sales month="March">49000</gross_sales>
+		<gross_sales month="April">51000</gross_sales>
+		<gross_sales month="May">53000</gross_sales>
+		<gross_sales month="June">54000</gross_sales>
+		<gross_sales month="July">54000</gross_sales>
+		<gross_sales month="August">58000</gross_sales>
+		<gross_sales month="September">54000</gross_sales>
+		<gross_sales month="October">55000</gross_sales>
+		<gross_sales month="November">51000</gross_sales>
+		<gross_sales month="December">52000</gross_sales>
+	</monthly>
+	<monthly storeID="Store6">
+		<gross_sales month="January">41000</gross_sales>
+		<gross_sales month="February">39000</gross_sales>
+		<gross_sales month="March">46000</gross_sales>
+		<gross_sales month="April">47000</gross_sales>
+		<gross_sales month="May">47000</gross_sales>
+		<gross_sales month="June">51000</gross_sales>
+		<gross_sales month="July">52000</gross_sales>
+		<gross_sales month="August">54000</gross_sales>
+		<gross_sales month="September">50000</gross_sales>
+		<gross_sales month="October">49000</gross_sales>
+		<gross_sales month="November">46000</gross_sales>
+		<gross_sales month="December">50000</gross_sales>
+	</monthly>
+	<monthly storeID="Store7">
+		<gross_sales month="January">24000</gross_sales>
+		<gross_sales month="February">22000</gross_sales>
+		<gross_sales month="March">25000</gross_sales>
+		<gross_sales month="April">27000</gross_sales>
+		<gross_sales month="May">28000</gross_sales>
+		<gross_sales month="June">29000</gross_sales>
+		<gross_sales month="July">32000</gross_sales>
+		<gross_sales month="August">30000</gross_sales>
+		<gross_sales month="September">30000</gross_sales>
+		<gross_sales month="October">28000</gross_sales>
+		<gross_sales month="November">27000</gross_sales>
+		<gross_sales month="December">30000</gross_sales>
+	</monthly>
+	<monthly storeID="Store8">
+		<gross_sales month="January">34000</gross_sales>
+		<gross_sales month="February">34000</gross_sales>
+		<gross_sales month="March">38000</gross_sales>
+		<gross_sales month="April">39000</gross_sales>
+		<gross_sales month="May">42000</gross_sales>
+		<gross_sales month="June">42000</gross_sales>
+		<gross_sales month="July">43000</gross_sales>
+		<gross_sales month="August">44000</gross_sales>
+		<gross_sales month="September">42000</gross_sales>
+		<gross_sales month="October">43000</gross_sales>
+		<gross_sales month="November">40000</gross_sales>
+		<gross_sales month="December">43000</gross_sales>
+	</monthly>
+	<monthly storeID="Store9">
+		<gross_sales month="January">31000</gross_sales>
+		<gross_sales month="February">30000</gross_sales>
+		<gross_sales month="March">33000</gross_sales>
+		<gross_sales month="April">33000</gross_sales>
+		<gross_sales month="May">36000</gross_sales>
+		<gross_sales month="June">35000</gross_sales>
+		<gross_sales month="July">36000</gross_sales>
+		<gross_sales month="August">38000</gross_sales>
+		<gross_sales month="September">35000</gross_sales>
+		<gross_sales month="October">38000</gross_sales>
+		<gross_sales month="November">32000</gross_sales>
+		<gross_sales month="December">37000</gross_sales>
+	</monthly>
+	<monthly storeID="Store10">
+		<gross_sales month="January">23000</gross_sales>
+		<gross_sales month="February">20000</gross_sales>
+		<gross_sales month="March">25000</gross_sales>
+		<gross_sales month="April">28000</gross_sales>
+		<gross_sales month="May">28000</gross_sales>
+		<gross_sales month="June">26000</gross_sales>
+		<gross_sales month="July">30000</gross_sales>
+		<gross_sales month="August">28000</gross_sales>
+		<gross_sales month="September">26000</gross_sales>
+		<gross_sales month="October">26000</gross_sales>
+		<gross_sales month="November">26000</gross_sales>
+		<gross_sales month="December">26000</gross_sales>
+	</monthly>
+	<monthly storeID="Store11">
+		<gross_sales month="January">44000</gross_sales>
+		<gross_sales month="February">43000</gross_sales>
+		<gross_sales month="March">48000</gross_sales>
+		<gross_sales month="April">50000</gross_sales>
+		<gross_sales month="May">51000</gross_sales>
+		<gross_sales month="June">54000</gross_sales>
+		<gross_sales month="July">54000</gross_sales>
+		<gross_sales month="August">55000</gross_sales>
+		<gross_sales month="September">54000</gross_sales>
+		<gross_sales month="October">52000</gross_sales>
+		<gross_sales month="November">51000</gross_sales>
+		<gross_sales month="December">54000</gross_sales>
+	</monthly>
+	<monthly storeID="Store12">
+		<gross_sales month="January">29000</gross_sales>
+		<gross_sales month="February">26000</gross_sales>
+		<gross_sales month="March">30000</gross_sales>
+		<gross_sales month="April">31000</gross_sales>
+		<gross_sales month="May">35000</gross_sales>
+		<gross_sales month="June">34000</gross_sales>
+		<gross_sales month="July">37000</gross_sales>
+		<gross_sales month="August">37000</gross_sales>
+		<gross_sales month="September">34000</gross_sales>
+		<gross_sales month="October">34000</gross_sales>
+		<gross_sales month="November">34000</gross_sales>
+		<gross_sales month="December">34000</gross_sales>
+	</monthly>
+	<monthly storeID="Store13">
+		<gross_sales month="January">20000</gross_sales>
+		<gross_sales month="February">21000</gross_sales>
+		<gross_sales month="March">24000</gross_sales>
+		<gross_sales month="April">25000</gross_sales>
+		<gross_sales month="May">28000</gross_sales>
+		<gross_sales month="June">27000</gross_sales>
+		<gross_sales month="July">27000</gross_sales>
+		<gross_sales month="August">29000</gross_sales>
+		<gross_sales month="September">24000</gross_sales>
+		<gross_sales month="October">26000</gross_sales>
+		<gross_sales month="November">24000</gross_sales>
+		<gross_sales month="December">27000</gross_sales>
+	</monthly>
+	<monthly storeID="Store14">
+		<gross_sales month="January">46000</gross_sales>
+		<gross_sales month="February">43000</gross_sales>
+		<gross_sales month="March">52000</gross_sales>
+		<gross_sales month="April">51000</gross_sales>
+		<gross_sales month="May">54000</gross_sales>
+		<gross_sales month="June">54000</gross_sales>
+		<gross_sales month="July">58000</gross_sales>
+		<gross_sales month="August">58000</gross_sales>
+		<gross_sales month="September">55000</gross_sales>
+		<gross_sales month="October">54000</gross_sales>
+		<gross_sales month="November">50000</gross_sales>
+		<gross_sales month="December">53000</gross_sales>
+	</monthly>
+	<monthly storeID="Store15">
+		<gross_sales month="January">38000</gross_sales>
+		<gross_sales month="February">35000</gross_sales>
+		<gross_sales month="March">43000</gross_sales>
+		<gross_sales month="April">42000</gross_sales>
+		<gross_sales month="May">44000</gross_sales>
+		<gross_sales month="June">44000</gross_sales>
+		<gross_sales month="July">47000</gross_sales>
+		<gross_sales month="August">48000</gross_sales>
+		<gross_sales month="September">47000</gross_sales>
+		<gross_sales month="October">48000</gross_sales>
+		<gross_sales month="November">44000</gross_sales>
+		<gross_sales month="December">46000</gross_sales>
+	</monthly>
+	<monthly storeID="Store16">
+		<gross_sales month="January">27000</gross_sales>
+		<gross_sales month="February">28000</gross_sales>
+		<gross_sales month="March">31000</gross_sales>
+		<gross_sales month="April">33000</gross_sales>
+		<gross_sales month="May">32000</gross_sales>
+		<gross_sales month="June">37000</gross_sales>
+		<gross_sales month="July">37000</gross_sales>
+		<gross_sales month="August">38000</gross_sales>
+		<gross_sales month="September">35000</gross_sales>
+		<gross_sales month="October">33000</gross_sales>
+		<gross_sales month="November">35000</gross_sales>
+		<gross_sales month="December">33000</gross_sales>
+	</monthly>
+	<monthly storeID="Store17">
+		<gross_sales month="January">38000</gross_sales>
+		<gross_sales month="February">39000</gross_sales>
+		<gross_sales month="March">45000</gross_sales>
+		<gross_sales month="April">47000</gross_sales>
+		<gross_sales month="May">46000</gross_sales>
+		<gross_sales month="June">49000</gross_sales>
+		<gross_sales month="July">51000</gross_sales>
+		<gross_sales month="August">49000</gross_sales>
+		<gross_sales month="September">47000</gross_sales>
+		<gross_sales month="October">49000</gross_sales>
+		<gross_sales month="November">47000</gross_sales>
+		<gross_sales month="December">48000</gross_sales>
+	</monthly>
+	<monthly storeID="Store18">
+		<gross_sales month="January">46000</gross_sales>
+		<gross_sales month="February">45000</gross_sales>
+		<gross_sales month="March">49000</gross_sales>
+		<gross_sales month="April">53000</gross_sales>
+		<gross_sales month="May">55000</gross_sales>
+		<gross_sales month="June">56000</gross_sales>
+		<gross_sales month="July">56000</gross_sales>
+		<gross_sales month="August">59000</gross_sales>
+		<gross_sales month="September">54000</gross_sales>
+		<gross_sales month="October">55000</gross_sales>
+		<gross_sales month="November">51000</gross_sales>
+		<gross_sales month="December">53000</gross_sales>
+	</monthly>
+	<monthly storeID="Store19">
+		<gross_sales month="January">31000</gross_sales>
+		<gross_sales month="February">31000</gross_sales>
+		<gross_sales month="March">34000</gross_sales>
+		<gross_sales month="April">36000</gross_sales>
+		<gross_sales month="May">37000</gross_sales>
+		<gross_sales month="June">38000</gross_sales>
+		<gross_sales month="July">37000</gross_sales>
+		<gross_sales month="August">38000</gross_sales>
+		<gross_sales month="September">36000</gross_sales>
+		<gross_sales month="October">36000</gross_sales>
+		<gross_sales month="November">35000</gross_sales>
+		<gross_sales month="December">38000</gross_sales>
+	</monthly>
+	<monthly storeID="Store20">
+		<gross_sales month="January">47000</gross_sales>
+		<gross_sales month="February">45000</gross_sales>
+		<gross_sales month="March">53000</gross_sales>
+		<gross_sales month="April">53000</gross_sales>
+		<gross_sales month="May">56000</gross_sales>
+		<gross_sales month="June">55000</gross_sales>
+		<gross_sales month="July">59000</gross_sales>
+		<gross_sales month="August">58000</gross_sales>
+		<gross_sales month="September">56000</gross_sales>
+		<gross_sales month="October">58000</gross_sales>
+		<gross_sales month="November">53000</gross_sales>
+		<gross_sales month="December">57000</gross_sales>
+	</monthly>
+</sales>

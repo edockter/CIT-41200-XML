@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!--
+   New Perspectives on XML 3rd Edition
+   Tutorial 6
+   Case Problem 3
+
+   Homes of Dreams Products
+
+   Filename:         hdproducts.xml
+   Supporting Files: 
+
+-->
+
+<prod:items xmlns:prod="http://example.com/products">
+	<prod:item itemID="DH001">
+		<prod:description>Princess Anne, classic style</prod:description>
+	</prod:item>
+	<prod:item itemID="DH002">
+		<prod:description>Classic bungalow (blue)</prod:description>
+	</prod:item>
+	<prod:item itemID="DH003">
+		<prod:description>Classic bungalow (pink)</prod:description>
+	</prod:item>
+	<prod:item itemID="DH004">
+		<prod:description>New Orleans mansion standard</prod:description>
+	</prod:item>
+	<prod:item itemID="DH005">
+		<prod:description>New Orleans mansion deluxe</prod:description>
+	</prod:item>
+	<prod:item itemID="DH006">
+		<prod:description>Bostonian mansion standard</prod:description>
+	</prod:item>
+	<prod:item itemID="DH007">
+		<prod:description>Bostonian mansion deluxe</prod:description>
+	</prod:item>
+	<prod:item itemID="DH008">
+		<prod:description>Country farmhouse standard</prod:description>
+	</prod:item>
+	<prod:item itemID="DH009">
+		<prod:description>Country farmhouse deluxe</prod:description>
+	</prod:item>
+	<prod:item itemID="DH010">
+		<prod:description>Victorian mansion standard</prod:description>
+	</prod:item>
+	<prod:item itemID="DH011">
+		<prod:description>Victorian mansion deluxe</prod:description>
+	</prod:item>
+	<prod:item itemID="BH001">
+		<prod:description>3pc bathroom set</prod:description>
+	</prod:item>
+	<prod:item itemID="BH002">
+		<prod:description>3pc pink bathroom set</prod:description>
+	</prod:item>
+	<prod:item itemID="BH003">
+		<prod:description>3pc Victorian bathroom set</prod:description>
+	</prod:item>
+	<prod:item itemID="BH004">
+		<prod:description>3pc white bathroom set</prod:description>
+	</prod:item>
+	<prod:item itemID="BH005">
+		<prod:description>4pc bathroom set</prod:description>
+	</prod:item>
+	<prod:item itemID="BH006">
+		<prod:description>4pc pink bathroom set</prod:description>
+	</prod:item>
+	<prod:item itemID="BH007">
+		<prod:description>4pc Victorian bathroom set</prod:description>
+	</prod:item>
+	<prod:item itemID="BH008">
+		<prod:description>4pc white bathroom set</prod:description>
+	</prod:item>
+	<prod:item itemID="BD001">
+		<prod:description>3pc black wire bedroom set</prod:description>
+	</prod:item>
+	<prod:item itemID="BD002">
+		<prod:description>3pc dark oak bedroom set</prod:description>
+	</prod:item>
+	<prod:item itemID="BD003">
+		<prod:description>3pc mahogany bedroom set</prod:description>
+	</prod:item>
+	<prod:item itemID="BD004">
+		<prod:description>3pc white bedroom set</prod:description>
+	</prod:item>
+	<prod:item itemID="BD005">
+		<prod:description>4pc black wire bedroom set</prod:description>
+	</prod:item>
+	<prod:item itemID="BD006">
+		<prod:description>4pc dark oak bedroom set</prod:description>
+	</prod:item>
+	<prod:item itemID="BD007">
+		<prod:description>4pc mahogany bedroom set</prod:description>
+	</prod:item>
+	<prod:item itemID="BD008">
+		<prod:description>4pc white bedroom set</prod:description>
+	</prod:item>
+	<prod:item itemID="DR001">
+		<prod:description>5pc contemporary mahogany dining room set</prod:description>
+	</prod:item>
+	<prod:item itemID="DR002">
+		<prod:description>5pc oak dining room set</prod:description>
+	</prod:item>
+	<prod:item itemID="DR003">
+		<prod:description>5pc pecan dining room set</prod:description>
+	</prod:item>
+	<prod:item itemID="DR004">
+		<prod:description>6pc rose dining room set</prod:description>
+	</prod:item>
+	<prod:item itemID="DR005">
+		<prod:description>5pc standard dining room set</prod:description>
+	</prod:item>
+	<prod:item itemID="DR006">
+		<prod:description>5pc walnut dining room set</prod:description>
+	</prod:item>
+	<prod:item itemID="DR007">
+		<prod:description>8pc contemporary mahogany dining room set</prod:description>
+	</prod:item>
+	<prod:item itemID="DR008">
+		<prod:description>8pc oak dining room set</prod:description>
+	</prod:item>
+	<prod:item itemID="DR009">
+		<prod:description>8pc standard dining room set</prod:description>
+	</prod:item>
+	<prod:item itemID="DR010">
+		<prod:description>8pc walnut dining room set</prod:description>
+	</prod:item>
+	<prod:item itemID="KR001">
+		<prod:description>3pc red kitchen appliance set</prod:description>
+	</prod:item>
+	<prod:item itemID="KR002">
+		<prod:description>3pc white kitchen appliance set</prod:description>
+	</prod:item>
+	<prod:item itemID="KR003">
+		<prod:description>3pc standard kitchen appliance set</prod:description>
+	</prod:item>
+	<prod:item itemID="KR004">
+		<prod:description>4pc modern kitchen set</prod:description>
+	</prod:item>
+	<prod:item itemID="KR005">
+		<prod:description>4pc old fashioned white kitchen set</prod:description>
+	</prod:item>
+	<prod:item itemID="KR006">
+		<prod:description>5pc oak kitchen set</prod:description>
+	</prod:item>
+	<prod:item itemID="KR007">
+		<prod:description>5pc white kitchen set</prod:description>
+	</prod:item>
+	<prod:item itemID="KR008">
+		<prod:description>6pc oak kitchen set</prod:description>
+	</prod:item>
+	<prod:item itemID="KR009">
+		<prod:description>7pc oak kitchen set</prod:description>
+	</prod:item>
+	<prod:item itemID="KR010">
+		<prod:description>5pc modern kitchen set</prod:description>
+	</prod:item>
+</prod:items>

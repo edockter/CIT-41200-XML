@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+   New Perspectives on XML, 3rd Edition
+   Tutorial 7
+   Case Problem 4
+
+   Appalachian House Donations
+
+   Author: 
+   Date:   
+
+   Filename:         donations.xml
+   Supporting Files: donations.xsl
+
+-->
+
+
+<donations>
+	<donation donorID="donor87">
+		<amount>200</amount>
+		<date>3/13/2017</date>
+	</donation>
+	<donation donorID="donor88">
+		<amount>1000</amount>
+		<date>3/13/2017</date>
+	</donation>
+	<donation donorID="donor89">
+		<amount>2000</amount>
+		<date>3/15/2017</date>
+	</donation>
+	<donation donorID="donor90">
+		<amount>200</amount>
+		<date>3/16/2017</date>
+	</donation>
+	<donation donorID="donor91">
+		<amount>200</amount>
+		<date>3/17/2017</date>
+	</donation>
+	<donation donorID="donor92">
+		<amount>100</amount>
+		<date>3/20/2017</date>
+	</donation>
+	<donation donorID="donor93">
+		<amount>200</amount>
+		<date>3/20/2017</date>
+	</donation>
+	<donation donorID="donor94">
+		<amount>2000</amount>
+		<date>3/21/2017</date>
+	</donation>
+	<donation donorID="donor95">
+		<amount>200</amount>
+		<date>3/23/2017</date>
+	</donation>
+	<donation donorID="donor96">
+		<amount>200</amount>
+		<date>3/23/2017</date>
+	</donation>
+	<donation donorID="donor97">
+		<amount>100</amount>
+		<date>3/23/2017</date>
+	</donation>
+	<donation donorID="donor98">
+		<amount>100</amount>
+		<date>3/29/2017</date>
+	</donation>
+	<donation donorID="donor99">
+		<amount>100</amount>
+		<date>3/29/2017</date>
+	</donation>
+	<donation donorID="donor100">
+		<amount>100</amount>
+		<date>4/3/2017</date>
+	</donation>
+	<donation donorID="donor101">
+		<amount>100</amount>
+		<date>4/5/2017</date>
+	</donation>
+	<donation donorID="donor102">
+		<amount>200</amount>
+		<date>4/7/2017</date>
+	</donation>
+	<donation donorID="donor103">
+		<amount>100</amount>
+		<date>4/11/2017</date>
+	</donation>
+	<donation donorID="donor104">
+		<amount>100</amount>
+		<date>4/13/2017</date>
+	</donation>
+	<donation donorID="donor105">
+		<amount>100</amount>
+		<date>4/14/2017</date>
+	</donation>
+	<donation donorID="donor106">
+		<amount>200</amount>
+		<date>4/17/2017</date>
+	</donation>
+	<donation donorID="donor107">
+		<amount>5000</amount>
+		<date>4/19/2017</date>
+	</donation>
+	<donation donorID="donor108">
+		<amount>100</amount>
+		<date>4/19/2017</date>
+	</donation>
+	<donation donorID="donor109">
+		<amount>100</amount>
+		<date>4/20/2017</date>
+	</donation>
+	<donation donorID="donor110">
+		<amount>100</amount>
+		<date>4/26/2017</date>
+	</donation>
+	<donation donorID="donor111">
+		<amount>500</amount>
+		<date>4/26/2017</date>
+	</donation>
+	<donation donorID="donor112">
+		<amount>500</amount>
+		<date>4/28/2017</date>
+	</donation>
+	<donation donorID="donor113">
+		<amount>100</amount>
+		<date>5/2/2017</date>
+	</donation>
+	<donation donorID="donor114">
+		<amount>200</amount>
+		<date>5/2/2017</date>
+	</donation>
+	<donation donorID="donor115">
+		<amount>200</amount>
+		<date>5/2/2017</date>
+	</donation>
+	<donation donorID="donor116">
+		<amount>200</amount>
+		<date>5/4/2017</date>
+	</donation>
+	<donation donorID="donor117">
+		<amount>200</amount>
+		<date>5/4/2017</date>
+	</donation>
+	<donation donorID="donor118">
+		<amount>100</amount>
+		<date>5/4/2017</date>
+	</donation>
+	<donation donorID="donor119">
+		<amount>200</amount>
+		<date>5/4/2017</date>
+	</donation>
+	<donation donorID="donor120">
+		<amount>1000</amount>
+		<date>5/5/2017</date>
+	</donation>
+	<donation donorID="donor121">
+		<amount>1000</amount>
+		<date>5/9/2017</date>
+	</donation>
+	<donation donorID="donor122">
+		<amount>200</amount>
+		<date>5/11/2017</date>
+	</donation>
+	<donation donorID="donor123">
+		<amount>100</amount>
+		<date>5/16/2017</date>
+	</donation>
+	<donation donorID="donor124">
+		<amount>100</amount>
+		<date>5/16/2017</date>
+	</donation>
+	<donation donorID="donor125">
+		<amount>200</amount>
+		<date>5/16/2017</date>
+	</donation>
+	<donation donorID="donor126">
+		<amount>200</amount>
+		<date>5/16/2017</date>
+	</donation>
+	<donation donorID="donor127">
+		<amount>500</amount>
+		<date>5/19/2017</date>
+	</donation>
+	<donation donorID="donor128">
+		<amount>100</amount>
+		<date>5/19/2017</date>
+	</donation>
+	<donation donorID="donor129">
+		<amount>25000</amount>
+		<date>5/19/2017</date>
+	</donation>
+	<donation donorID="donor130">
+		<amount>100</amount>
+		<date>5/23/2017</date>
+	</donation>
+	<donation donorID="donor131">
+		<amount>100</amount>
+		<date>5/25/2017</date>
+	</donation>
+	<donation donorID="donor132">
+		<amount>100</amount>
+		<date>5/25/2017</date>
+	</donation>
+	<donation donorID="donor133">
+		<amount>100</amount>
+		<date>5/29/2017</date>
+	</donation>
+	<donation donorID="donor134">
+		<amount>1000</amount>
+		<date>5/31/2017</date>
+	</donation>
+	<donation donorID="donor135">
+		<amount>100</amount>
+		<date>6/2/2017</date>
+	</donation>
+	<donation donorID="donor136">
+		<amount>100</amount>
+		<date>6/5/2017</date>
+	</donation>
+	<donation donorID="donor137">
+		<amount>100</amount>
+		<date>6/5/2017</date>
+	</donation>
+	<donation donorID="donor138">
+		<amount>100</amount>
+		<date>6/5/2017</date>
+	</donation>
+	<donation donorID="donor139">
+		<amount>1000</amount>
+		<date>6/8/2017</date>
+	</donation>
+	<donation donorID="donor140">
+		<amount>200</amount>
+		<date>6/12/2017</date>
+	</donation>
+	<donation donorID="donor141">
+		<amount>100</amount>
+		<date>6/15/2017</date>
+	</donation>
+	<donation donorID="donor142">
+		<amount>100</amount>
+		<date>6/21/2017</date>
+	</donation>
+	<donation donorID="donor143">
+		<amount>1000</amount>
+		<date>6/22/2017</date>
+	</donation>
+	<donation donorID="donor144">
+		<amount>200</amount>
+		<date>6/22/2017</date>
+	</donation>
+	<donation donorID="donor145">
+		<amount>100</amount>
+		<date>6/22/2017</date>
+	</donation>
+	<donation donorID="donor146">
+		<amount>200</amount>
+		<date>6/26/2017</date>
+	</donation>
+	<donation donorID="donor147">
+		<amount>100</amount>
+		<date>6/30/2017</date>
+	</donation>
+	<donation donorID="donor148">
+		<amount>500</amount>
+		<date>6/30/2017</date>
+	</donation>
+	<donation donorID="donor149">
+		<amount>1000</amount>
+		<date>6/30/2017</date>
+	</donation>
+	<donation donorID="donor150">
+		<amount>500</amount>
+		<date>6/30/2017</date>
+	</donation>
+	<donation donorID="donor151">
+		<amount>200</amount>
+		<date>7/3/2017</date>
+	</donation>
+	<donation donorID="donor152">
+		<amount>200</amount>
+		<date>7/3/2017</date>
+	</donation>
+	<donation donorID="donor153">
+		<amount>100</amount>
+		<date>7/6/2017</date>
+	</donation>
+	<donation donorID="donor154">
+		<amount>100</amount>
+		<date>7/10/2017</date>
+	</donation>
+	<donation donorID="donor155">
+		<amount>500</amount>
+		<date>7/11/2017</date>
+	</donation>
+	<donation donorID="donor156">
+		<amount>100</amount>
+		<date>7/12/2017</date>
+	</donation>
+	<donation donorID="donor157">
+		<amount>200</amount>
+		<date>7/14/2017</date>
+	</donation>
+	<donation donorID="donor158">
+		<amount>10000</amount>
+		<date>7/19/2017</date>
+	</donation>
+	<donation donorID="donor159">
+		<amount>10000</amount>
+		<date>7/21/2017</date>
+	</donation>
+	<donation donorID="donor160">
+		<amount>100</amount>
+		<date>7/21/2017</date>
+	</donation>
+	<donation donorID="donor161">
+		<amount>100</amount>
+		<date>7/21/2017</date>
+	</donation>
+	<donation donorID="donor162">
+		<amount>1000</amount>
+		<date>7/26/2017</date>
+	</donation>
+	<donation donorID="donor163">
+		<amount>100</amount>
+		<date>7/28/2017</date>
+	</donation>
+	<donation donorID="donor164">
+		<amount>200</amount>
+		<date>7/28/2017</date>
+	</donation>
+	<donation donorID="donor165">
+		<amount>100</amount>
+		<date>7/28/2017</date>
+	</donation>
+	<donation donorID="donor166">
+		<amount>500</amount>
+		<date>7/28/2017</date>
+	</donation>
+	<donation donorID="donor167">
+		<amount>100</amount>
+		<date>7/28/2017</date>
+	</donation>
+	<donation donorID="donor168">
+		<amount>500</amount>
+		<date>8/1/2017</date>
+	</donation>
+	<donation donorID="donor169">
+		<amount>100</amount>
+		<date>8/2/2017</date>
+	</donation>
+	<donation donorID="donor170">
+		<amount>50000</amount>
+		<date>8/2/2017</date>
+	</donation>
+	<donation donorID="donor171">
+		<amount>100</amount>
+		<date>8/3/2017</date>
+	</donation>
+	<donation donorID="donor172">
+		<amount>500</amount>
+		<date>8/4/2017</date>
+	</donation>
+	<donation donorID="donor173">
+		<amount>200</amount>
+		<date>8/7/2017</date>
+	</donation>
+</donations>

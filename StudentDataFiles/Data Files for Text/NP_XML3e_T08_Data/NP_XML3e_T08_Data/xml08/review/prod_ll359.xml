@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+   New Perspectives on XML 3rd Edition
+   Tutorial 8
+   Review Assignment
+
+   Product Information for Product LL359
+
+   Filename:         ll359.xml
+
+-->
+
+<product pID="LL359">
+   <summary>LMC Lighting 75368 Spiral Compact Fluorescent Bulb</summary>
+   <manufacturer>LMC Lighting</manufacturer>
+   <size>6 Pack</size>
+   <orders>
+      <order orderID="LL359513" />
+      <order orderID="LL359514" />
+      <order orderID="LL359515" />
+      <order orderID="LL359516" />
+   </orders>
+</product>

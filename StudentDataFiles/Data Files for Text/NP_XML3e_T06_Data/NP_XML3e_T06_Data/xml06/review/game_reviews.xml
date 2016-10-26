@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+   New Perspectives on XML 3rd Edition
+   Tutorial 6
+   Review Assignment
+
+   Harpe Gaming Store Board Game Reviews
+
+   Filename:         game_reviews.xml
+   Supporting Files: 
+
+-->
+
+<reviews>
+   <review gid="bg210" revid="r803">
+      <summary>
+         <h3>Highly Recommended</h3>
+         <p><i>Towers and Temples</i> is a great game. The balance is just about perfect and 
+         each player must carefully choose roles each turn. Even though the strategic 
+         possibilities are nearly endless, the game is simple to learn. The replay value is high
+         and gets even better when you replace some of the cards with new cards available
+         in the expansion packs.</p>
+         <p>Rating: 4.5 / 5</p>
+      </summary>
+   </review>
+   <review gid="bg210" revid="r804">
+      <summary>
+         <h3>Great Strategic Board Game</h3>
+         <p>We tested <i>Towers and Temples</i> with everything from 2 player to 6 players and we can 
+         strongly recommend the game. The different phases of the game  are interesting and intriguing,
+         from bluffing and stealing to site construction and planning. With the variety of cards
+         and scenarios, no two games are ever quite the same. It's a great introduction to the world
+         of strategic board games and role playing.</p>
+         <p>Rating: 5 / 5 </p> 
+      </summary>
+   </review>
+   <review gid="bg210" revid="r805">
+      <summary>
+         <h3>An Incredible Game</h3>
+         <p>The artwork in the cards and for the board is excellent and one of the best around.
+         As for play, this game offers lots of strategy, and there are tough decisions to make every turn. 
+         It's not only important to select the character that increases your chances for scoring, but also
+         to anticipate the characters the opponents are likely to select, and then hedge against their 
+         availability. This causes a lot of unpredictability and deep strategic thinking. However, it
+         can still be played at a more basic level for younger users.</p>
+         <p>We had a lot of fun with this game and rate it as "Best in its Class". Highly
+         recommended.</p>
+         <p>Rating: 10 / 10</p>
+      </summary>
+   </review>
+   <review gid="bg211" revid="r803">
+      <summary>
+         <h3>Tedious and Confusing</h3>
+         <p>The list of war simulation games is long. All of them share similar features including
+         the formation of temporary Alliance and battles simulated through random draws of a deck
+         or the roll of the die. <i>Alliance</i> offers very little that is new or innovative
+         in that regard.
+         </p>
+         <p>We found that gameplay itself to be too drawn-out and confusing. In fact, I dare say we
+         spent more time reading and rereading the rule book than actually playing the game.
+         If you want to read a book on war, we suggest Sun Tzu.</p>
+         <p>Rating: 1 / 5</p>
+      </summary>
+   </review>
+   <review gid="bg211" revid="r805">
+      <summary>
+         <h3>Decent Game but Many are Better</h3>
+         <p><i>Alliance</i> is a good war simulation game. We found the game play to be robust
+         and engaging. The rules are long and drawn out, but for anyone with experience in
+         this class of board games, there is little there that's unexpected or difficult.
+         We think the battle simulation cards are some of the best we have encountered.
+         </p>
+         <p>All of that being said, the competition for this type of game is fierce. There are
+         a lot of established titles with loyal clients. We're not exactly sure where
+         <i>Alliance</i> fits in with that group. It's a good game, but not good enough
+         to draw our attention away from games like <i>Battle Tested</i> and <i>Global
+         Conflict</i>.</p>
+         <p>Rating: 7 / 10</p>
+      </summary>
+   </review>
+   <review gid="bg211" revid="r806">
+      <summary>
+         <h3>Fun and Challenging</h3>
+         <p><i>Alliance</i> is fun game and is sure to appeal to war
+         game enthusiasts. We think it offers several new ideas that
+         we're surprised have not been utilized in other simulation
+         games. The card system
+         and the investment options give the game a "real world" feel.</p>
+         <p>Things we liked:</p>
+         <ul>
+            <li>Variety of Battle Scenarios</li>
+            <li>Flexible Rules and Setup</li>
+            <li>Detail and Historical Accuracy</li>
+            <li>Wealth of Expansion Packs</li>
+         </ul>
+         <p>Things we hated:</p>
+         <ul>
+            <li>Long and Complicated Rule Book</li>
+            <li>Setup takes too Long</li>
+         </ul>
+         <p>This is a great game for anyone 16 years or older. Younger
+         players may have trouble with the rules and may be bored</p>
+         <p>Rating: 4 / 5 </p>
+      </summary>
+   </review>
+
+</reviews>

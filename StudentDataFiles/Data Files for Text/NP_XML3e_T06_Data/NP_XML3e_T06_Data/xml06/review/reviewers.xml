@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+   New Perspectives on XML 3rd Edition
+   Tutorial 6
+   Review Assignment
+
+   Harpe Gaming Store List of Reviewers
+
+   Filename:         reviewers.xml
+   Supporting Files: reviewers.xsl
+
+-->
+
+<reviewers>
+   <reviewer revid="r803">
+      <title>Board Game Review</title>
+      <url>http://www.example.com/bgreview</url>
+   </reviewer>
+   <reviewer revid="r804">
+      <title>Gamers Shop</title>
+      <url>http://www.example.com/gamersshop</url>
+   </reviewer>
+   <reviewer revid="r805">
+      <title>Tactics and Trials</title>
+      <url>http://www.example.com/tacticstrials</url>
+   </reviewer>
+   <reviewer revid="r806">
+      <title>Leisure Room Gamers</title>
+      <url>http://www.example.com/leisurerooom</url>
+   </reviewer>
+</reviewers>

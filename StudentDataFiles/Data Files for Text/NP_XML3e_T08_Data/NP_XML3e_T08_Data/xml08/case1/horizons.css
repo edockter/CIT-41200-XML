@@ -1,0 +1,91 @@
+/*
+   New Perspectives on XML, 3rd Edition
+   Tutorial 8
+   Case Problem 1
+
+   Horizons TechNet style sheet
+  
+
+   Filename:         horizons.css
+   Supporting Files: none
+
+*/
+
+/* Default styles */
+
+* {
+   margin: 0px;
+}
+
+header, section, article {
+   display: block;
+}
+
+
+
+/* Body styles */
+body {
+   font-family: Verdana, Geneva, sans-serif;
+   background-color: rgb(119, 190, 214);
+}
+
+div#wrap {
+   background-color: white;
+   margin: 0px auto;
+   width: 1200px;
+   border-left: 2px solid rgb(151, 151, 151);
+   border-right: 2px solid rgb(151, 151, 151);
+
+   box-shadow: rgb(51, 51, 51) 10px 0px 30px,
+               rgb(51, 51, 51) -10px 0px 30px;
+   padding-bottom: 50px;
+}
+
+header {
+   border-bottom: 2px solid rgb(151, 151, 151);
+}
+
+div#wrap >  h1 {
+   font-size: 2.5em;
+   letter-spacing: 0.12em;
+   font-weight: normal;
+   color: rgb(51, 51, 51);
+   text-shadow: black 1px 1px 1px;
+   padding: 15px 0px;  
+   text-align: left;
+   margin-left: 80px;
+   clear: right:
+}
+
+
+table#summary, table#emptable {
+   margin-left: 80px;
+   margin-top: 20px;
+   border: 1px solid rgb(191, 191, 191);
+   border-collapse: collapse;
+}
+
+table#summary th, table#emptable th {
+   text-align: left;
+   vertical-align: top;
+   font-size: 0.75em;
+   font-weight: normal;
+   border: 1px solid rgb(151, 151, 151);
+   background-color: rgb(231, 231, 231);
+   padding: 2px 4px;
+}
+
+table#summary td, table#emptable td {
+   border: 1px solid rgb(151, 151, 151);
+   font-size: 0.75em;
+   padding: 1px 4px;
+}
+
+td.numtext {
+   text-align: right;
+}
+
+
+
+
+

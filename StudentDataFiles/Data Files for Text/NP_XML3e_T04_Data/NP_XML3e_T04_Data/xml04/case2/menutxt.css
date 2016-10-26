@@ -1,0 +1,41 @@
+/*
+   New Perspectives on XML
+   Tutorial 4
+   Case Problem 2
+   
+   Author:    
+   Date:      
+   
+   Filename: menu.css
+
+   This file contains styles used in the menurecipe.xml file.
+*/
+
+menuItem {
+   display: block; 
+   width: 680px; 
+   font-family: Garamond, "Times New Roman", Times, serif; 
+   font-size: 12pt; 
+   margin: 5px; 
+   padding: 15px;
+}
+itemName {
+   display: block; 
+   margin-top: 10pt; 
+   margin-left: 15pt; 
+   font-weight: bold; 
+   color: purple;
+}
+description {
+   display: block; 
+   margin-left: 40px;
+}
+icon {
+   display: inline-block; 
+   color: green;
+}
+price {
+   margin-left: 35pt; 
+   display: inline-block; 
+   color: blue;
+}

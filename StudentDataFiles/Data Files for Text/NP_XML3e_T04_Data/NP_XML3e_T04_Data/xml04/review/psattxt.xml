@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!--
+   New Perspectives on XML
+   Tutorial 4
+   Review Assignments
+
+   Higher Ed Test Prep PSAT writing skills course
+   Author:  
+   Date:     
+
+   Filename:         psatsessions.xml
+   Supporting Files: course.css, course.xsd, sessions.css, sessions.xsd
+-->
+
+<course courseID="PSAT-070-3"      
+        xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
+        xs:noNamespaceSchemaLocation="course.xsd">
+
+   <name>
+      <title>PSAT Writing Skills Course</title>
+      <session>3</session>
+   </name>
+   <description>
+      This is a focused course for students who have
+      previously taken the PSAT exam as a sophomore but
+      did not receive a desired score on the writing skills 
+      portion or students who will be taking the PSAT and 
+      wish to strengthen their skills in the writing skills 
+      area. Outcomes of the course will be measured using 
+      the original PSAT writing skills score or the course 
+      pre-test compared to both the subsequent PSAT 
+      writing skills score and a course post-test.
+   </description>
+
+</course>

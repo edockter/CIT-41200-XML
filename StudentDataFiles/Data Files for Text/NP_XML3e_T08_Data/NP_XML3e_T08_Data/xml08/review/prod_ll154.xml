@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+   New Perspectives on XML 3rd Edition
+   Tutorial 8
+   Review Assignment
+
+   Product Information for Product LL154
+
+   Filename:         ll154.xml
+
+-->
+
+<product pID="LL154">
+   <summary>Dearborn Brand Halogen Light Bulb 40 Watt</summary>
+   <manufacturer>Dearborn</manufacturer>
+   <size>10 Pack</size>
+   <orders>
+      <order orderID="LL154283" />
+      <order orderID="LL154284" />
+   </orders>
+</product>

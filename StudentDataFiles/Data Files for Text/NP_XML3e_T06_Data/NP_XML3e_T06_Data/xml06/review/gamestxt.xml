@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+   New Perspectives on XML 3rd Edition
+   Tutorial 6
+   Review Assignment
+
+   Harpe Gaming Store Board Games
+   Author: 
+   Date:   
+
+   Filename:         games.xml
+   Supporting Files: games.xsl
+
+-->
+
+<games>
+   <game gid="bg210">
+      <title>Towers and Temples</title>
+      <manufacturer>Royal Games</manufacturer>
+      <price>17.73</price>
+      <releaseDate>10/21/2017</releaseDate>
+      <media>Board Game</media>
+      <age>10+</age>
+      <players>2 - 8</players>
+      <time>30 - 60 minutes</time>
+      <image>bg210.png</image>
+
+      <summary>
+         <h3>Rule an Ancient City</h3>
+         <p><i>Towers and Temples</i> is the winner of the 2016 Palmer Medal for 
+         Best New Simulation Board Game. Players adopt role cards of characters
+         from ancient Greece and Rome in an attempt to manage the administration of
+         a city. Each role provides a different ability and strategy. However, one
+         role card belongs to a deadly assassin and players must be constantly
+         aware of betrayal and double-cross. This card game provides a ton of enjoyment 
+         and can handle up to seven players and expansion packs available for 
+         larger parties.</p>
+         <p>This is a nicely balanced game, where each player must carefully choose 
+         his or her roles and the strategies can quickly change with the turn of a card.
+         However the level of randomness is just right and cunning and resourcefulness
+         can overcome bad luck (if given time.) I do not recommend this game unless 
+         there are at least 4 players; less than that reduces the intrigue and some
+         of the game appeal.</p>
+      </summary>
+      <scores>
+         <score category="Entertainment">8</score>
+         <score category="Strategy">9</score>
+         <score category="Innovation">7</score>
+         <score category="Art Work">6</score>
+         <score category="Community Enjoyment">10</score>
+         <score category="Ease of Set Up">9</score>
+         <score category="Play Again">10</score>
+      </scores>
+   </game>
+   <game gid="bg211">
+      <title>Alliance</title>
+      <manufacturer>Bearnes Brothers</manufacturer>
+      <price>22.15</price>
+      <releaseDate>9/14/2017</releaseDate>
+      <media>Board Game</media>
+      <age>12+</age>
+      <players>2 - 6</players>
+      <time>60 - 120 minutes</time>
+      <image>bg211.png</image>
+
+      <summary>
+         <h3>Decide the Fate of the World</h3>
+         <p>The world is at war. <i>Alliance</i> challenges you and your opponents to 
+         decide the outcome. As one of the world powers battling for supremacy you must 
+         lead your country's military drive; but you can't do it alone. You have to form
+         alliances and then betray your allies before they betray you!</p>
+         <p>Decide where to strike, when to strike and the intensity of the strike. Will 
+         it be a bombing raid, an offshore missile barrage, or an invasion with land forces
+         and tanks? Plan your attack, move into enemy territory with your forces and 
+         win the conflict.</p>
+         <p>The economic destiny of your nation is also at stake. Buy armaments and develop 
+         secret weapons from your country's economic funds and natural reserves; but be
+         sure to save something for the future.</p>
+      </summary>
+      <scores>
+         <score category="Entertainment">7</score>
+         <score category="Strategy">10</score>
+         <score category="Innovation">6</score>
+         <score category="Art Work">5</score>
+         <score category="Community Enjoyment">8</score>
+         <score category="Ease of Set Up">7</score>
+         <score category="Play Again">5</score>
+      </scores>
+   </game>
+</games>

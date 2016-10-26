@@ -1,0 +1,30 @@
+/*
+   New Perspectives on XML
+   Tutorial 4
+   Case Problem 4
+   
+   Author:    
+   Date:      
+   
+   Filename: cars.css
+
+   This file contains styles used in the teamscars.xml file.
+*/
+
+car {
+   display: list-item;
+   margin-left: 30px;
+   font-family: Garamond, "Times New Roman", Times, serif;
+}
+title {
+   list-style-type: disc;
+   display: block;
+   font-weight: bold;
+}
+model {
+   display: block;
+   color: green;
+}
+driver {
+   color: green;
+}

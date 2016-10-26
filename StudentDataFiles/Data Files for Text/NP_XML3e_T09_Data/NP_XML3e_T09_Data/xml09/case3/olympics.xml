@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+   New Perspectives on XML, 3rd Edition
+   Tutorial 9
+   Case Problem 3
+
+   List of Olympic Host Cities from 1900 - 2008
+
+   Filename:         olympics.xml
+   Supporting Files: 
+-->
+
+<olympics>
+   <olympic olympicID="Summer1900" year="1900" season="Summer" host="Paris"/>
+   <olympic olympicID="Summer1904" year="1904" season="Summer" host="St Louis"/>
+   <olympic olympicID="Summer1908" year="1908" season="Summer" host="London"/>
+   <olympic olympicID="Winter1908" year="1908" season="Winter" host="London"/>
+   <olympic olympicID="Summer1912" year="1912" season="Summer" host="Stockholm"/>
+   <olympic olympicID="Summer1920" year="1920" season="Summer" host="Antwerp"/>
+   <olympic olympicID="Winter1920" year="1920" season="Winter" host="Antwerp"/>
+   <olympic olympicID="Summer1924" year="1924" season="Summer" host="Paris"/>
+   <olympic olympicID="Winter1924" year="1924" season="Winter" host="Chamonix"/>
+   <olympic olympicID="Winter1928" year="1928" season="Winter" host="St. Moritz"/>
+   <olympic olympicID="Summer1928" year="1928" season="Summer" host="Amsterdam"/>
+   <olympic olympicID="Summer1932" year="1932" season="Summer" host="Los Angeles"/>
+   <olympic olympicID="Winter1932" year="1932" season="Winter" host="Lake Placid"/>
+   <olympic olympicID="Summer1936" year="1936" season="Summer" host="Berlin"/>
+   <olympic olympicID="Winter1936" year="1936" season="Winter" host="Garmisch-Partenkirchen"/>
+   <olympic olympicID="Winter1948" year="1948" season="Winter" host="St. Moritz"/>
+   <olympic olympicID="Summer1948" year="1948" season="Summer" host="London"/>
+   <olympic olympicID="Summer1952" year="1952" season="Summer" host="Helsinki"/>
+   <olympic olympicID="Winter1952" year="1952" season="Winter" host="Oslo"/>
+   <olympic olympicID="Summer1956" year="1956" season="Summer" host="Melbourne / Stockholm"/>
+   <olympic olympicID="Winter1956" year="1956" season="Winter" host="Cortina d'Ampezzo"/>
+   <olympic olympicID="Summer1960" year="1960" season="Summer" host="Rome"/>
+   <olympic olympicID="Winter1960" year="1960" season="Winter" host="Squaw Valley"/>
+   <olympic olympicID="Winter1964" year="1964" season="Winter" host="Innsbruck"/>
+   <olympic olympicID="Summer1964" year="1964" season="Summer" host="Tokyo"/>
+   <olympic olympicID="Winter1968" year="1968" season="Winter" host="Grenoble"/>
+   <olympic olympicID="Summer1968" year="1968" season="Summer" host="Mexico"/>
+   <olympic olympicID="Summer1972" year="1972" season="Summer" host="Munich"/>
+   <olympic olympicID="Winter1972" year="1972" season="Winter" host="Sapporo"/>
+   <olympic olympicID="Winter1976" year="1976" season="Winter" host="Innsbruck"/>
+   <olympic olympicID="Summer1976" year="1976" season="Summer" host="Montreal"/>
+   <olympic olympicID="Winter1980" year="1980" season="Winter" host="Lake Placid"/>
+   <olympic olympicID="Summer1980" year="1980" season="Summer" host="Moscow"/>
+   <olympic olympicID="Summer1984" year="1984" season="Summer" host="Los Angeles"/>
+   <olympic olympicID="Winter1984" year="1984" season="Winter" host="Sarajevo"/>
+   <olympic olympicID="Winter1988" year="1988" season="Winter" host="Calgary"/>
+   <olympic olympicID="Summer1988" year="1988" season="Summer" host="Seoul"/>
+   <olympic olympicID="Summer1992" year="1992" season="Summer" host="Barcelona"/>
+   <olympic olympicID="Winter1992" year="1992" season="Winter" host="Albertville"/>
+   <olympic olympicID="Winter1994" year="1994" season="Winter" host="Lillehammer"/>
+   <olympic olympicID="Summer1996" year="1996" season="Summer" host="Atlanta"/>
+   <olympic olympicID="Winter1998" year="1998" season="Winter" host="Nagano"/>
+   <olympic olympicID="Summer2000" year="2000" season="Summer" host="Sydney"/>
+   <olympic olympicID="Winter2002" year="2002" season="Winter" host="Salt Lake City"/>
+   <olympic olympicID="Summer2004" year="2004" season="Summer" host="Athens"/>
+   <olympic olympicID="Winter2006" year="2006" season="Winter" host="Turin"/>
+   <olympic olympicID="Summer2008" year="2008" season="Summer" host="Beijing"/>
+</olympics>

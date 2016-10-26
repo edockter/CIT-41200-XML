@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!--
+   New Perspectives on XML
+   Tutorial 4
+   Case Problem 1
+
+   Cleo Coal sites vocabulary schema
+   Author:  
+   Date:     
+
+   Filename:         sites.xsd
+   Supporting Files: 
+-->
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <xs:element name="sites">
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element name="site" maxOccurs="unbounded" minOccurs="0">
+               <xs:complexType>
+                  <xs:sequence>
+                     <xs:element type="xs:string" name="name"/>
+                     <xs:element type="xs:byte" name="totalPages"/>
+                  </xs:sequence>
+               </xs:complexType>
+            </xs:element>
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+</xs:schema>

@@ -1,0 +1,51 @@
+custID,first name,last name,street,city,state,zip,phone,email
+cust4334,Debra,Munoz,786 Drummond Lane,Mooresboro,NC,28114,(828) 555-3937,d.munoz18@example.com
+cust1781,Tracy,Malloy,54 South Delmare Lane,Twin Brooks,SD,57269,(605) 555-8588,t.malloy85@example.com
+cust3336,Howard,Watkins,715 19th Lane,Phoenix,AZ,85028,(602) 555-1138,h.watkins63@example.com
+cust2165,Betty,Johnson,100 Le Moyne Street,Burns,TN,37029,(615) 555-9659,b.johnson49@example.com
+cust4653,Timothy,Jones,224 West Keene Way,Carthage,AR,71725,(870) 555-2416,t.jones3@example.com
+cust4373,Rodrigo,Helen,644 West 100th Street,Orange City,FL,32763,(407) 555-9077,r.horton73@example.com
+cust3121,Christian,Roark,106 Ozark Boulevard,Driftwood,TX,78619,(512) 555-7062,c.roark96@example.com
+cust5009,Allan,Ragsdale,404 Keene Avenue,Burt,MI,48417,(989) 555-2526,a.ragsdale70@example.com
+cust5779,Ruth,Harper,244 9th Avenue,Wardville,OK,74576,(918) 555-8825,r.harper4@example.com
+cust8964,Rebecca,Castle,756 7th Avenue,Chandler,AZ,85224,(480) 555-5479,r.castle93@example.com
+cust3200,Shirley,Rodriguez,624 Hinsdale Street,Milton,WA,98354,(253) 555-8925,s.rodriguez50@example.com
+cust5463,Wesley,Hunter,633 Railroad Lane,Dennis Port,MA,02639,(508) 555-9679,w.hunter20@example.com
+cust2706,Stanley,Wills,749 Linder Lane,Hopkins,MI,49328,(269) 555-1823,s.wills60@example.com
+cust5084,Sandra,Henault,216 Kedvale Street,Magnolia,AR,71753,(870) 555-6772,s.henault91@example.com
+cust6610,Gary,Jones,64 Gunnison Way,Austin,TX,78747,(512) 555-7979,g.jones74@example.com
+cust3811,Dorothy,Lobdell,837 10th Street SW,Jordan,MN,55352,(952) 555-6407,d.lobdell71@example.com
+cust4028,Donald,Cook,751 Saint James Boulevard,Marchand,PA,15758,(724) 555-1691,d.cook67@example.com
+cust2371,William,Keenan,549 Music Court,Hamler,OH,43524,(419) 555-5886,w.keenan14@example.com
+cust5856,Calvin,Cervantez,638 Bellevue Boulevard,Pico Rivera,CA,90660,(562) 555-8602,c.cervantez45@example.com
+cust4562,Deloris,Thomas,258 Cannon Lane,Hodges,AL,35571,(205) 555-3059,d.thomas8@example.com
+cust1741,Mable,Hudgins,867 11th Street,Albuquerque,NM,87116,(505) 555-8439,m.hudgins72@example.com
+cust6757,Pam,Klein,185 Nina Avenue,Ravena,NY,12143,(518) 555-1688,p.klein10@example.com
+cust8989,Kelly,Brown,566 Winona Lane,Mc Neil,AR,71752,(870) 555-6311,k.brown30@example.com
+cust5529,Thomas,Chester,15 2nd State,La Luz,NM,88337,(575) 555-7284,t.chester71@example.com
+cust8770,Ronald,Dunlap,280 Francis Avenue,Denver,CO,80239,(303) 555-2819,r.dunlap99@example.com
+cust5223,Amber,Anderson,212 Henry Avenue,Jefferson,MA,01522,(508) 555-1938,a.anderson85@example.com
+cust8078,Bernice,Smith,562 Arch Street,Jasonville,IN,47438,(812) 555-6131,b.smith88@example.com
+cust8646,Brent,Reed,702 Delaware Avenue,Coyle,OK,73027,(405) 555-5764,b.reed72@example.com
+cust8756,Ruth,Moody,703 Clinton Way,Fond Du Lac,WI,54937,(920) 555-2178,r.moody86@example.com
+cust8394,Jamie,Daugherty,615 Everell Boulevard,Gilby,ND,58235,(701) 555-4932,j.daugherty81@example.com
+cust2027,Betty,Jenkins,873 Messier Avenue,Mount Cory,OH,45868,(419) 555-4947,b.jenkins96@example.com
+cust1449,Walter,Alaniz,404 West Giddings Avenue,Stone Park,IL,60165,(708) 555-4978,w.alaniz59@example.com
+cust8203,Stephen,Gilbert,982 Huron Street,Neskowin,OR,97149,(503) 555-2439,s.gilbert12@example.com
+cust7962,Imogene,Bissonnette,68 7th Street,Oliver Springs,TN,37840,(423) 555-8416,i.bissonnette95@example.com
+cust1787,Caroline,Euler,601 Monitor Avenue,Ball,LA,71405,(318) 555-8355,c.euler27@example.com
+cust6005,Alden,Fenris,122 5th Street,Grandfield,OK,73546,(580) 555-6674,a.flake47@example.com
+cust6956,Jimmie,Crabb,492 26th Street,Merrill,IA,51038,(712) 555-8586,j.crabb49@example.com
+cust7061,Seth,Cannon,787 Lynch Avenue,Pine Hall,NC,27042,(336) 555-3045,s.cannon11@example.com
+cust4031,Ernesto,Alvarez,496 Rutherford Way,Cincinnati,OH,45244,(513) 555-8287,j.alvarez3@example.com
+cust2868,Anthony,Breen,572 Promontory Lane,Sunburst,MT,59482,(406) 555-7277,a.breen34@example.com
+cust6854,Lawrence,Raper,734 Perry Way,Walthall,MS,39771,(662) 555-1517,l.raper9@example.com
+cust5706,Jason,Robinson,245 South Oketo Street,Lyndonville,NY,14098,(585) 555-4732,j.robinson22@example.com
+cust9968,Miguel,Torres,375 Loyola Way,Saint Paul,IN,47272,(317) 555-2646,m.torres63@example.com
+cust3518,Renee,Duran,234 Morgan Street,Wilsondale,WV,25699,(304) 555-8355,r.duran76@example.com
+cust3703,Charles,Wilt,3 8th Street,Schenectady,NY,12308,(518) 555-1821,c.wilt24@example.com
+cust6105,James,Weaver,48 Doty Street,Tinsley,MS,39173,(662) 555-3471,j.weaver6@example.com
+cust4892,April,Wade,994 Olson Avenue,Fedscreek,KY,41524,(606) 555-4355,a.wade19@example.com
+cust6668,Donna,Barker,626 South Navajo Lane,Langford,SD,57454,(605) 555-9051,d.barker92@example.com
+cust2686,Pam,Knoll,251 50th Lane,Apollo Beach,FL,33572,(813) 555-7374,p.knoll96@example.com
+cust8114,Janie,Ingram,425 Fletcher Lane,Trade,TN,37691,(423) 555-1734,j.ingram67@example.com

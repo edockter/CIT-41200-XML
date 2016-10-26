@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!--
+   New Perspectives on XML
+   Tutorial 4
+   Case Problem 1
+
+   Cleo Coal Veg Snacks Sitemap
+   Author:  
+   Date:     
+
+   Filename:         sitemapVS.xml
+   Supporting Files: 
+-->
+
+      <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+                  http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+         <url>
+            <loc>http://example.com/vegsnacks/?cat=102</loc>
+         </url>
+         <url>
+            <loc>http://example.com/vegsnacks/?cat=23</loc>
+         </url>
+         <url>
+            <loc>http://example.com/vegsnacks/?cat=1</loc>
+         </url>
+         <url>
+            <loc>http://example.com/vegsnacks/?cat=55</loc>
+            <lastmod>2017-06-12T08:05:32+00:00</lastmod>
+         </url>
+         <url>
+            <loc>http://example.com/vegsnacks/?cat=201</loc>
+         </url>
+         <url>
+            <loc>http://example.com/vegsnacks/?cat=87</loc>
+         </url>
+      </urlset>

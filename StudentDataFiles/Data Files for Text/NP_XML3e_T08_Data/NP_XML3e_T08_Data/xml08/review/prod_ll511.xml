@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+   New Perspectives on XML 3rd Edition
+   Tutorial 8
+   Review Assignment
+
+   Product Information for Product LL511
+
+   Filename:         ll511.xml
+
+-->
+
+<product pID="LL511">
+   <summary>EcoLight 702107 - 7.5 Watt S11 Light</summary>
+   <manufacturer>EcoLight</manufacturer>
+   <size>12 Pack</size>
+   <orders>
+      <order orderID="LL511410" />
+      <order orderID="LL511411" />
+      <order orderID="LL511412" />
+   </orders>
+</product>

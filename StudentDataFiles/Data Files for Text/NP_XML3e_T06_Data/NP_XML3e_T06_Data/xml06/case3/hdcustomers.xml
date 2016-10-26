@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!--
+   New Perspectives on XML 3rd Edition
+   Tutorial 6
+   Case Problem 3
+
+   House of Dreams Customers
+
+   Filename:         hdcustomers.xml
+   Supporting Files: 
+
+-->
+
+<cust:customers xmlns:cust="http://example.com/customers">
+	<cust:customer custID="cust1110">
+		<cust:First_Name>Francisca</cust:First_Name>
+		<cust:Last_Name>Craighead</cust:Last_Name>
+		<cust:Street>100 North Avenue</cust:Street>
+		<cust:City>Fairdale</cust:City>
+		<cust:State>WV</cust:State>
+		<cust:ZIP>25839</cust:ZIP>
+		<cust:Phone>304-555-5085</cust:Phone>
+	</cust:customer>
+	<cust:customer custID="cust2917">
+		<cust:First_Name>Holly</cust:First_Name>
+		<cust:Last_Name>Salisbury</cust:Last_Name>
+		<cust:Street>241 Oak Lane</cust:Street>
+		<cust:City>Waterloo</cust:City>
+		<cust:State>WI</cust:State>
+		<cust:ZIP>53594</cust:ZIP>
+		<cust:Phone>608-555-3329</cust:Phone>
+	</cust:customer>
+	<cust:customer custID="cust2459">
+		<cust:First_Name>William</cust:First_Name>
+		<cust:Last_Name>Harris</cust:Last_Name>
+		<cust:Street>3212 4th Street</cust:Street>
+		<cust:City>Amsden</cust:City>
+		<cust:State>OH</cust:State>
+		<cust:ZIP>44803</cust:ZIP>
+		<cust:Phone>419-555-4127</cust:Phone>
+	</cust:customer>
+	<cust:customer custID="cust2257">
+		<cust:First_Name>Annie</cust:First_Name>
+		<cust:Last_Name>Allen</cust:Last_Name>
+		<cust:Street>7 East Token Road</cust:Street>
+		<cust:City>Trinidad</cust:City>
+		<cust:State>CO</cust:State>
+		<cust:ZIP>81082</cust:ZIP>
+		<cust:Phone>719-555-4679</cust:Phone>
+	</cust:customer>
+	<cust:customer custID="cust2855">
+		<cust:First_Name>Helena</cust:First_Name>
+		<cust:Last_Name>Marquis</cust:Last_Name>
+		<cust:Street>14 Main Street</cust:Street>
+		<cust:City>Tacoma</cust:City>
+		<cust:State>WA</cust:State>
+		<cust:ZIP>98460</cust:ZIP>
+		<cust:Phone>253-555-2908</cust:Phone>
+	</cust:customer>
+	<cust:customer custID="cust2535">
+		<cust:First_Name>Patricia</cust:First_Name>
+		<cust:Last_Name>Baker</cust:Last_Name>
+		<cust:Street>900 South Lane</cust:Street>
+		<cust:City>Mount Zion</cust:City>
+		<cust:State>WV</cust:State>
+		<cust:ZIP>26151</cust:ZIP>
+		<cust:Phone>681-555-2478</cust:Phone>
+	</cust:customer>
+	<cust:customer custID="cust1960">
+		<cust:First_Name>Kevin</cust:First_Name>
+		<cust:Last_Name>Mcdonald</cust:Last_Name>
+		<cust:Street>7812 Lincoln Avenue</cust:Street>
+		<cust:City>Trout</cust:City>
+		<cust:State>LA</cust:State>
+		<cust:ZIP>71371</cust:ZIP>
+		<cust:Phone>318-555-5183</cust:Phone>
+	</cust:customer>
+	<cust:customer custID="cust2598">
+		<cust:First_Name>Frances</cust:First_Name>
+		<cust:Last_Name>Moody</cust:Last_Name>
+		<cust:Street>818 25th Avenue</cust:Street>
+		<cust:City>Florence</cust:City>
+		<cust:State>KY</cust:State>
+		<cust:ZIP>41022</cust:ZIP>
+		<cust:Phone>513-555-8760</cust:Phone>
+	</cust:customer>
+	<cust:customer custID="cust2486">
+		<cust:First_Name>Tricia</cust:First_Name>
+		<cust:Last_Name>Scott</cust:Last_Name>
+		<cust:Street>312 Smithie Lane</cust:Street>
+		<cust:City>San Jose</cust:City>
+		<cust:State>IL</cust:State>
+		<cust:ZIP>62682</cust:ZIP>
+		<cust:Phone>309-555-7061</cust:Phone>
+	</cust:customer>
+	<cust:customer custID="cust2594">
+		<cust:First_Name>Ashley</cust:First_Name>
+		<cust:Last_Name>Humphrey</cust:Last_Name>
+		<cust:Street>412 Mueller Road</cust:Street>
+		<cust:City>Knoxville</cust:City>
+		<cust:State>TN</cust:State>
+		<cust:ZIP>37950</cust:ZIP>
+		<cust:Phone>865-555-8348</cust:Phone>
+	</cust:customer>
+	<cust:customer custID="cust1140">
+		<cust:First_Name>Susan</cust:First_Name>
+		<cust:Last_Name>Henderson</cust:Last_Name>
+		<cust:Street>717 Ruth Street</cust:Street>
+		<cust:City>Bankston</cust:City>
+		<cust:State>AL</cust:State>
+		<cust:ZIP>35542</cust:ZIP>
+		<cust:Phone>205-555-6356</cust:Phone>
+	</cust:customer>
+	<cust:customer custID="cust1370">
+		<cust:First_Name>Zoe</cust:First_Name>
+		<cust:Last_Name>Rosenow</cust:Last_Name>
+		<cust:Street>5 Lakeshore Drive</cust:Street>
+		<cust:City>Big Rock</cust:City>
+		<cust:State>TN</cust:State>
+		<cust:ZIP>37023</cust:ZIP>
+		<cust:Phone>931-555-8404</cust:Phone>
+	</cust:customer>
+	<cust:customer custID="cust2704">
+		<cust:First_Name>Tuan</cust:First_Name>
+		<cust:Last_Name>Kime</cust:Last_Name>
+		<cust:Street>515 Acres Road</cust:Street>
+		<cust:City>Rossville</cust:City>
+		<cust:State>IN</cust:State>
+		<cust:ZIP>46065</cust:ZIP>
+		<cust:Phone>765-555-2520</cust:Phone>
+	</cust:customer>
+	<cust:customer custID="cust2863">
+		<cust:First_Name>Susie</cust:First_Name>
+		<cust:Last_Name>Lampkin</cust:Last_Name>
+		<cust:Street>6104 1st Street</cust:Street>
+		<cust:City>Greenwich</cust:City>
+		<cust:State>CT</cust:State>
+		<cust:ZIP>06831</cust:ZIP>
+		<cust:Phone>203-555-7495</cust:Phone>
+	</cust:customer>
+	<cust:customer custID="cust2222">
+		<cust:First_Name>Rachel</cust:First_Name>
+		<cust:Last_Name>Fong</cust:Last_Name>
+		<cust:Street>4882 Hueverton Street</cust:Street>
+		<cust:City>Colstrip</cust:City>
+		<cust:State>MT</cust:State>
+		<cust:ZIP>59323</cust:ZIP>
+		<cust:Phone>406-555-7705</cust:Phone>
+	</cust:customer>
+	<cust:customer custID="cust1444">
+		<cust:First_Name>Justina</cust:First_Name>
+		<cust:Last_Name>Dyer</cust:Last_Name>
+		<cust:Street>812 Askey Lane</cust:Street>
+		<cust:City>East Windsor Hill</cust:City>
+		<cust:State>CT</cust:State>
+		<cust:ZIP>06028</cust:ZIP>
+		<cust:Phone>860-555-3923</cust:Phone>
+	</cust:customer>
+	<cust:customer custID="cust1793">
+		<cust:First_Name>Billie</cust:First_Name>
+		<cust:Last_Name>Milliner</cust:Last_Name>
+		<cust:Street>140 Spruce Street</cust:Street>
+		<cust:City>Flushing</cust:City>
+		<cust:State>NY</cust:State>
+		<cust:ZIP>11388</cust:ZIP>
+		<cust:Phone>718-555-5259</cust:Phone>
+	</cust:customer>
+	<cust:customer custID="cust1169">
+		<cust:First_Name>James</cust:First_Name>
+		<cust:Last_Name>Smith</cust:Last_Name>
+		<cust:Street>40 Rose Drive</cust:Street>
+		<cust:City>Issaquah</cust:City>
+		<cust:State>WA</cust:State>
+		<cust:ZIP>98029</cust:ZIP>
+		<cust:Phone>425-555-2280</cust:Phone>
+	</cust:customer>
+	<cust:customer custID="cust1343">
+		<cust:First_Name>Ashley</cust:First_Name>
+		<cust:Last_Name>Johnson</cust:Last_Name>
+		<cust:Street>919 Sunset Drive</cust:Street>
+		<cust:City>Mesa</cust:City>
+		<cust:State>AZ</cust:State>
+		<cust:ZIP>85275</cust:ZIP>
+		<cust:Phone>480-555-3524</cust:Phone>
+	</cust:customer>
+	<cust:customer custID="cust1038">
+		<cust:First_Name>Katrina</cust:First_Name>
+		<cust:Last_Name>Lopez</cust:Last_Name>
+		<cust:Street>51 Templeton Lane</cust:Street>
+		<cust:City>Cleveland</cust:City>
+		<cust:State>AL</cust:State>
+		<cust:ZIP>35049</cust:ZIP>
+		<cust:Phone>205-555-8763</cust:Phone>
+	</cust:customer>
+</cust:customers>

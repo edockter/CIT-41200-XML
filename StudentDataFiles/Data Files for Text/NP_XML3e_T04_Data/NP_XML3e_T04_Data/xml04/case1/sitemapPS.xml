@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!--
+   New Perspectives on XML
+   Tutorial 4
+   Case Problem 1
+
+   Cleo Coal Primal Snacks sitemap
+   Author:  
+   Date:     
+
+   Filename:         sitemapPS.xml
+   Supporting Files: 
+-->
+
+      <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+                  http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+         <url>
+            <loc>http://example.com/primalsnacks/?cat=6</loc>
+         </url>
+         <url>
+            <loc>http://example.com/primalsnacks/?cat=18</loc>
+            <lastmod>2017-09-19T17:13:19+00:00</lastmod>
+         </url>
+         <url>
+            <loc>http://example.com/primalsnacks/?cat=54</loc>
+            <lastmod>2017-09-19T15:24:01+00:00</lastmod>
+         </url>
+         <url>
+            <loc>http://example.com/primalsnacks/?cat=52</loc>
+            <lastmod>2017-09-28T21:03:11+00:00</lastmod>
+         </url>
+         <url>
+            <loc>http://example.com/primalsnacks/?cat=201</loc>
+            <lastmod>2017-10-06T07:03:26+00:00</lastmod>
+         </url>
+         <url>
+            <loc>http://example.com/primalsnacks/?cat=11</loc>
+         </url>
+      </urlset>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!--
+   New Perspectives on XML
+   Tutorial 3
+   Case Problem 2
+
+   MDPBA Competition Roster
+   Author: 
+   Date:   
+
+   Filename:         mdpba.xml
+   Supporting Files: mdpba.xsd
+-->
+
+<bands>
+   <band cid="c0001">
+      <name grade="juvenille">School of Celtic Bagpipes &amp; Drumming</name>
+      <city>Delafield</city>
+      <logo source="celtic.png" />
+      <competition>
+         <event type="MSR">
+            <tune>Charlie's Welcome</tune>
+            <tune>Mrs MacPherson of Inveran</tune>
+            <tune>Brown Haired Maiden</tune>
+         </event>
+         <event type="Medley">
+            <tune>Rowd's Hornpipe</tune>
+         </event>
+      </competition>
+   </band>
+   <band cid="c0002">
+      <name grade="juvenille">Badger Pipes and Drums</name>
+      <city>Madison</city>
+      <logo source="badger.png" />
+      <competition>
+         <event type="MSR">
+            <tune>Lord Alexander Kennedy</tune>
+            <tune>Bob of Fettercairn</tune>
+            <tune>Brown Haired Maiden</tune>
+         </event>
+         <event type="Medley">
+            <tune>Out of the Air</tune>
+         </event>
+      </competition>
+   </band>
+   <band cid="c0003">
+      <name grade="juvenille">Pardeeville School of Piping and Drumming</name>
+      <city>Pardeeville</city>
+      <competition>
+         <event type="MSR">
+            <tune>Lord Alexander Kennedy</tune>
+            <tune>Bob of Fettercairn</tune>
+            <tune>The Little Cascade</tune>
+         </event>
+         <event type="Medley">
+            <tune>The Radar Racketeer</tune>
+         </event>
+      </competition>
+   </band>
+   <band cid="c0004">
+      <name grade="1">Zoar Scottish Pipe Band</name>
+      <city>Zoar</city>
+      <competition>
+         <event type="MSR">
+            <tune>Charlie's Welcome</tune>
+            <tune>Mrs MacPherson of Inveran</tune>
+            <tune>Major Manson</tune>
+         </event>
+         <event type="Medley">
+            <tune>Miss Lily</tune>
+         </event>
+      </competition>
+   </band>
+   <band cid="c0005">
+      <name grade="novice">Stockholm Pipe Band</name>
+      <city>Stockholm</city>
+      <competition>
+         <event type="MSR">
+            <tune>Pretty Marion</tune>
+            <tune>The Sheepwife</tune>
+            <tune>Brown Haired Maiden</tune>
+         </event>
+         <event type="Medley">
+            <tune>Farewell to Erin</tune>
+         </event>
+      </competition>
+   </band>
+</bands>

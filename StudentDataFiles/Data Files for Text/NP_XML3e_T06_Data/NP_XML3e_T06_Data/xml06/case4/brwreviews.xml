@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!--
+   New Perspectives on XML 3rd Edition
+   Tutorial 6
+   Case Problem 4
+
+   Big Red Wrap Stores Reviews
+
+   Filename:         brwreviews.xml
+   Supporting Files: 
+
+-->
+
+<reviews>
+	<review storeID="Store1">
+		<rating category="Cleanliness">9</rating>
+           <rating category="Promptness">8</rating>
+           <rating category="Organization">8</rating>
+           <rating category="Follows Standards">7</rating>
+           <rating category="Customer Experience">10</rating>
+	</review>
+	<review storeID="Store2">
+		<rating category="Cleanliness">7</rating>
+           <rating category="Promptness">6</rating>
+           <rating category="Organization">8</rating>
+           <rating category="Follows Standards">5</rating>
+           <rating category="Customer Experience">7</rating>
+	</review>
+	<review storeID="Store3">
+		<rating category="Cleanliness">10</rating>
+           <rating category="Promptness">9</rating>
+           <rating category="Organization">10</rating>
+           <rating category="Follows Standards">10</rating>
+           <rating category="Customer Experience">10</rating>
+	</review>
+	<review storeID="Store4">
+		<rating category="Cleanliness">9</rating>
+           <rating category="Promptness">9</rating>
+           <rating category="Organization">10</rating>
+           <rating category="Follows Standards">8</rating>
+           <rating category="Customer Experience">9</rating>
+	</review>
+	<review storeID="Store5">
+		<rating category="Cleanliness">7</rating>
+           <rating category="Promptness">9</rating>
+           <rating category="Organization">10</rating>
+           <rating category="Follows Standards">8</rating>
+           <rating category="Customer Experience">8</rating>
+	</review>
+	<review storeID="Store6">
+		<rating category="Cleanliness">9</rating>
+           <rating category="Promptness">7</rating>
+           <rating category="Organization">7</rating>
+           <rating category="Follows Standards">8</rating>
+           <rating category="Customer Experience">10</rating>
+	</review>
+	<review storeID="Store7">
+		<rating category="Cleanliness">10</rating>
+           <rating category="Promptness">10</rating>
+           <rating category="Organization">10</rating>
+           <rating category="Follows Standards">10</rating>
+           <rating category="Customer Experience">10</rating>
+	</review>
+	<review storeID="Store8">
+		<rating category="Cleanliness">10</rating>
+           <rating category="Promptness">9</rating>
+           <rating category="Organization">9</rating>
+           <rating category="Follows Standards">9</rating>
+           <rating category="Customer Experience">9</rating>
+	</review>
+	<review storeID="Store9">
+		<rating category="Cleanliness">6</rating>
+           <rating category="Promptness">9</rating>
+           <rating category="Organization">7</rating>
+           <rating category="Follows Standards">8</rating>
+           <rating category="Customer Experience">8</rating>
+	</review>
+	<review storeID="Store10">
+		<rating category="Cleanliness">10</rating>
+           <rating category="Promptness">9</rating>
+           <rating category="Organization">9</rating>
+           <rating category="Follows Standards">10</rating>
+           <rating category="Customer Experience">10</rating>
+	</review>
+	<review storeID="Store11">
+		<rating category="Cleanliness">8</rating>
+           <rating category="Promptness">8</rating>
+           <rating category="Organization">8</rating>
+           <rating category="Follows Standards">9</rating>
+           <rating category="Customer Experience">9</rating>
+	</review>
+	<review storeID="Store12">
+		<rating category="Cleanliness">6</rating>
+           <rating category="Promptness">5</rating>
+           <rating category="Organization">7</rating>
+           <rating category="Follows Standards">6</rating>
+           <rating category="Customer Experience">7</rating>
+	</review>
+	<review storeID="Store13">
+		<rating category="Cleanliness">9</rating>
+           <rating category="Promptness">9</rating>
+           <rating category="Organization">8</rating>
+           <rating category="Follows Standards">9</rating>
+           <rating category="Customer Experience">8</rating>
+	</review>
+	<review storeID="Store14">
+		<rating category="Cleanliness">10</rating>
+           <rating category="Promptness">9</rating>
+           <rating category="Organization">9</rating>
+           <rating category="Follows Standards">10</rating>
+           <rating category="Customer Experience">8</rating>
+	</review>
+	<review storeID="Store15">
+		<rating category="Cleanliness">9</rating>
+           <rating category="Promptness">7</rating>
+           <rating category="Organization">7</rating>
+           <rating category="Follows Standards">10</rating>
+           <rating category="Customer Experience">9</rating>
+	</review>
+	<review storeID="Store16">
+		<rating category="Cleanliness">8</rating>
+           <rating category="Promptness">10</rating>
+           <rating category="Organization">10</rating>
+           <rating category="Follows Standards">9</rating>
+           <rating category="Customer Experience">10</rating>
+	</review>
+	<review storeID="Store17">
+		<rating category="Cleanliness">7</rating>
+           <rating category="Promptness">8</rating>
+           <rating category="Organization">8</rating>
+           <rating category="Follows Standards">8</rating>
+           <rating category="Customer Experience">8</rating>
+	</review>
+	<review storeID="Store18">
+		<rating category="Cleanliness">10</rating>
+           <rating category="Promptness">10</rating>
+           <rating category="Organization">9</rating>
+           <rating category="Follows Standards">10</rating>
+           <rating category="Customer Experience">9</rating>
+	</review>
+	<review storeID="Store19">
+		<rating category="Cleanliness">9</rating>
+           <rating category="Promptness">7</rating>
+           <rating category="Organization">9</rating>
+           <rating category="Follows Standards">10</rating>
+           <rating category="Customer Experience">10</rating>
+	</review>
+	<review storeID="Store20">
+		<rating category="Cleanliness">10</rating>
+           <rating category="Promptness">9</rating>
+           <rating category="Organization">9</rating>
+           <rating category="Follows Standards">10</rating>
+           <rating category="Customer Experience">10</rating>
+	</review>
+</reviews>

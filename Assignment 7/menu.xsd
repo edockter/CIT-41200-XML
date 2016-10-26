@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"    
+    xmlns:mnu="http://example.com/chestershartland/menu"
+    xmlns:rec="http://example.com/chestershartland/recipe"    
+    targetNamespace="http://example.com/chestershartland/menu"
+    elementFormDefault="qualified" 
+    attributeFormDefault="unqualified" >
+    <import namespace="http://example.com/chestershartland/recipe"
+        schemaLocation="recipe.xsd" />
+    <element name="menuItem">
+        <complexType>
+            <sequence>
+                <element name="itemName" type="string" />                
+                <element name="description" type="string" />                
+                <element name="price" type="decimal" />                
+                <element name="icon" type="string" />
+                <element name="icon" type="string" />
+                <element ref="rec:recipe" />
+            </sequence>
+        </complexType>
+    </element>
+</schema>

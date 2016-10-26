@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!--
+   New Perspectives on XML 3rd Edition
+   Tutorial 6
+   Case Problem 4
+
+   Contact Information for Big Red Wrap Stores
+
+   Author: 
+   Date:   
+
+   Filename:         brwstores.xml
+   Supporting Files: 
+
+-->
+
+<stores>
+	<store storeID="Store1">
+		<Manager>Travis Martel</Manager>
+		<Street>411 Elm Drive</Street>
+		<City>Madison</City>
+		<State>WI</State>
+		<ZIP>53713</ZIP>
+		<Phone>(608) 555 - 3005</Phone>
+	</store>
+	<store storeID="Store2">
+		<Manager>Sharon Bell</Manager>
+		<Street>54 North Street</Street>
+		<City>Madison</City>
+		<State>WI</State>
+		<ZIP>53704</ZIP>
+		<Phone>(608) 555 - 6313</Phone>
+	</store>
+	<store storeID="Store3">
+		<Manager>Helen Sanjuan</Manager>
+		<Street>3 Ashford Lane</Street>
+		<City>Monroe</City>
+		<State>WI </State>
+		<ZIP>53566</ZIP>
+		<Phone>(779) 555 - 2401</Phone>
+	</store>
+	<store storeID="Store4">
+		<Street>100 East Troy Avenue</Street>
+		<Manager>Teresa Rios</Manager>
+		<City>Platteville</City>
+		<State>WI</State>
+		<ZIP>53818</ZIP>
+		<Phone>(608) 555 - 4555</Phone>
+	</store>
+	<store storeID="Store5">
+		<Manager>Gary Glover</Manager>
+		<Street>902 South Drive</Street>
+		<City>Janesville</City>
+		<State>WI</State>
+		<ZIP>53545</ZIP>
+		<Phone>(608) 555 - 8174</Phone>
+	</store>
+	<store storeID="Store6">
+		<Manager>Jan Bedard</Manager>
+		<Street>15 Watts Road</Street>
+		<City>Dodgeville</City>
+		<State>WI</State>
+		<ZIP>53533</ZIP>
+		<Phone>(608) 555 - 4904</Phone>
+	</store>
+	<store storeID="Store7">
+		<Manager>Sylvia Bonner</Manager>
+		<Street>791 East River Drive</Street>
+		<City>La Crosse</City>
+		<State>WI</State>
+		<ZIP>54601</ZIP>
+		<Phone>(608) 555 - 1008</Phone>
+	</store>
+	<store storeID="Store8">
+		<Manager>Edward Sorenson</Manager>
+		<Street>681 Main Avenue</Street>
+		<City>Rochester</City>
+		<State>MN</State>
+		<ZIP>55902</ZIP>
+		<Phone>(507) 381 - 4002</Phone>
+	</store>
+	<store storeID="Store9">
+		<Manager>Virginia Parks</Manager>
+		<Street>100 Business Drive</Street>
+		<City>Owatonna</City>
+		<State>MN</State>
+		<ZIP>55060</ZIP>
+		<Phone>(507) 555 - 8994</Phone>
+	</store>
+	<store storeID="Store10">
+		<Manager>Richard Sanders</Manager>
+		<Street>531 Eldorado Avenue</Street>
+		<City>Mankato</City>
+		<State>MN</State>
+		<ZIP>56001</ZIP>
+		<Phone>(507) 555 - 2130</Phone>
+	</store>
+	<store storeID="Store11">
+		<Manager>Charles Hall</Manager>
+		<Street>55 Bluff Drive</Street>
+		<City>Dubuque</City>
+		<State>IA</State>
+		<ZIP>52003</ZIP>
+		<Phone>(563) 555 - 0991</Phone>
+	</store>
+	<store storeID="Store12">
+		<Manager>Virginia Hicks</Manager>
+		<Street>7 Yale Drive</Street>
+		<City>Cedar Rapids</City>
+		<State>IA</State>
+		<ZIP>52404</ZIP>
+		<Phone>(319) 555 - 8509</Phone>
+	</store>
+	<store storeID="Store13">
+		<Manager>Michael Wright</Manager>
+		<Street>52881 East Mound Drive</Street>
+		<City>Des Moines</City>
+		<State>IA</State>
+		<ZIP>50391</ZIP>
+		<Phone>(515) 555 - 0040</Phone>
+	</store>
+		<Manager>Ariana DeCaro</Manager>
+		<Street>414 Main Street</Street>
+		<City>Des Moines</City>
+		<State>IA</State>
+		<ZIP>50311</ZIP>
+		<Phone>(515) 555 - 3134</Phone>
+	</store>
+	<store storeID="Store15">
+		<Manager>Andrew Woolridge</Manager>
+		<Street>112 Reservoir Lane</Street>
+		<City>Greeley</City>
+		<State>CO</State>
+		<ZIP>80631</ZIP>
+		<Phone>(970) 555 - 2138</Phone>
+	</store>
+	<store storeID="Store16">
+		<Manager>Patrick Palmer</Manager>
+		<Street>5155 Pocane Drive</Street>
+		<City>Grand Island</City>
+		<State>NE</State>
+		<ZIP>68801</ZIP>
+		<Phone>(402) 555 - 7734</Phone>
+	</store>
+	<store storeID="Store17">
+		<Manager>Faye Moore</Manager>
+		<Street>42 East River Road</Street>
+		<City>Omaha</City>
+		<State>NE</State>
+		<ZIP>68111</ZIP>
+		<Phone>(402) 555 - 9148</Phone>
+	</store>
+	<store storeID="Store18">
+		<Manager>William Mitchell</Manager>
+		<Street>975 Business Drive</Street>
+		<City>Manhattan</City>
+		<State>KS</State>
+		<ZIP>66502</ZIP>
+		<Phone>(785) 555 - 0444</Phone>
+	</store>
+	<store storeID="Store19">
+		<Manager>Ramon Ginn</Manager>
+		<Street>47 Valley View Lane</Street>
+		<City>Topeka</City>
+		<State>KS</State>
+		<ZIP>66604</ZIP>
+		<Phone>(785) 555 - 6106</Phone>
+	</store>
+	<store storeID="Store20">
+		<Manager>Anne Chapman</Manager>
+		<Street>87210 Causeway Drive</Street>
+		<City>Salina</City>
+		<State>KS</State>
+		<ZIP>67401</ZIP>
+		<Phone>(785) 555 - 8103</Phone>
+	</store>
+</stores>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+   New Perspectives on XML 3rd Edition
+   Tutorial 8
+   Review Assignment
+
+   List of Recent Orders to Illuminated Fixtures
+
+   Filename:         productorders.xml
+
+-->
+<orders>
+   <order orderID="LL154283">
+      <product>LL154</product>
+      <date>2017-04-10</date>
+      <by>cust2165</by>
+      <qty>2</qty>
+      <ship>Overnight</ship>
+   </order>
+   <order orderID="LL579307">
+      <product>LL579</product>
+      <date>2017-04-10</date>
+      <by>cust3121</by>
+      <qty>1</qty>
+      <ship>5Day</ship>
+   </order>
+   <order orderID="LL154284">
+      <product>LL154</product>
+      <date>2017-04-10</date>
+      <by>cust5779</by>
+      <qty>3</qty>
+      <ship>2Day</ship>
+   </order>
+   <order orderID="LL511411">
+      <product>LL511</product>
+      <date>2017-04-14</date>
+      <by>cust2706</by>
+      <qty>1</qty>
+      <ship>5Day</ship>
+   </order>
+   <order orderID="LL359513">
+      <product>LL359</product>
+      <date>2017-04-11</date>
+      <by>cust6610</by>
+      <qty>1</qty>
+      <ship>Overnight</ship>
+   </order>
+   <order orderID="LL359516">
+      <product>LL359</product>
+      <date>2017-04-15</date>
+      <by>cust4028</by>
+      <qty>1</qty>
+      <ship>2Day</ship>
+   </order>
+   <order orderID="LL511410">
+      <product>LL511</product>
+      <date>2017-04-12</date>
+      <by>cust2371</by>
+      <qty>2</qty>
+      <ship>5Day</ship>
+   </order>
+   <order orderID="LL515312">
+      <product>LL515</product>
+      <date>2017-04-12</date>
+      <by>cust5856</by>
+      <qty>1</qty>
+      <ship>5Day</ship>
+   </order>
+   <order orderID="LL359515">
+      <product>LL359</product>
+      <date>2017-04-14</date>
+      <by>cust4562</by>
+      <qty>2</qty>
+      <ship>2Day</ship>
+   </order>
+   <order orderID="LL579308">
+      <product>LL579</product>
+      <date>2017-04-14</date>
+      <by>cust1741</by>
+      <qty>1</qty>
+      <ship>2Day</ship>
+   </order>
+   <order orderID="LL359514">
+      <product>LL359</product>
+      <date>2017-04-14</date>
+      <by>cust6757</by>
+      <qty>1</qty>
+      <ship>Overnight</ship>
+   </order>
+   <order orderID="LL579309">
+      <product>LL579</product>
+      <date>2017-04-15</date>
+      <by>cust8989</by>
+      <qty>1</qty>
+      <ship>2Day</ship>
+   </order>
+   <order orderID="LL511412">
+      <product>LL511</product>
+      <date>2017-04-15</date>
+      <by>cust5529</by>
+      <qty>1</qty>
+      <ship>2Day</ship>
+   </order>
+</orders>

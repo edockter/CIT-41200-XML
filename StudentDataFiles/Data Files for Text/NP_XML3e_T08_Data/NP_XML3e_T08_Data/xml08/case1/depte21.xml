@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+   New Perspectives on XML 3rd Edition
+   Tutorial 8
+   Case Problem 1
+
+   Employee Information from Department E21
+
+   Filename:         depte21.xml
+
+-->
+<employees>
+	<employee empID="100">
+		<firstName>Thomas</firstName>
+		<middleInt>F</middleInt>
+		<lastName>Tow</lastName>
+		<department>E21</department>
+		<phone>972</phone>
+		<email>Tow.82@example.com/horizons</email>
+		<dateHired>2015-06-19</dateHired>
+		<title>Manager</title>
+		<edLevel>14</edLevel>
+		<gender>M</gender>
+		<birthDate>1991-12-18</birthDate>
+		<salary>60100</salary>
+		<bonus>1200</bonus>
+		<commission>4800</commission>
+	</employee>
+	<employee empID="320">
+		<firstName>Kevin</firstName>
+		<middleInt>V</middleInt>
+		<lastName>Martinez</lastName>
+		<department>E21</department>
+		<phone>9990</phone>
+		<email>Martinez.89@example.com/horizons</email>
+		<dateHired>2000-07-07</dateHired>
+		<title>Data Entry</title>
+		<edLevel>16</edLevel>
+		<gender>M</gender>
+		<birthDate>1967-08-11</birthDate>
+		<salary>45900</salary>
+		<bonus>900</bonus>
+		<commission>3700</commission>
+	</employee>
+	<employee empID="330">
+		<firstName>Brian</firstName>
+		<middleInt>N</middleInt>
+		<lastName>Levy</lastName>
+		<department>E21</department>
+		<phone>2103</phone>
+		<email>Levy.17@example.com/horizons</email>
+		<dateHired>2011-02-23</dateHired>
+		<title>Data Entry</title>
+		<edLevel>14</edLevel>
+		<gender>M</gender>
+		<birthDate>1976-07-18</birthDate>
+		<salary>58400</salary>
+		<bonus>1200</bonus>
+		<commission>4700</commission>
+	</employee>
+	<employee empID="340">
+		<firstName>Catherine</firstName>
+		<middleInt>R</middleInt>
+		<lastName>Baier</lastName>
+		<department>E21</department>
+		<phone>5698</phone>
+		<email>Baier.24@example.com/horizons</email>
+		<dateHired>2009-05-05</dateHired>
+		<title>Data Entry</title>
+		<edLevel>16</edLevel>
+		<gender>M</gender>
+		<birthDate>1961-05-17</birthDate>
+		<salary>54800</salary>
+		<bonus>1200</bonus>
+		<commission>4400</commission>
+	</employee>
+	<employee empID="750">
+		<firstName>Doug</firstName>
+		<middleInt>A</middleInt>
+		<lastName>Free</lastName>
+		<department>E21</department>
+		<phone>2004</phone>
+		<email>Free.34@example.com/horizons</email>
+		<dateHired>2007-03-01</dateHired>
+		<title>Field Rep</title>
+		<edLevel>14</edLevel>
+		<gender>M</gender>
+		<birthDate>1988-11-04</birthDate>
+		<salary>59500</salary>
+		<bonus>700</bonus>
+		<commission>4200</commission>
+	</employee>
+	<employee empID="760">
+		<firstName>Otis</firstName>
+		<middleInt>T</middleInt>
+		<lastName>Harpole</lastName>
+		<department>E21</department>
+		<phone>2103</phone>
+		<email>Harpole.86@example.com/horizons</email>
+		<dateHired>2011-02-23</dateHired>
+		<title>Field Rep</title>
+		<edLevel>14</edLevel>
+		<gender>F</gender>
+		<birthDate>1976-07-18</birthDate>
+		<salary>58400</salary>
+		<bonus>1200</bonus>
+		<commission>4700</commission>
+	</employee>
+	<employee empID="770">
+		<firstName>Daniel</firstName>
+		<middleInt>R</middleInt>
+		<lastName>Schild</lastName>
+		<department>E21</department>
+		<phone>5698</phone>
+		<email>Schild.10@example.com/horizons</email>
+		<dateHired>2009-05-05</dateHired>
+		<title>Field Rep</title>
+		<edLevel>16</edLevel>
+		<gender>M</gender>
+		<birthDate>1961-05-17</birthDate>
+		<salary>54800</salary>
+		<bonus>1200</bonus>
+		<commission>4400</commission>
+	</employee>
+	<employee empID="780">
+		<firstName>Linda</firstName>
+		<middleInt>B</middleInt>
+		<lastName>Davis</lastName>
+		<department>E21</department>
+		<phone>5001</phone>
+		<email>Davis.44@example.com/horizons</email>
+		<dateHired>2011-12-14</dateHired>
+		<title>Field Rep</title>
+		<edLevel>16</edLevel>
+		<gender>F</gender>
+		<birthDate>1989-02-21</birthDate>
+		<salary>58400</salary>
+		<bonus>1200</bonus>
+		<commission>4800</commission>
+	</employee>
+	<employee empID="790">
+		<firstName>Karen</firstName>
+		<middleInt>B</middleInt>
+		<lastName>Chu</lastName>
+		<department>E21</department>
+		<phone>6122</phone>
+		<email>Chu.52@example.com/horizons</email>
+		<dateHired>2010-07-15</dateHired>
+		<title>Field Rep</title>
+		<edLevel>14</edLevel>
+		<gender>F</gender>
+		<birthDate>1991-05-15</birthDate>
+		<salary>51500</salary>
+		<bonus>1000</bonus>
+		<commission>4300</commission>
+	</employee>
+</employees>

@@ -1,0 +1,188 @@
+/*
+   New Perspectives on XML, 3rd Edition
+   Tutorial 6
+   Review Assignment
+
+   Harpe Gaming Store style sheet
+  
+
+   Filename:         hgstyles.css
+   Supporting Files: none
+
+*/
+
+/* Default styles */
+
+* {
+   margin: 0px;
+}
+
+header, section, article {
+   display: block;
+}
+
+
+
+/* Body styles */
+body {
+   font-family: Verdana, Geneva, sans-serif;
+   background-color: rgb(121, 211, 121);
+}
+
+div#wrap {
+   background-color: white;
+   margin: 0px auto;
+   width: 1200px;
+   border-left: 2px solid rgb(151, 151, 151);
+   border-right: 2px solid rgb(151, 151, 151);
+
+   box-shadow: rgb(51, 51, 51) 10px 0px 30px,
+               rgb(51, 51, 51) -10px 0px 30px;
+   padding-bottom: 50px;
+}
+
+header {
+   background: -o-linear-gradient( top,rgb(61, 192, 61) , rgb(51,51,51) 95%); 
+   background: -ms-linear-gradient( top,rgb(61, 192, 61) , rgb(51,51,51) 95%); 
+   background: -moz-linear-gradient( top,rgb(61, 192, 61) , rgb(51,51,51) 95%); 
+   background: -webkit-linear-gradient( top,rgb(61, 192, 61) , rgb(51,51,51) 95%); 
+   background: linear-gradient( top,rgb(61, 192, 61) , rgb(51,51,51) 95%); 
+}
+
+div#wrap > header > h1 {
+   font-size: 3.6em;
+   letter-spacing: 0.12em;
+   font-weight: normal;
+   color: rgb(151, 151, 151);
+   text-shadow: black 3px 3px 8px,
+                white 0px -2px 0px;
+   margin-left: 100px;
+   padding: 15px 0px;  
+   font-family: 'Century Gothic', sans-serif;
+}
+
+#gameSummary {
+   margin: 0px 100px 30px 100px;
+}
+
+#gameSummary > h1 {
+   margin: 20px 0px 2px 325px;
+   font-weight: normal;
+   font-size: 1.8em;
+   letter-spacing: 0.07em;
+   color: rgb(222, 112, 182);
+}
+
+#gameSummary > h2 {
+   margin: 0px 0px 0px 325px;
+   font-weight: normal;
+   font-size: 0.85em;
+   border-bottom: 1px solid rgb(211, 211, 211);
+}
+
+#gameSummary > h2 em {
+   color: rgb(116, 158, 242);
+   font-weight: normal;
+   font-style: normal;
+}
+
+#gameSummary > h3 {
+   font-size: 1.05em;
+   font-weight: normal;
+   color: rgb(204, 34, 142);
+   margin-left: 325px;
+}
+
+
+#gameSummary > img {
+   float: left;
+   margin: 20px 0px 0px 0px;
+}
+
+#gameSummary > p {
+   margin: 0px 20px 30px 325px;
+   font-size: 0.9em;
+}
+
+
+
+
+table#summaryTable {
+   margin-left: 325px;
+   font-size: 0.85em;
+   margin-top: 10px;
+   margin-bottom: 30px;
+}
+
+table#summaryTable th {
+   text-align: right;
+   padding-right: 8px;
+   font-weight: normal;
+}
+
+table#summaryTable td {
+   color: rgb(131, 91, 91);
+}
+
+
+table#scoreTable {
+   border-collapse: collapse;
+   margin: 10px 0px 30px 325px;
+   border: 1px solid rgb(151, 151, 151);
+   width: 520px;
+}
+
+table#scoreTable th {
+   font-weight: normal;
+   font-size: 0.85em;
+   text-align: left;
+   padding: 0px 10px;
+   height: 20px;
+   vertical-align: bottom;
+   border-bottom: 1px solid rgb(151, 151, 151);
+   border-right: 1px solid rgb(151, 151, 151);
+}
+
+table#scoreTable td {
+   padding: 0px;
+   height: 20px;
+   border-bottom: 1px solid rgb(151, 151, 151);
+}
+
+table#scoreTable tr:last-of-type {
+   background-color: rgb(159, 236, 128);
+}
+
+section.review {
+   border: 1px dotted rgb(151, 151, 151);
+   background-color: rgb(235, 235, 235);
+   margin: 10px 0px 10px 0px;
+   width: 295px;
+   clear: left;
+   float: left;
+}
+
+section.review h3 {
+   font-weight: normal;
+   color: rgb(54, 121, 78);
+   font-size: 0.9em;
+   text-align: center;
+   margin: 10px;
+}
+
+section.review p {
+   font-size: 0.7em;
+   margin: 10px;
+}
+
+section.review ul {
+   font-size: 0.7em;
+}
+
+footer {
+   clear: left;
+   padding-top: 30px;
+   font-size: 0.1em;
+   border-bottom: 1px solid rgb(211, 211, 211);
+
+}

@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+   New Perspectives on XML 3rd Edition
+   Tutorial 8
+   Case Problem 3
+
+   Zocalo Fire Pit Product List
+
+   Filename:         zfpproducts.xml
+   Supporting Files: 
+
+-->
+
+<products>
+	<product pID="filet223-3f">
+		<category>Filet Mignon</category>
+		<boxSize>6</boxSize>
+		<description>Filet Mignon (5 oz.)</description>
+	</product>
+	<product pID="filet504-5f">
+		<category>Filet Mignon</category>
+		<boxSize>8</boxSize>
+		<description>Filet Mignon (8 oz.)</description>
+	</product>
+	<product pID="filet740-7f">
+		<category>Filet Mignon</category>
+		<boxSize>6</boxSize>
+		<description>Bacon-Wrapped Filet Mignon (6 oz.)</description>
+	</product>
+	<product pID="filet910-8f">
+		<category>Filet Mignon</category>
+		<boxSize>24</boxSize>
+		<description>Filet Mignon Pastry Bites</description>
+	</product>
+	<product pID="strip389-2s">
+		<category>Strip Streak</category>
+		<boxSize>4</boxSize>
+		<description>Boneless Strips (8 oz.)</description>
+	</product>
+	<product pID="strip677-4s">
+		<category>Strip Streak</category>
+		<boxSize>6</boxSize>
+		<description>Boneless Strips (10 oz.)</description>
+	</product>
+	<product pID="strip803-4s">
+		<category>Strip Streak</category>
+		<boxSize>8</boxSize>
+		<description>Bone-In Strips (14 oz.)</description>
+	</product>
+	<product pID="sirlo825-3s">
+		<category>Sirloin</category>
+		<boxSize>4</boxSize>
+		<description>Top Sirloins (6 oz.)</description>
+	</product>
+	<product pID="sirlo346-2s">
+		<category>Sirloin</category>
+		<boxSize>6</boxSize>
+		<description>Bacon-Wrapped Top Sirloins</description>
+	</product>
+	<product pID="sirlo850-5s">
+		<category>Sirloin</category>
+		<boxSize>6</boxSize>
+		<description>Sirloin Supremes (4 oz.)</description>
+	</product>
+	<product pID="sirlo584-8s">
+		<category>Sirloin</category>
+		<boxSize>8</boxSize>
+		<description>London Broil (8 oz.)</description>
+	</product>
+	<product pID="ribey247-2r">
+		<category>Ribeye</category>
+		<boxSize>6</boxSize>
+		<description>Ribeyes (8 oz.)</description>
+	</product>
+	<product pID="ribey125-7r">
+		<category>Ribeye</category>
+		<boxSize>4</boxSize>
+		<description>Ribeyes (10 oz.)</description>
+	</product>
+	<product pID="ribey301-5r">
+		<category>Ribeye</category>
+		<boxSize>8</boxSize>
+		<description>Precooked Prime Rib Slices (8 oz.)</description>
+	</product>
+	<product pID="ribey290-1r">
+		<category>Ribeye</category>
+		<boxSize>4</boxSize>
+		<description>Bone-In Ribeyes (16 oz.)</description>
+	</product>
+	<product pID="ribey512-4r">
+		<category>Ribeye</category>
+		<boxSize>1</boxSize>
+		<description>Bone-In Prime Rib Roast (6 lb.)</description>
+	</product>
+	<product pID="t-bon439-8t">
+		<category>T-Bone</category>
+		<boxSize>2</boxSize>
+		<description>T-Bone Steaks (24 oz.)</description>
+	</product>
+	<product pID="t-bon246-3t">
+		<category>T-Bone</category>
+		<boxSize>4</boxSize>
+		<description>Porterhouse Steaks (24 oz.)</description>
+	</product>
+	<product pID="t-bon934-6t">
+		<category>T-Bone</category>
+		<boxSize>4</boxSize>
+		<description>Prime Reserve T-Bone Steaks (20 oz.)</description>
+	</product>
+	<product pID="poult138-1p">
+		<category>Poultry</category>
+		<boxSize>8</boxSize>
+		<description>Boneless Chicken Breasts (4 oz.)</description>
+	</product>
+	<product pID="poult982-9p">
+		<category>Poultry</category>
+		<boxSize>8</boxSize>
+		<description>Marinated Italian Chicken Breasts (3 oz.)</description>
+	</product>
+	<product pID="poult722-8p">
+		<category>Poultry</category>
+		<boxSize>4</boxSize>
+		<description>Fried Chicken (4.5 oz)</description>
+	</product>
+	<product pID="poult988-4p">
+		<category>Poultry</category>
+		<boxSize>1</boxSize>
+		<description>Oven Roasted Turkey Breast (2 lb.)</description>
+	</product>
+	<product pID="veal401-1v">
+		<category>Veal</category>
+		<boxSize>16</boxSize>
+		<description>Italian Breaded Veal (4 oz.)</description>
+	</product>
+	<product pID="pork865-3p">
+		<category>Pork</category>
+		<boxSize>6</boxSize>
+		<description>Boneless Pork Chops (5 oz.)</description>
+	</product>
+	<product pID="pork949-6p">
+		<category>Pork</category>
+		<boxSize>2</boxSize>
+		<description>Teriyalki Pork Tenderloin (12 oz.)</description>
+	</product>
+	<product pID="ham441-8h">
+		<category>Ham</category>
+		<boxSize>1</boxSize>
+		<description>Boneless Smoked Ham (2 lb.)</description>
+	</product>
+	<product pID="lamb274-9l">
+		<category>Lamb</category>
+		<boxSize>1</boxSize>
+		<description>Seasoned Leg of Lamb (2.5 lb.)</description>
+	</product>
+	<product pID="wine452-2w">
+		<category>Wine</category>
+		<boxSize>1</boxSize>
+		<description>Cabernet Sauvignon</description>
+	</product>
+	<product pID="wine684-4w">
+		<category>Wine</category>
+		<boxSize>3</boxSize>
+		<description>Cabernet Sauvignon Gift Set</description>
+	</product>
+	<product pID="wine830-6w">
+		<category>Wine</category>
+		<boxSize>1</boxSize>
+		<description>Reserve Cabernet Sauvignon</description>
+	</product>
+	<product pID="wine691-1w">
+		<category>Wine</category>
+		<boxSize>1</boxSize>
+		<description>Chateau de Pez</description>
+	</product>
+	<product pID="wine183-7w">
+		<category>Wine</category>
+		<boxSize>1</boxSize>
+		<description>Vaudon Chablis</description>
+	</product>
+	<product pID="wine506-8w">
+		<category>Wine</category>
+		<boxSize>1</boxSize>
+		<description>Carneros Chablis</description>
+	</product>
+	<product pID="wine307-6w">
+		<category>Wine</category>
+		<boxSize>1</boxSize>
+		<description>Reserve Chardonnay</description>
+	</product>
+	<product pID="wine444-5w">
+		<category>Wine</category>
+		<boxSize>1</boxSize>
+		<description>Napa Valley Chardonnay</description>
+	</product>
+	<product pID="wine472-6w">
+		<category>Wine</category>
+		<boxSize>1</boxSize>
+		<description>Eroica Riesling</description>
+	</product>
+	<product pID="wine304-6w">
+		<category>Wine</category>
+		<boxSize>1</boxSize>
+		<description>Sauvignon Blanc</description>
+	</product>
+	<product pID="roast458-3r">
+		<category>Roasts</category>
+		<boxSize>2</boxSize>
+		<description>Fully Cooked Pot Roast (2 lb.)</description>
+	</product>
+	<product pID="roast836-1r">
+		<category>Roasts</category>
+		<boxSize>1</boxSize>
+		<description>Chateaubriand (2 lb.)</description>
+	</product>
+	<product pID="roast839-9r">
+		<category>Roasts</category>
+		<boxSize>1</boxSize>
+		<description>Bone-In Primie Rib Roast (6 lb.)</description>
+	</product>
+	<product pID="roast500-1r">
+		<category>Roasts</category>
+		<boxSize>6</boxSize>
+		<description>Calves Liver (4.5 oz.)</description>
+	</product>
+	<product pID="seafo313-5s">
+		<category>Seafood</category>
+		<boxSize>6</boxSize>
+		<description>Lemon Garlic Tilapia (4 oz.)</description>
+	</product>
+	<product pID="seafo553-4s">
+		<category>Seafood</category>
+		<boxSize>4</boxSize>
+		<description>Salmon Fillets (6 oz.)</description>
+	</product>
+	<product pID="seafo874-3s">
+		<category>Seafood</category>
+		<boxSize>1</boxSize>
+		<description>Wild White Shrimp (12 oz.)</description>
+	</product>
+	<product pID="seafo228-6s">
+		<category>Seafood</category>
+		<boxSize>4</boxSize>
+		<description>Stuffed Sole (4.5 oz.)</description>
+	</product>
+	<product pID="seafo391-7s">
+		<category>Seafood</category>
+		<boxSize>2</boxSize>
+		<description>Lobster Tails (6 oz.)</description>
+	</product>
+	<product pID="seafo929-5s">
+		<category>Seafood</category>
+		<boxSize>12</boxSize>
+		<description>Wild Salmon Fillets (6 oz.)</description>
+	</product>
+	<product pID="seafo672-4s">
+		<category>Seafood</category>
+		<boxSize>16</boxSize>
+		<description>Shrimp Cakes (2.25 oz.)</description>
+	</product>
+	<product pID="seafo359-2s">
+		<category>Seafood</category>
+		<boxSize>1</boxSize>
+		<description>Coconut Shrimp (2 lb.)</description>
+	</product>
+	<product pID="sauce557-6s">
+		<category>Sauces</category>
+		<boxSize>1</boxSize>
+		<description>Lemon Dill Tartar Sauce (6 oz.)</description>
+	</product>
+	<product pID="sauce423-7s">
+		<category>Sauces</category>
+		<boxSize>1</boxSize>
+		<description>Apricot Mango Sauce (7.5 oz.)</description>
+	</product>
+	<product pID="sauce964-2s">
+		<category>Sauces</category>
+		<boxSize>1</boxSize>
+		<description>Horseradish Sauce (6.5 oz.)</description>
+	</product>
+	<product pID="seaso868-6s">
+		<category>Seasonings</category>
+		<boxSize>1</boxSize>
+		<description>Steak Seasoning (1 oz.)</description>
+	</product>
+	<product pID="seaso843-5s">
+		<category>Seasonings</category>
+		<boxSize>1</boxSize>
+		<description>Chipotle Seasoning (3.5 oz.)</description>
+	</product>
+	<product pID="seaso960-1s">
+		<category>Seasonings</category>
+		<boxSize>1</boxSize>
+		<description>Salt-Free Steak Seasoning (2.1 oz.)</description>
+	</product>
+	<product pID="seaso281-6s">
+		<category>Seasonings</category>
+		<boxSize>1</boxSize>
+		<description>Steak Rub (6.2 oz.)</description>
+	</product>
+	<product pID="glaze626-2g">
+		<category>Glazes</category>
+		<boxSize>1</boxSize>
+		<description>Tuscan Balsamic Glaze (4 oz.)</description>
+	</product>
+	<product pID="glaze917-9g">
+		<category>Glazes</category>
+		<boxSize>1</boxSize>
+		<description>Cabernet Gleze (4 oz.)</description>
+	</product>
+	<product pID="glaze927-3g">
+		<category>Glazes</category>
+		<boxSize>1</boxSize>
+		<description>Lemon Parsely Glaze (4 oz.)</description>
+	</product>
+	<product pID="glaze984-3g">
+		<category>Glazes</category>
+		<boxSize>1</boxSize>
+		<description>Butter Sauce Glaze (4 oz.)</description>
+	</product>
+	<product pID="desse683-2d">
+		<category>Desserts</category>
+		<boxSize>4</boxSize>
+		<description>Triple Berry Tarts (4 oz.)</description>
+	</product>
+	<product pID="desse837-8d">
+		<category>Desserts</category>
+		<boxSize>1</boxSize>
+		<description>New York Cheesecake (6 in.)</description>
+	</product>
+	<product pID="desse605-9d">
+		<category>Desserts</category>
+		<boxSize>1</boxSize>
+		<description>Chocolate Lover's Cake (6 in.)</description>
+	</product>
+	<product pID="desse957-1d">
+		<category>Desserts</category>
+		<boxSize>4</boxSize>
+		<description>Fudge Filled Brownies (4 oz.)</description>
+	</product>
+	<product pID="desse783-6d">
+		<category>Desserts</category>
+		<boxSize>1</boxSize>
+		<description>Dessert Sampler</description>
+	</product>
+</products>

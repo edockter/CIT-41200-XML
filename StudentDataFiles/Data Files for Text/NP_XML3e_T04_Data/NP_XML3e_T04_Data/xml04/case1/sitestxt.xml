@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!--
+   New Perspectives on XML
+   Tutorial 4
+   Case Problem 1
+
+   Cleo Coal Web sites summary
+   Author:  
+   Date:     
+
+   Filename:         sites.xml
+   Supporting Files: sites.xsd
+-->
+<sites>
+    <site>
+        <name>Weekend Fun Snacks</name>
+        <totalPages>127</totalPages>
+    </site>
+    <site>
+        <name>Paleo Snacks</name>
+        <totalPages>52</totalPages>
+    </site>
+    <site>
+        <name>Veg Snacks</name>
+        <totalPages>17</totalPages>
+    </site>
+</sites>

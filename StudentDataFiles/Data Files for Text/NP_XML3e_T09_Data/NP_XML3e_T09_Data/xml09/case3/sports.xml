@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+   New Perspectives on XML, 3rd Edition
+   Tutorial 9
+   Case Problem 3
+
+   List of Olympic Sports
+
+   Filename:         sports.xml
+   Supporting Files: 
+-->
+
+<sports>
+   <sport sportID="S1" sportName="Aquatics"/>
+   <sport sportID="S2" sportName="Archery"/>
+   <sport sportID="S3" sportName="Athletics"/>
+   <sport sportID="S4" sportName="Badminton"/>
+   <sport sportID="S5" sportName="Baseball"/>
+   <sport sportID="S6" sportName="Basketball"/>
+   <sport sportID="S7" sportName="Basque Pelota"/>
+   <sport sportID="S8" sportName="Biathlon"/>
+   <sport sportID="S9" sportName="Bobsleigh"/>
+   <sport sportID="S10" sportName="Boxing"/>
+   <sport sportID="S11" sportName="Canoe / Kayak"/>
+   <sport sportID="S12" sportName="Cricket"/>
+   <sport sportID="S13" sportName="Croquet"/>
+   <sport sportID="S14" sportName="Curling"/>
+   <sport sportID="S15" sportName="Cycling"/>
+   <sport sportID="S16" sportName="Equestrian"/>
+   <sport sportID="S17" sportName="Fencing"/>
+   <sport sportID="S18" sportName="Football"/>
+   <sport sportID="S19" sportName="Golf"/>
+   <sport sportID="S20" sportName="Gymnastics"/>
+   <sport sportID="S21" sportName="Handball"/>
+   <sport sportID="S22" sportName="Hockey"/>
+   <sport sportID="S23" sportName="Ice Hockey"/>
+   <sport sportID="S24" sportName="Jeu de paume"/>
+   <sport sportID="S25" sportName="Judo"/>
+   <sport sportID="S26" sportName="Lacrosse"/>
+   <sport sportID="S27" sportName="Luge"/>
+   <sport sportID="S28" sportName="Modern Pentathlon"/>
+   <sport sportID="S29" sportName="Polo"/>
+   <sport sportID="S30" sportName="Rackets"/>
+   <sport sportID="S31" sportName="Roque"/>
+   <sport sportID="S32" sportName="Rowing"/>
+   <sport sportID="S33" sportName="Rugby"/>
+   <sport sportID="S34" sportName="Sailing"/>
+   <sport sportID="S35" sportName="Shooting"/>
+   <sport sportID="S36" sportName="Skating"/>
+   <sport sportID="S37" sportName="Skiing"/>
+   <sport sportID="S38" sportName="Softball"/>
+   <sport sportID="S39" sportName="Table Tennis"/>
+   <sport sportID="S40" sportName="Taekwondo"/>
+   <sport sportID="S41" sportName="Tennis"/>
+   <sport sportID="S42" sportName="Triathlon"/>
+   <sport sportID="S43" sportName="Tug of War"/>
+   <sport sportID="S44" sportName="Volleyball"/>
+   <sport sportID="S45" sportName="Water Motorsports"/>
+   <sport sportID="S46" sportName="Weightlifting"/>
+   <sport sportID="S47" sportName="Wrestling"/>
+</sports>

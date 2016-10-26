@@ -1,0 +1,61 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<!--
+   New Perspectives on XML
+   Tutorial 4
+   Case Problem 3
+
+   Austin Technical College course materials
+
+   Author:   
+   Date:     
+
+   Filename:         atclecture.xml
+   Supporting Files: 
+-->
+
+<rss version="2.0">
+
+    <channel>
+        <title>Introduction to XML</title>
+        <language>en-us</language>
+        <copyright>© 2017 Austin Technical College</copyright>
+        <description>Understanding the fundamentals of HTML and CSS opens doors to many
+        other types of Web development work. This series introduces the nuts and bolts of
+        XML, which is a core component in developing native mobile applications on some
+        platforms, and serves as a crucial building block of AJAX.</description>
+
+        <item>
+            <title>Creating an XML Document</title>
+            <enclosure url="http://example.com/podcasts/XML-intro1.mp3"
+                       length="138563" type="audio/mpeg"/>
+            <guid>http://example.com/podcasts/XML-intro1.mp3</guid>
+            <pubDate>Wed, 11 May 2017 17:24:00 GMT</pubDate>
+        </item>
+
+        <item>
+            <title>Validating Documents with DTDs</title>
+            <enclosure url="http://example.com/podcasts/XML-intro2.mp3"
+                    length="149673" type="audio/mpeg"/>
+            <guid>http://example.com/podcasts/XML-intro2.mp3</guid>
+            <pubDate>Wed, 18 May 2017 18:56:00 GMT</pubDate>
+        </item>
+
+        <item>
+            <title>Validating Documents with Schemas</title>
+            <enclosure url="http://example.com/podcasts/XML-intro3.mp3"
+                       length="124386" type="audio/mpeg"/>
+            <guid>http://example.com/podcasts/XML-intro3.mp3</guid>
+            <pubDate>Wed, 25 May 2017 16:09:00 GMT</pubDate>
+        </item>
+
+        <item>
+            <title>Working with Advanced Schemas</title>
+            <enclosure url="http://example.com/podcasts/XML-intro4.mp3"
+                       length="159704" type="audio/mpeg"/>
+            <guid>http://example.com/podcasts/XML-intro4.mp3</guid>
+            <pubDate>Wed, 01 Jun 2017 21:46:00 GMT</pubDate>
+        </item>
+    </channel>
+
+</rss>
+

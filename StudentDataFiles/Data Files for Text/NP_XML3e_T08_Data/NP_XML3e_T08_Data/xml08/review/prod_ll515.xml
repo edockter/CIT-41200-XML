@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+   New Perspectives on XML 3rd Edition
+   Tutorial 8
+   Review Assignment
+
+   Product Information for Product LL515
+
+   Filename:         ll515.xml
+
+-->
+
+<product pID="LL515">
+   <summary>100 Watt LMC Soft White Incandescent Light Bulb</summary>
+   <manufacturer>LMC Lighting</manufacturer>
+   <size>48 Pack</size>
+   <orders>
+      <order orderID="LL515312" />
+   </orders>
+</product>

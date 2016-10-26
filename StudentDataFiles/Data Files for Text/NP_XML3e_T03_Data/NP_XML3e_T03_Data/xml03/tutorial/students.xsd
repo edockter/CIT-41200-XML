@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+   New Perspectives on XML
+   Tutorial 3
+   Tutorial Case
+
+   Austin Technical College information technology schema
+   Author:  
+   Date:     
+
+   Filename:          students.xsd
+   Supporting Files:  students.xml
+-->
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <xs:attribute name="stuID" type="xs:string" />
+   <xs:element name="lastName" type="xs:string" />
+   <xs:element name="firstName" type="xs:string" />
+   <xs:element name="dateOfEnrollment" type="xs:string" />
+   <xs:element name="credits" type="xs:string" />
+   <xs:element name="comment" type="xs:string" />
+   <xs:attribute name="degree" type="xs:string" />
+   <xs:element name="gpa">
+      <xs:complexType>
+         <xs:simpleContent>
+            <xs:extension base="xs:string">
+               <xs:attribute ref="degree" use="required" />
+            </xs:extension>
+         </xs:simpleContent>
+      </xs:complexType>
+   </xs:element>
+   <xs:element name="student">
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element ref="lastName" />
+            <xs:element ref="firstName" />
+            <xs:element ref="dateOfEnrollment" />
+            <xs:element ref="credits" />
+            <xs:element ref="comment" minOccurs="0" maxOccurs="unbounded" />
+            <xs:element ref="gpa" />
+         </xs:sequence>
+         <xs:attribute ref="stuID" use="required" />
+      </xs:complexType>         
+   </xs:element>
+   <xs:element name="students">
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element ref="student"  minOccurs="1" maxOccurs="unbounded" />
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+</xs:schema>

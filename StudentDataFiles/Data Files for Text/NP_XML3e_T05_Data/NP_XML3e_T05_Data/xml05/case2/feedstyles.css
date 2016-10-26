@@ -1,0 +1,124 @@
+/*
+   New Perspectives on XML, 3rd Edition
+   Tutorial 5
+   Case Problem 2
+
+   News Feed Style Sheet
+  
+
+   Filename:         feedstyles.css
+   Supporting Files: none
+
+*/
+
+/* Default styles */
+
+* {
+   margin: 0px;
+   list-style: none;
+}
+
+header, section, article {
+   display: block;
+}
+
+
+blockquote {
+   font-style: italic;
+}
+
+/* Body styles */
+body {
+   background-color: white;
+   font-family: Verdana, Geneva, sans-serif;
+   margin: 10px auto;
+   padding: 0px 20px 0px 20px;
+   width: 780px;
+   border-left: 1px solid rgb(211, 211, 211);
+   border-right: 1px solid rgb(211, 211, 211);
+}
+
+a {
+   text-decoration: none;
+}
+
+a:hover {
+   text-decoration: underline;
+}
+
+div#head {
+   background-color: rgb(255, 255, 211);
+   border: 1px solid rgb(211, 211, 211);
+   padding: 8px;
+   margin-bottom: 20px;
+}
+
+div#head h1 {
+   font-size: 1em;
+   letter-spacing: 0.05em;
+   font-weight: bold;
+}
+
+div#head p {
+   font-size: 0.75em;
+   margin: 0px 0px 10px 0px;
+}
+
+div#sidebar {
+   float: right;
+   border: 1px solid rgb(211, 211, 211);
+   width: 150px;
+   padding: 8px;
+   margin: 0px 0px 20px 20px;
+
+   background-color: rgb(151,241,151); 
+   -moz-box-shadow: inset rgb(50,151,101) -5px -5px 25px 5px;
+   -webkit-box-shadow: inset rgb(50,151,101) -5px -5px 25px 5px;
+   box-shadow: inset rgb(50,151,101) -5px -5px 25px 5px;
+}
+
+div#sidebar h1 {
+   font-size: 0.9em;
+   font-weight: normal;
+   margin-bottom: 10px;
+   text-align: center;
+}
+
+div#sidebar p {
+   font-size: 0.65em;
+   margin: 0px 0px 20px 0px;
+}
+
+div#sidebar a {
+   color: rgb(71, 71, 71);
+}
+
+div.article {
+   padding: 8px;
+}
+
+div.article h1 {
+   font-size: 0.9em;
+   color: rgb(72, 131, 196);
+}
+
+div.article h2 {
+   font-size: 0.8em;
+   font-weight: normal;
+   color: rgb(72, 131, 196);
+   border-bottom: 1px solid rgb(72, 131, 196);
+}
+
+div.article h3 {
+   font-size: 0.6em;
+   font-weight: normal;
+   color: rgb(185, 193, 199);
+   text-align: right;
+   margin: 5px 0px 5px 0px;
+}
+
+div.article p {
+   font-size: 0.8em;
+   margin: 0px 0px 20px 0px;
+   line-height: 1.5em;
+}

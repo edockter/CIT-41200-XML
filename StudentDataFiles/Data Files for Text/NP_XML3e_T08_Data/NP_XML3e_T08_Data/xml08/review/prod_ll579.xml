@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+   New Perspectives on XML 3rd Edition
+   Tutorial 8
+   Review Assignment
+
+   Product Information for Product LL579
+
+   Filename:         ll579.xml
+
+-->
+
+<product pID="LL579">
+   <summary>40 Watt S11 Intermediate Base</summary>
+   <manufacturer>LMC Lighting</manufacturer>
+   <size>24 Pack</size>
+   <orders>
+      <order orderID="LL579307" />
+      <order orderID="LL579308" />
+      <order orderID="LL579309" />
+   </orders>
+</product>

@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!--
+   New Perspectives on XML 3rd Edition
+   Tutorial 6
+   Case Problem 2
+
+   Sample Batches for Quality Control
+
+   Author:
+   Date:
+
+   Filename:         samples.xml
+   Supporting Files: 
+
+-->
+
+<samples>
+    <sample sampleID="A100">
+	<batch batchID="A-1">
+		<width>67.1</width>
+		<width>63.9</width>
+		<width>65.5</width>
+		<width>63.1</width>
+	</batch>
+	<batch batchID="A-2">
+		<width>63.8</width>
+		<width>62.6</width>
+		<width>66</width>
+		<width>64.6</width>
+	</batch>
+	<batch batchID="A-3">
+		<width>66.1</width>
+		<width>67.8</width>
+		<width>62.7</width>
+		<width>65.6</width>
+	</batch>
+	<batch batchID="A-4">
+		<width>63.4</width>
+		<width>64.1</width>
+		<width>66</width>
+		<width>62.9</width>
+	</batch>
+	<batch batchID="A-5">
+		<width>63.7</width>
+		<width>60.7</width>
+		<width>60.9</width>
+		<width>63.7</width>
+	</batch>
+	<batch batchID="A-6">
+		<width>61.6</width>
+		<width>63.3</width>
+		<width>63.4</width>
+		<width>65.3</width>
+	</batch>
+	<batch batchID="A-7">
+		<width>64.5</width>
+		<width>65.7</width>
+		<width>63.5</width>
+		<width>67.5</width>
+	</batch>
+	<batch batchID="A-8">
+		<width>61.8</width>
+		<width>62.2</width>
+		<width>65.4</width>
+		<width>63</width>
+	</batch>
+	<batch batchID="A-9">
+		<width>67.7</width>
+		<width>66.3</width>
+		<width>62.4</width>
+		<width>66.3</width>
+	</batch>
+	<batch batchID="A-10">
+		<width>62.3</width>
+		<width>62.9</width>
+		<width>62.5</width>
+	</batch>
+	<batch batchID="A-11">
+		<width>66.6</width>
+		<width>63.6</width>
+		<width>62</width>
+		<width>60.2</width>
+	</batch>
+	<batch batchID="A-12">
+		<width>63.4</width>
+		<width>63</width>
+		<width>64.2</width>
+		<width>66.7</width>
+	</batch>
+	<batch batchID="A-13">
+		<width>65.2</width>
+		<width>62.5</width>
+		<width>65.8</width>
+		<width>61.7</width>
+	</batch>
+	<batch batchID="A-14">
+		<width>61.2</width>
+		<width>61.2</width>
+		<width>60.7</width>
+	</batch>
+	<batch batchID="A-15">
+		<width>64.2</width>
+		<width>67.1</width>
+		<width>60.3</width>
+		<width>61.1</width>
+	</batch>
+	<batch batchID="A-16">
+		<width>65.4</width>
+		<width>67.1</width>
+		<width>65.6</width>
+		<width>67.4</width>
+	</batch>
+	<batch batchID="A-17">
+		<width>65.6</width>
+		<width>66</width>
+		<width>65</width>
+	</batch>
+	<batch batchID="A-18">
+		<width>66.3</width>
+		<width>65.4</width>
+		<width>60.4</width>
+		<width>64.3</width>
+	</batch>
+	<batch batchID="A-19">
+		<width>64.5</width>
+		<width>61.6</width>
+		<width>67</width>
+		<width>63.6</width>
+	</batch>
+	<batch batchID="A-20">
+		<width>65.1</width>
+		<width>60.7</width>
+		<width>64.5</width>
+		<width>66.7</width>
+	</batch>
+	<batch batchID="A-21">
+		<width>63.5</width>
+		<width>63.4</width>
+		<width>63.4</width>
+		<width>61.4</width>
+	</batch>
+	<batch batchID="A-22">
+		<width>66.1</width>
+		<width>65.7</width>
+		<width>60.3</width>
+		<width>64.7</width>
+	</batch>
+	<batch batchID="A-23">
+		<width>65.2</width>
+		<width>61.9</width>
+		<width>66.4</width>
+		<width>66.8</width>
+	</batch>
+	<batch batchID="A-24">
+		<width>67</width>
+		<width>60.9</width>
+		<width>67.9</width>
+		<width>63.7</width>
+	</batch>
+	<batch batchID="A-25">
+		<width>62.4</width>
+		<width>64</width>
+		<width>64</width>
+		<width>67</width>
+	</batch>
+    </sample>
+    <sample sampleID="B100">
+	<batch batchID="B-1">
+		<width>60.1</width>
+		<width>61.3</width>
+		<width>66.3</width>
+		<width>65</width>
+	</batch>
+	<batch batchID="B-2">
+		<width>68.2</width>
+		<width>67.9</width>
+		<width>68.5</width>
+		<width>67.7</width>
+	</batch>
+	<batch batchID="B-3">
+		<width>65.2</width>
+		<width>66.5</width>
+		<width>65.2</width>
+	</batch>
+	<batch batchID="B-4">
+		<width>63.9</width>
+		<width>67.5</width>
+		<width>66.1</width>
+		<width>65.4</width>
+	</batch>
+	<batch batchID="B-5">
+		<width>65</width>
+		<width>65.9</width>
+		<width>65.5</width>
+		<width>66.9</width>
+	</batch>
+	<batch batchID="B-6">
+		<width>66.2</width>
+		<width>64.6</width>
+		<width>65.9</width>
+	</batch>
+	<batch batchID="B-7">
+		<width>64.4</width>
+		<width>65.1</width>
+		<width>70.7</width>
+		<width>67.4</width>
+	</batch>
+	<batch batchID="B-8">
+		<width>65.3</width>
+		<width>63.4</width>
+		<width>63.3</width>
+		<width>66.8</width>
+	</batch>
+	<batch batchID="B-9">
+		<width>65.6</width>
+		<width>66.4</width>
+		<width>65.6</width>
+		<width>65.1</width>
+	</batch>
+	<batch batchID="B-10">
+		<width>64.4</width>
+		<width>65.4</width>
+		<width>64.3</width>
+	</batch>
+	<batch batchID="B-11">
+		<width>64</width>
+		<width>65.3</width>
+		<width>65</width>
+		<width>66.8</width>
+	</batch>
+	<batch batchID="B-12">
+		<width>65.9</width>
+		<width>64.5</width>
+		<width>63.8</width>
+		<width>67.3</width>
+	</batch>
+	<batch batchID="B-13">
+		<width>66</width>
+		<width>65.8</width>
+		<width>65.4</width>
+		<width>66.4</width>
+	</batch>
+	<batch batchID="B-14">
+		<width>64.8</width>
+		<width>65.9</width>
+		<width>66.1</width>
+		<width>65.9</width>
+	</batch>
+	<batch batchID="B-15">
+		<width>66</width>
+		<width>66.3</width>
+		<width>65.6</width>
+		<width>66.6</width>
+	</batch>
+	<batch batchID="B-16">
+		<width>64</width>
+		<width>65.5</width>
+		<width>64.7</width>
+		<width>66.6</width>
+	</batch>
+	<batch batchID="B-17">
+		<width>65.5</width>
+		<width>67.2</width>
+		<width>66</width>
+		<width>65.4</width>
+	</batch>
+	<batch batchID="B-18">
+		<width>63.2</width>
+		<width>67.2</width>
+		<width>66.4</width>
+		<width>67.2</width>
+	</batch>
+	<batch batchID="B-19">
+		<width>66.1</width>
+		<width>65.1</width>
+		<width>66.9</width>
+	</batch>
+	<batch batchID="B-20">
+		<width>65.7</width>
+		<width>65.6</width>
+		<width>65.1</width>
+		<width>66.9</width>
+	</batch>
+	<batch batchID="B-21">
+		<width>64.8</width>
+		<width>65.4</width>
+		<width>64.9</width>
+		<width>66.8</width>
+	</batch>
+	<batch batchID="B-22">
+		<width>64.8</width>
+		<width>66.9</width>
+		<width>66</width>
+		<width>65.7</width>
+	</batch>
+	<batch batchID="B-23">
+		<width>66.5</width>
+		<width>66.8</width>
+		<width>64.9</width>
+		<width>65.8</width>
+	</batch>
+	<batch batchID="B-24">
+		<width>65.1</width>
+		<width>66.5</width>
+		<width>65.3</width>
+		<width>66.5</width>
+	</batch>
+	<batch batchID="B-25">
+		<width>65.6</width>
+		<width>65.7</width>
+		<width>65.7</width>
+		<width>67</width>
+	</batch>
+	<batch batchID="B-26">
+		<width>65.2</width>
+		<width>66.6</width>
+		<width>65.7</width>
+		<width>66.1</width>
+	</batch>
+	<batch batchID="B-27">
+		<width>64.9</width>
+		<width>66.1</width>
+		<width>65.9</width>
+		<width>65.9</width>
+	</batch>
+	<batch batchID="B-28">
+		<width>66.3</width>
+		<width>66.1</width>
+		<width>65</width>
+		<width>66.3</width>
+	</batch>
+	<batch batchID="B-29">
+		<width>65.6</width>
+		<width>67</width>
+		<width>66.4</width>
+		<width>66.4</width>
+	</batch>
+	<batch batchID="B-30">
+		<width>66.5</width>
+		<width>66</width>
+		<width>65.2</width>
+		<width>65.6</width>
+	</batch>
+	<batch batchID="B-31">
+		<width>65.6</width>
+		<width>65.7</width>
+		<width>64.6</width>
+		<width>66</width>
+	</batch>
+	<batch batchID="B-32">
+		<width>60.2</width>
+		<width>59.4</width>
+		<width>63.1</width>
+		<width>64.5</width>
+	</batch>
+	<batch batchID="B-33">
+		<width>65.2</width>
+		<width>66.1</width>
+		<width>65.9</width>
+		<width>66.1</width>
+	</batch>
+	<batch batchID="B-34">
+		<width>64.7</width>
+		<width>65.5</width>
+		<width>66.1</width>
+		<width>67</width>
+	</batch>
+	<batch batchID="B-35">
+		<width>63.2</width>
+		<width>64.9</width>
+		<width>67.8</width>
+		<width>66.9</width>
+	</batch>
+	<batch batchID="B-36">
+		<width>66.3</width>
+		<width>65.5</width>
+		<width>64.4</width>
+		<width>67.5</width>
+	</batch>
+	<batch batchID="B-37">
+		<width>64.5</width>
+		<width>67.5</width>
+		<width>66.7</width>
+		<width>66.2</width>
+	</batch>
+	<batch batchID="B-38">
+		<width>68.4</width>
+		<width>73.2</width>
+		<width>64</width>
+		<width>68.1</width>
+	</batch>
+	<batch batchID="B-39">
+		<width>65.8</width>
+		<width>67.1</width>
+		<width>65.9</width>
+		<width>64.7</width>
+	</batch>
+    </sample>
+</samples>

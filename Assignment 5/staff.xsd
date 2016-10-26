@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+   Schema for Assignment 5
+   Author: Eric Dockter
+   Date:   9/29/2016
+   
+   Filename:         staff.xsd
+   Supporting Files: staff.xml
+-->      
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified"> 
+    <xs:element name="Staff">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="Notes" minOccurs="1" maxOccurs="1" />
+                <xs:element ref="Employee" minOccurs="1" maxOccurs="unbounded" />
+            </xs:sequence>
+        </xs:complexType>
+        <xs:unique name="UniqueNames">
+            <xs:selector xpath="Employee" />
+            <xs:field xpath="Name" />
+        </xs:unique>
+        <xs:unique name ="UniqueSSN">
+            <xs:selector xpath="Employee" />
+            <xs:field xpath="SS" />            
+        </xs:unique>
+    </xs:element>
+    
+    <xs:element name="Notes" type="xs:string" />    
+    <xs:element name="Name" type="fullName" />
+    <xs:element name="Status" type="status" />    
+    <xs:element name="Department" type="department" />
+    <xs:element name="Years" type="xs:nonNegativeInteger" />
+    <xs:element name="SS" type="ssn" />    
+    <xs:element name="Health" type="xs:string" />
+    <xs:element name="Salary" type="salary" />
+    
+    <xs:simpleType name="fullName">        
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[A-Z,a-z]+ [A-Z,a-z]+" />
+        </xs:restriction>        
+    </xs:simpleType>
+    
+    <xs:simpleType name="status">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Part-time" />
+            <xs:enumeration value="Fulltime" />
+        </xs:restriction>            
+    </xs:simpleType>
+    
+    <xs:simpleType name="department">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Research" />
+            <xs:enumeration value="Sales" />
+            <xs:enumeration value="Management" />
+            <xs:enumeration value="Finance" />
+            <xs:enumeration value="Sales &amp; Finance" />
+            <xs:enumeration value="Sales" />
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="years">
+        <xs:restriction base="xs:nonNegativeInteger" >
+            <xs:pattern value="\d{2}" />
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="ssn">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="\d{3}-\d{2}-\d{4}" />
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="health">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="None" />
+            <xs:enumeration value="Standard Single" />
+            <xs:enumeration value="Bonus Single" />
+            <xs:enumeration value="Standard Married" />            
+            <xs:enumeration value="Bonus Married" />
+        </xs:restriction>            
+    </xs:simpleType>
+    
+    <xs:simpleType name="salary">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[$][0-9]*,[0-9]*" />
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:element name="Employee">
+        <xs:complexType>         
+            <xs:sequence>
+                <xs:element ref="Name" />                        
+                <xs:element ref="Status" />
+                <xs:element ref="Department" />
+                <xs:element ref="Years" minOccurs="0" />
+                <xs:element ref="SS" minOccurs="0" />
+                <xs:element ref="Health" minOccurs="0" />
+                <xs:element ref="Salary" minOccurs="0" />
+            </xs:sequence> 
+        </xs:complexType>
+    </xs:element>   
+</xs:schema>

@@ -1,0 +1,731 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+   New Perspectives on XML, 3rd Edition
+   Tutorial 9
+   Case Problem 3
+
+   List of Olympic Events
+
+   Filename:         events.xml
+   Supporting Files: 
+-->
+<events>
+   <event eventID="E1" eventName="- 47.63kg (flyweight)" sportID="S10" discID="D13" participation="individual"/>
+   <event eventID="E2" eventName="- 47.6kg (light-flyweight)" sportID="S47" discID="D69" participation="individual"/>
+   <event eventID="E3" eventName="- 48 kg" sportID="S25" discID="D35" participation="individual"/>
+   <event eventID="E4" eventName="- 48kg" sportID="S47" discID="D69" participation="individual"/>
+   <event eventID="E5" eventName="- 48kg (extra-lightweight)" sportID="S25" discID="D35" participation="individual"/>
+   <event eventID="E6" eventName="- 48kg (light-flyweight)" sportID="S10" discID="D13" participation="individual"/>
+   <event eventID="E7" eventName="- 48kg (light-flyweight)" sportID="S47" discID="D69" participation="individual"/>
+   <event eventID="E8" eventName="- 48kg (light-flyweight)" sportID="S47" discID="D70" participation="individual"/>
+   <event eventID="E9" eventName="- 49 kg" sportID="S40" discID="D59" participation="individual"/>
+   <event eventID="E10" eventName="- 50.8kg (flyweight)" sportID="S10" discID="D13" participation="individual"/>
+   <event eventID="E11" eventName="- 51kg (flyweight)" sportID="S10" discID="D13" participation="individual"/>
+   <event eventID="E12" eventName="- 52.62kg (bantamweight)" sportID="S10" discID="D13" participation="individual"/>
+   <event eventID="E13" eventName="- 52kg (flyweight)" sportID="S47" discID="D69" participation="individual"/>
+   <event eventID="E14" eventName="- 52kg (flyweight)" sportID="S47" discID="D70" participation="individual"/>
+   <event eventID="E15" eventName="- 52kg, total (flyweight)" sportID="S46" discID="D68" participation="individual"/>
+   <event eventID="E16" eventName="- 54kg (bantamweight)" sportID="S47" discID="D69" participation="individual"/>
+   <event eventID="E17" eventName="- 54kg, total (flyweight)" sportID="S46" discID="D68" participation="individual"/>
+   <event eventID="E18" eventName="- 55kg" sportID="S47" discID="D69" participation="individual"/>
+   <event eventID="E19" eventName="- 55kg" sportID="S47" discID="D70" participation="individual"/>
+   <event eventID="E20" eventName="- 56kg (bantamweight)" sportID="S47" discID="D69" participation="individual"/>
+   <event eventID="E21" eventName="- 56kg (bantamweight)" sportID="S47" discID="D70" participation="individual"/>
+   <event eventID="E22" eventName="- 56kg, total (bantamweight)" sportID="S46" discID="D68" participation="individual"/>
+   <event eventID="E23" eventName="- 58 kg" sportID="S40" discID="D59" participation="individual"/>
+   <event eventID="E24" eventName="- 58kg (bantamweight)" sportID="S47" discID="D70" participation="individual"/>
+   <event eventID="E25" eventName="- 60 kg" sportID="S25" discID="D35" participation="individual"/>
+   <event eventID="E26" eventName="- 60kg (featherweight)" sportID="S47" discID="D69" participation="individual"/>
+   <event eventID="E27" eventName="- 60kg (featherweight)" sportID="S47" discID="D70" participation="individual"/>
+   <event eventID="E28" eventName="- 60kg, one-two hand 3 events (featherweight)" sportID="S46" discID="D68" participation="individual"/>
+   <event eventID="E29" eventName="- 60kg, one-two hand 5 events (featherweight)" sportID="S46" discID="D68" participation="individual"/>
+   <event eventID="E30" eventName="- 60kg, total (featherweight)" sportID="S46" discID="D68" participation="individual"/>
+   <event eventID="E31" eventName="- 63kg (lightweight)" sportID="S25" discID="D35" participation="individual"/>
+   <event eventID="E32" eventName="- 66.6kg (lightweight)" sportID="S47" discID="D70" participation="individual"/>
+   <event eventID="E33" eventName="- 68kg (lightweight)" sportID="S25" discID="D35" participation="individual"/>
+   <event eventID="E34" eventName="+ 100kg (heavyweight)" sportID="S25" discID="D35" participation="individual"/>
+   <event eventID="E35" eventName="+ 100kg (super heavyweight)" sportID="S47" discID="D69" participation="individual"/>
+   <event eventID="E36" eventName="+ 100kg (super heavyweight)" sportID="S47" discID="D70" participation="individual"/>
+   <event eventID="E37" eventName="+ 105kg" sportID="S46" discID="D68" participation="individual"/>
+   <event eventID="E38" eventName="+ 108kg, total (super heavyweight)" sportID="S46" discID="D68" participation="individual"/>
+   <event eventID="E39" eventName="+ 110kg, total (super heavyweight)" sportID="S46" discID="D68" participation="individual"/>
+   <event eventID="E40" eventName="+ 67 kg" sportID="S40" discID="D59" participation="individual"/>
+   <event eventID="E41" eventName="+ 71.67kg (heavyweight)" sportID="S10" discID="D13" participation="individual"/>
+   <event eventID="E42" eventName="+ 71.67kg (heavyweight)" sportID="S47" discID="D69" participation="individual"/>
+   <event eventID="E43" eventName="+ 72kg (heavyweight)" sportID="S25" discID="D35" participation="individual"/>
+   <event eventID="E44" eventName="+ 73kg (heavyweight)" sportID="S47" discID="D69" participation="individual"/>
+   <event eventID="E45" eventName="+ 75kg" sportID="S46" discID="D68" participation="individual"/>
+   <event eventID="E46" eventName="+ 78kg (heavyweight)" sportID="S25" discID="D35" participation="individual"/>
+   <event eventID="E47" eventName="+ 79.38kg (heavyweight)" sportID="S10" discID="D13" participation="individual"/>
+   <event eventID="E48" eventName="+ 80 kg" sportID="S40" discID="D59" participation="individual"/>
+   <event eventID="E49" eventName="+ 80kg (heavyweight)" sportID="S10" discID="D13" participation="individual"/>
+   <event eventID="E50" eventName="+ 80kg (heavyweight)" sportID="S25" discID="D35" participation="individual"/>
+   <event eventID="E51" eventName="+ 80kg (heavyweight)" sportID="S47" discID="D69" participation="individual"/>
+   <event eventID="E52" eventName="+ 81kg (heavyweight)" sportID="S10" discID="D13" participation="individual"/>
+   <event eventID="E53" eventName="+ 82.5kg (super heavyweight)" sportID="S47" discID="D69" participation="individual"/>
+   <event eventID="E54" eventName="+ 82.5kg, one-two hand 3 events (heavyweight)" sportID="S46" discID="D68" participation="individual"/>
+   <event eventID="E55" eventName="+ 82.5kg, one-two hand 5 events (heavyweight)" sportID="S46" discID="D68" participation="individual"/>
+   <event eventID="E56" eventName="+ 82.5kg, total (heavyweight)" sportID="S46" discID="D68" participation="individual"/>
+   <event eventID="E57" eventName="+ 82kg (super heavyweight)" sportID="S47" discID="D70" participation="individual"/>
+   <event eventID="E58" eventName="+ 87kg (heavyweight)" sportID="S47" discID="D69" participation="individual"/>
+   <event eventID="E59" eventName="+ 87kg (super heavyweight)" sportID="S47" discID="D70" participation="individual"/>
+   <event eventID="E60" eventName="+ 90kg, total (heavyweight)" sportID="S46" discID="D68" participation="individual"/>
+   <event eventID="E61" eventName="+ 91kg (super heavyweight)" sportID="S10" discID="D13" participation="individual"/>
+   <event eventID="E62" eventName="+ 93kg (heavyweight)" sportID="S25" discID="D35" participation="individual"/>
+   <event eventID="E63" eventName="+ 93kg (super heavyweight)" sportID="S47" discID="D70" participation="individual"/>
+   <event eventID="E64" eventName="+ 95kg (heavyweight)" sportID="S25" discID="D35" participation="individual"/>
+   <event eventID="E65" eventName="+ 97kg (heavyweight)" sportID="S47" discID="D69" participation="individual"/>
+   <event eventID="E66" eventName="+ 97kg (super heavyweight)" sportID="S47" discID="D70" participation="individual"/>
+   <event eventID="E67" eventName="0.5-1t" sportID="S34" discID="D48" participation="individual"/>
+   <event eventID="E68" eventName="1 mile (1609.3m)" sportID="S15" discID="D21" participation="individual"/>
+   <event eventID="E69" eventName="1/2 mile (804.7m)" sportID="S15" discID="D21" participation="individual"/>
+   <event eventID="E70" eventName="1/3 mile (536.5m)" sportID="S15" discID="D21" participation="individual"/>
+   <event eventID="E71" eventName="1/4 mile (402.3m)" sportID="S15" discID="D21" participation="individual"/>
+   <event eventID="E72" eventName="100 - 110kg, total (heavyweight)" sportID="S46" discID="D68" participation="individual"/>
+   <event eventID="E73" eventName="100 - 130kg (super heavyweight)" sportID="S47" discID="D69" participation="individual"/>
+   <event eventID="E74" eventName="100 - 130kg (super heavyweight)" sportID="S47" discID="D70" participation="individual"/>
+   <event eventID="E75" eventName="10000m" sportID="S3" discID="D4" participation="individual"/>
+   <event eventID="E76" eventName="10000m" sportID="S36" discID="D55" participation="individual"/>
+   <event eventID="E77" eventName="10000m walk" sportID="S3" discID="D4" participation="individual"/>
+   <event eventID="E78" eventName="1000m" sportID="S36" discID="D50" participation="individual"/>
+   <event eventID="E79" eventName="1000m" sportID="S36" discID="D55" participation="individual"/>
+   <event eventID="E80" eventName="1000y free rifle, prone" sportID="S35" discID="D49" participation="individual"/>
+   <event eventID="E81" eventName="100km" sportID="S15" discID="D21" participation="individual"/>
+   <event eventID="E82" eventName="100m" sportID="S3" discID="D4" participation="individual"/>
+   <event eventID="E83" eventName="100m backstroke" sportID="S1" discID="D56" participation="individual"/>
+   <event eventID="E84" eventName="100m breaststroke" sportID="S1" discID="D56" participation="individual"/>
+   <event eventID="E85" eventName="100m butterfly" sportID="S1" discID="D56" participation="individual"/>
+   <event eventID="E86" eventName="100m freestyle" sportID="S1" discID="D56" participation="individual"/>
+   <event eventID="E87" eventName="100m freestyle for sailors" sportID="S1" discID="D56" participation="individual"/>
+   <event eventID="E88" eventName="100m hurdles" sportID="S3" discID="D4" participation="individual"/>
+   <event eventID="E89" eventName="100m running deer, double shots" sportID="S35" discID="D49" participation="individual"/>
+   <event eventID="E90" eventName="100m running deer, double shots, team" sportID="S35" discID="D49" participation="team"/>
+   <event eventID="E91" eventName="100m running deer, single shots" sportID="S35" discID="D49" participation="individual"/>
+   <event eventID="E92" eventName="100m running deer, single shots, team" sportID="S35" discID="D49" participation="team"/>
+   <event eventID="E93" eventName="100m running deer, single/double shots" sportID="S35" discID="D49" participation="individual"/>
+   <event eventID="E94" eventName="10-20t" sportID="S34" discID="D48" participation="individual"/>
+   <event eventID="E95" eventName="105kg" sportID="S46" discID="D68" participation="individual"/>
+   <event eventID="E97" eventName="10km" sportID="S15" discID="D21" participation="individual"/>
+   <event eventID="E98" eventName="10km" sportID="S37" discID="D18" participation="individual"/>
+   <event eventID="E96" eventName="10km" sportID="S8" discID="D10" participation="individual"/>
+   <event eventID="E100" eventName="10km pursuit" sportID="S37" discID="D18" participation="individual"/>
+   <event eventID="E99" eventName="10km pursuit" sportID="S8" discID="D10" participation="individual"/>
+   <event eventID="E101" eventName="10m" sportID="S34" discID="D48" participation="individual"/>
+   <event eventID="E102" eventName="10m (rating 1907)" sportID="S34" discID="D48" participation="individual"/>
+   <event eventID="E103" eventName="10m (rating 1919)" sportID="S34" discID="D48" participation="individual"/>
+   <event eventID="E104" eventName="10m air pistol (40 shots)" sportID="S35" discID="D49" participation="individual"/>
+   <event eventID="E105" eventName="10m air pistol (60 shots)" sportID="S35" discID="D49" participation="individual"/>
+   <event eventID="E106" eventName="10m air rifle (40 shots)" sportID="S35" discID="D49" participation="individual"/>
+   <event eventID="E107" eventName="10m air rifle (60 shots)" sportID="S35" discID="D49" participation="individual"/>
+   <event eventID="E108" eventName="10m platform" sportID="S1" discID="D56" participation="individual"/>
+   <event eventID="E109" eventName="10m running target (30+30 shots)" sportID="S35" discID="D49" participation="individual"/>
+   <event eventID="E110" eventName="10miles walk (16093m)" sportID="S3" discID="D4" participation="individual"/>
+   <event eventID="E111" eventName="110m hurdles" sportID="S3" discID="D4" participation="individual"/>
+   <event eventID="E112" eventName="12 foot dinghy" sportID="S34" discID="D48" participation="individual"/>
+   <event eventID="E113" eventName="12 foot dinghy individual" sportID="S34" discID="D48" participation="individual"/>
+   <event eventID="E114" eventName="12.5km mass start" sportID="S8" discID="D10" participation="individual"/>
+   <event eventID="E115" eventName="12.5km pursuit" sportID="S8" discID="D10" participation="individual"/>
+   <event eventID="E116" eventName="1200m freestyle" sportID="S1" discID="D56" participation="individual"/>
+   <event eventID="E117" eventName="12-hour race" sportID="S15" discID="D21" participation="individual"/>
+   <event eventID="E118" eventName="12m" sportID="S34" discID="D48" participation="individual"/>
+   <event eventID="E119" eventName="12m (rating 1907)" sportID="S34" discID="D48" participation="individual"/>
+   <event eventID="E120" eventName="12m (rating 1919)" sportID="S34" discID="D48" participation="individual"/>
+   <event eventID="E121" eventName="1500m" sportID="S3" discID="D4" participation="individual"/>
+   <event eventID="E122" eventName="1500m" sportID="S36" discID="D50" participation="individual"/>
+   <event eventID="E123" eventName="1500m" sportID="S36" discID="D55" participation="individual"/>
+   <event eventID="E124" eventName="1500m freestyle" sportID="S1" discID="D56" participation="individual"/>
+   <event eventID="E126" eventName="15km" sportID="S37" discID="D18" participation="individual"/>
+   <event eventID="E125" eventName="15km" sportID="S8" discID="D10" participation="individual"/>
+   <event eventID="E128" eventName="15km mass start" sportID="S37" discID="D18" participation="individual"/>
+   <event eventID="E127" eventName="15km mass start" sportID="S8" discID="D10" participation="individual"/>
+   <event eventID="E129" eventName="18 foot dinghy" sportID="S34" discID="D48" participation="individual"/>
+   <event eventID="E130" eventName="18km" sportID="S37" discID="D18" participation="individual"/>
+   <event eventID="E131" eventName="1980 yards Pursuit, Team" sportID="S15" discID="D21" participation="team"/>
+   <event eventID="E132" eventName="1km Pursuit" sportID="S15" discID="D21" participation="individual"/>
+   <event eventID="E133" eventName="1km team trial" sportID="S15" discID="D21" participation="team"/>
+   <event eventID="E134" eventName="1km time trial" sportID="S15" discID="D21" participation="individual"/>
+   <event eventID="E135" eventName="2 miles (3.218km)" sportID="S15" discID="D21" participation="individual"/>
+   <event eventID="E136" eventName="2000m tandem" sportID="S15" discID="D21" participation="duo"/>
+   <event eventID="E137" eventName="200m" sportID="S3" discID="D4" participation="individual"/>
+   <event eventID="E138" eventName="200m backstroke" sportID="S1" discID="D56" participation="individual"/>
+   <event eventID="E139" eventName="200m breaststroke" sportID="S1" discID="D56" participation="individual"/>
+   <event eventID="E140" eventName="200m butterfly" sportID="S1" discID="D56" participation="individual"/>
+   <event eventID="E141" eventName="200m freestyle" sportID="S1" discID="D56" participation="individual"/>
+   <event eventID="E142" eventName="200m hurdles" sportID="S3" discID="D4" participation="individual"/>
+   <event eventID="E143" eventName="200m individual medley" sportID="S1" discID="D56" participation="individual"/>
+   <event eventID="E144" eventName="200m obstacle event" sportID="S1" discID="D56" participation="individual"/>
+   <event eventID="E145" eventName="200m team swimming" sportID="S1" discID="D56" participation="team"/>
+   <event eventID="E147" eventName="20km" sportID="S15" discID="D21" participation="individual"/>
+   <event eventID="E148" eventName="20km" sportID="S37" discID="D18" participation="individual"/>
+   <event eventID="E146" eventName="20km" sportID="S8" discID="D10" participation="individual"/>
+   <event eventID="E149" eventName="20km race walk" sportID="S3" discID="D4" participation="individual"/>
+   <event eventID="E150" eventName="20km walk" sportID="S3" discID="D4" participation="individual"/>
+   <event eventID="E151" eventName="25 kilometres" sportID="S15" discID="D21" participation="individual"/>
+   <event eventID="E152" eventName="25 miles (40.232km)" sportID="S15" discID="D21" participation="individual"/>
+   <event eventID="E153" eventName="25m army pistol" sportID="S35" discID="D49" participation="individual"/>
+   <event eventID="E154" eventName="25m pistol (30+30 shots)" sportID="S35" discID="D49" participation="individual"/>
+   <event eventID="E155" eventName="25m rapid fire pistol (60 shots)" sportID="S35" discID="D49" participation="individual"/>
+   <event eventID="E156" eventName="25m small bore rifle, team" sportID="S35" discID="D49" participation="team"/>
+   <event eventID="E157" eventName="25m small rifle" sportID="S35" discID="D49" participation="individual"/>
+   <event eventID="E158" eventName="25y small bore rifle, disappearing target" sportID="S35" discID="D49" participation="individual"/>
+   <event eventID="E159" eventName="25y small bore rifle, moving target" sportID="S35" discID="D49" participation="individual"/>
+   <event eventID="E160" eventName="300+600m free rifle, team, prone" sportID="S35" discID="D49" participation="team"/>
+   <event eventID="E161" eventName="3000m" sportID="S3" discID="D4" participation="individual"/>
+   <event eventID="E162" eventName="3000m" sportID="S36" discID="D55" participation="individual"/>
+   <event eventID="E163" eventName="3000m relay" sportID="S36" discID="D50" participation="team"/>
+   <event eventID="E164" eventName="3000m steeplechase" sportID="S3" discID="D4" participation="individual"/>
+   <event eventID="E165" eventName="3000m team" sportID="S3" discID="D4" participation="team"/>
+   <event eventID="E166" eventName="3000m walk" sportID="S3" discID="D4" participation="individual"/>
+   <event eventID="E167" eventName="300m free rifle 3 positions (3x40 shots)" sportID="S35" discID="D49" participation="individual"/>
+   <event eventID="E168" eventName="300m free rifle, prone, team" sportID="S35" discID="D49" participation="team"/>
+   <event eventID="E169" eventName="300m free rifle, standing, team" sportID="S35" discID="D49" participation="team"/>
+   <event eventID="E170" eventName="30km" sportID="S37" discID="D18" participation="individual"/>
+   <event eventID="E171" eventName="30km mass start" sportID="S37" discID="D18" participation="individual"/>
+   <event eventID="E172" eventName="30m army pistol, team" sportID="S35" discID="D49" participation="team"/>
+   <event eventID="E173" eventName="30m sq" sportID="S34" discID="D48" participation="individual"/>
+   <event eventID="E174" eventName="3-10t" sportID="S34" discID="D48" participation="individual"/>
+   <event eventID="E175" eventName="3200m steeplechase" sportID="S3" discID="D4" participation="individual"/>
+   <event eventID="E176" eventName="3500m walk" sportID="S3" discID="D4" participation="individual"/>
+   <event eventID="E177" eventName="3m springboard" sportID="S1" discID="D56" participation="individual"/>
+   <event eventID="E178" eventName="3miles team (4828m)" sportID="S3" discID="D4" participation="team"/>
+   <event eventID="E179" eventName="3x5km relay" sportID="S37" discID="D18" participation="team"/>
+   <event eventID="E180" eventName="3x7.5km relay" sportID="S8" discID="D10" participation="team"/>
+   <event eventID="E181" eventName="400, 600, 800m free rifle, team" sportID="S35" discID="D49" participation="team"/>
+   <event eventID="E182" eventName="4000m freestyle" sportID="S1" discID="D56" participation="individual"/>
+   <event eventID="E183" eventName="4000m steeplechase" sportID="S3" discID="D4" participation="individual"/>
+   <event eventID="E184" eventName="400m" sportID="S3" discID="D4" participation="individual"/>
+   <event eventID="E185" eventName="400m breaststroke" sportID="S1" discID="D56" participation="individual"/>
+   <event eventID="E186" eventName="400m freestyle" sportID="S1" discID="D56" participation="individual"/>
+   <event eventID="E187" eventName="400m hurdles" sportID="S3" discID="D4" participation="individual"/>
+   <event eventID="E188" eventName="400m individual medley" sportID="S1" discID="D56" participation="individual"/>
+   <event eventID="E189" eventName="40m sq" sportID="S34" discID="D48" participation="individual"/>
+   <event eventID="E190" eventName="47.6 - 52.16kg (flyweight)" sportID="S47" discID="D69" participation="individual"/>
+   <event eventID="E191" eventName="47.63 - 52.16kg (bantamweight)" sportID="S10" discID="D13" participation="individual"/>
+   <event eventID="E192" eventName="470 - Two Person Dinghy" sportID="S34" discID="D48" participation="duo"/>
+   <event eventID="E193" eventName="48 - 51kg (flyweight)" sportID="S10" discID="D13" participation="individual"/>
+   <event eventID="E194" eventName="48 - 52kg (flyweight)" sportID="S47" discID="D69" participation="individual"/>
+   <event eventID="E195" eventName="48 - 52kg (flyweight)" sportID="S47" discID="D70" participation="individual"/>
+   <event eventID="E196" eventName="48 - 52kg (half-lightweight)" sportID="S25" discID="D35" participation="individual"/>
+   <event eventID="E197" eventName="48 - 54kg" sportID="S47" discID="D69" participation="individual"/>
+   <event eventID="E198" eventName="48 - 54kg" sportID="S47" discID="D70" participation="individual"/>
+   <event eventID="E199" eventName="48 - 55kg" sportID="S47" discID="D69" participation="individual"/>
+   <event eventID="E200" eventName="48kg" sportID="S46" discID="D68" participation="individual"/>
+   <event eventID="E201" eventName="48kg (light flywieght)" sportID="S10" discID="D13" participation="individual"/>
+   <event eventID="E202" eventName="49 - 57 kg" sportID="S40" discID="D59" participation="individual"/>
+   <event eventID="E203" eventName="49er - Skiff" sportID="S34" discID="D48" participation="duo"/>
+   <event eventID="E204" eventName="4miles team" sportID="S3" discID="D4" participation="team"/>
+   <event eventID="E205" eventName="4x100m freestyle relay" sportID="S1" discID="D56" participation="team"/>
+   <event eventID="E206" eventName="4x100m medley relay" sportID="S1" discID="D56" participation="team"/>
+   <event eventID="E207" eventName="4x100m relay" sportID="S3" discID="D4" participation="team"/>
+   <event eventID="E208" eventName="4x10km relay" sportID="S37" discID="D18" participation="team"/>
+   <event eventID="E209" eventName="4x200m freestyle relay" sportID="S1" discID="D56" participation="team"/>
+   <event eventID="E210" eventName="4x400m relay" sportID="S3" discID="D4" participation="team"/>
+   <event eventID="E211" eventName="4x50y freestyle relay" sportID="S1" discID="D56" participation="team"/>
+   <event eventID="E212" eventName="4x5km relay" sportID="S37" discID="D18" participation="team"/>
+   <event eventID="E213" eventName="4x6km relay" sportID="S8" discID="D10" participation="team"/>
+   <event eventID="E214" eventName="4x7.5km relay" sportID="S8" discID="D10" participation="team"/>
+   <event eventID="E215" eventName="5 miles (8.046km)" sportID="S15" discID="D21" participation="individual"/>
+   <event eventID="E216" eventName="5 miles (8047m)" sportID="S3" discID="D4" participation="individual"/>
+   <event eventID="E217" eventName="5.5m" sportID="S34" discID="D48" participation="individual"/>
+   <event eventID="E218" eventName="50.8 - 53.52kg (bantamweight)" sportID="S10" discID="D13" participation="individual"/>
+   <event eventID="E219" eventName="50.8 - 54kg (bantamweight)" sportID="S10" discID="D13" participation="individual"/>
+   <event eventID="E220" eventName="50+100y small bore rifle, team" sportID="S35" discID="D49" participation="team"/>
+   <event eventID="E222" eventName="5000m" sportID="S15" discID="D21" participation="individual"/>
+   <event eventID="E221" eventName="5000m" sportID="S3" discID="D4" participation="individual"/>
+   <event eventID="E223" eventName="5000m" sportID="S36" discID="D55" participation="individual"/>
+   <event eventID="E224" eventName="5000m relay" sportID="S36" discID="D50" participation="team"/>
+   <event eventID="E225" eventName="5000m team" sportID="S3" discID="D4" participation="team"/>
+   <event eventID="E226" eventName="500m" sportID="S36" discID="D50" participation="individual"/>
+   <event eventID="E227" eventName="500m" sportID="S36" discID="D55" participation="individual"/>
+   <event eventID="E228" eventName="500m time trial" sportID="S15" discID="D21" participation="individual"/>
+   <event eventID="E229" eventName="50km" sportID="S15" discID="D21" participation="individual"/>
+   <event eventID="E230" eventName="50km" sportID="S37" discID="D18" participation="individual"/>
+   <event eventID="E231" eventName="50km walk" sportID="S3" discID="D4" participation="individual"/>
+   <event eventID="E232" eventName="50m army pistol, team" sportID="S35" discID="D49" participation="team"/>
+   <event eventID="E233" eventName="50m freestyle" sportID="S1" discID="D56" participation="individual"/>
+   <event eventID="E234" eventName="50m pistol (60 shots)" sportID="S35" discID="D49" participation="individual"/>
+   <event eventID="E235" eventName="50m rifle 3 positions (3x20 shots)" sportID="S35" discID="D49" participation="individual"/>
+   <event eventID="E236" eventName="50m rifle 3 positions (3x40 shots)" sportID="S35" discID="D49" participation="individual"/>
+   <event eventID="E237" eventName="50m rifle prone (60 shots)" sportID="S35" discID="D49" participation="individual"/>
+   <event eventID="E238" eventName="50m running target (30+30 shots)" sportID="S35" discID="D49" participation="individual"/>
+   <event eventID="E239" eventName="50m small bore rifle, standing, individual" sportID="S35" discID="D49" participation="individual"/>
+   <event eventID="E240" eventName="50m small bore rifle, team" sportID="S35" discID="D49" participation="team"/>
+   <event eventID="E241" eventName="50y army pistol, team" sportID="S35" discID="D49" participation="team"/>
+   <event eventID="E242" eventName="50y freestyle (45.72m)" sportID="S1" discID="D56" participation="individual"/>
+   <event eventID="E243" eventName="51 - 54kg (bantamweight)" sportID="S10" discID="D13" participation="individual"/>
+   <event eventID="E244" eventName="52 - 56kg (lightweight)" sportID="S25" discID="D35" participation="individual"/>
+   <event eventID="E245" eventName="52 - 56kg, total (bantamweight)" sportID="S46" discID="D68" participation="individual"/>
+   <event eventID="E246" eventName="52 - 57kg (bantamweight)" sportID="S47" discID="D69" participation="individual"/>
+   <event eventID="E247" eventName="52 - 57kg (bantamweight)" sportID="S47" discID="D70" participation="individual"/>
+   <event eventID="E248" eventName="52 - 57kg (lightweight)" sportID="S25" discID="D35" participation="individual"/>
+   <event eventID="E249" eventName="52.16 - 56.7kg (bantamweight)" sportID="S47" discID="D69" participation="individual"/>
+   <event eventID="E250" eventName="52.16 - 56.7kg (featherweight)" sportID="S10" discID="D13" participation="individual"/>
+   <event eventID="E251" eventName="52.62 - 57.15kg (featherweight)" sportID="S10" discID="D13" participation="individual"/>
+   <event eventID="E252" eventName="53.52 - 57.15kg (featherweight)" sportID="S10" discID="D13" participation="individual"/>
+   <event eventID="E253" eventName="53kg" sportID="S46" discID="D68" participation="individual"/>
+   <event eventID="E254" eventName="54 - 57.15kg (featherweight)" sportID="S10" discID="D13" participation="individual"/>
+   <event eventID="E255" eventName="54 - 57kg (featherweight)" sportID="S10" discID="D13" participation="individual"/>
+   <event eventID="E256" eventName="54 - 58kg" sportID="S47" discID="D69" participation="individual"/>
+   <event eventID="E257" eventName="54 - 58kg" sportID="S47" discID="D70" participation="individual"/>
+   <event eventID="E258" eventName="54 - 58kg (featherweight)" sportID="S10" discID="D13" participation="individual"/>
+   <event eventID="E259" eventName="54 - 59kg, total (bantamweight)" sportID="S46" discID="D68" participation="individual"/>
+   <event eventID="E260" eventName="54 - 60.3kg (featherweight)" sportID="S47" discID="D69" participation="individual"/>
+   <event eventID="E261" eventName="55 - 60kg" sportID="S47" discID="D69" participation="individual"/>
+   <event eventID="E262" eventName="55 - 60kg" sportID="S47" discID="D70" participation="individual"/>
+   <event eventID="E263" eventName="55 - 63kg" sportID="S47" discID="D69" participation="individual"/>
+   <event eventID="E264" eventName="56 - 60kg, total (featherweight)" sportID="S46" discID="D68" participation="individual"/>
+   <event eventID="E265" eventName="56 - 61kg (featherweight)" sportID="S47" discID="D69" participation="individual"/>
+   <event eventID="E266" eventName="56 - 61kg (featherweight)" sportID="S47" discID="D70" participation="individual"/>
+   <event eventID="E267" eventName="56 - 61kg (half-middleweight)" sportID="S25" discID="D35" participation="individual"/>
+   <event eventID="E268" eventName="56.7 - 61.23kg (featherweight)" sportID="S47" discID="D69" participation="individual"/>
+   <event eventID="E269" eventName="56.7 - 61.24kg (lightweight)" sportID="S10" discID="D13" participation="individual"/>
+   <event eventID="E270" eventName="56kg" sportID="S46" discID="D68" participation="individual"/>
+   <event eventID="E271" eventName="56lb weight throw (25.4kg)" sportID="S3" discID="D4" participation="individual"/>
+   <event eventID="E272" eventName="57 - 60kg (lightweight)" sportID="S10" discID="D13" participation="individual"/>
+   <event eventID="E273" eventName="57 - 61kg (featherweight)" sportID="S47" discID="D70" participation="individual"/>
+   <event eventID="E274" eventName="57 - 62kg (featherweight)" sportID="S47" discID="D69" participation="individual"/>
+   <event eventID="E275" eventName="57 - 62kg (featherweight)" sportID="S47" discID="D70" participation="individual"/>
+   <event eventID="E276" eventName="57 - 63kg (featherweight)" sportID="S47" discID="D69" participation="individual"/>
+   <event eventID="E277" eventName="57 - 63kg (featherweight)" sportID="S47" discID="D70" participation="individual"/>
+   <event eventID="E278" eventName="57 - 63kg (half-middleweight)" sportID="S25" discID="D35" participation="individual"/>
+   <event eventID="E279" eventName="57 - 67 kg" sportID="S40" discID="D59" participation="individual"/>
+   <event eventID="E280" eventName="57.15 - 61.24kg (lightweight)" sportID="S10" discID="D13" participation="individual"/>
+   <event eventID="E281" eventName="57.15 - 63.5kg (lightweight)" sportID="S10" discID="D13" participation="individual"/>
+   <event eventID="E282" eventName="58 - 60kg (featherweight)" sportID="S47" discID="D70" participation="individual"/>
+   <event eventID="E283" eventName="58 - 62kg (featherweight)" sportID="S47" discID="D70" participation="individual"/>
+   <event eventID="E284" eventName="58 - 62kg (lightweight)" sportID="S10" discID="D13" participation="individual"/>
+   <event eventID="E285" eventName="58 - 63kg" sportID="S47" discID="D69" participation="individual"/>
+   <event eventID="E286" eventName="58 - 63kg" sportID="S47" discID="D70" participation="individual"/>
+   <event eventID="E287" eventName="58 - 68 kg" sportID="S40" discID="D59" participation="individual"/>
+   <event eventID="E288" eventName="58kg" sportID="S46" discID="D68" participation="individual"/>
+   <event eventID="E289" eventName="59 - 64kg, total (featherweight)" sportID="S46" discID="D68" participation="individual"/>
+   <event eventID="E290" eventName="5km" sportID="S37" discID="D18" participation="individual"/>
+   <event eventID="E291" eventName="5km pursuit" sportID="S37" discID="D18" participation="individual"/>
+   <event eventID="E292" eventName="6.5m (rating 1919)" sportID="S34" discID="D48" participation="individual"/>
+   <event eventID="E293" eventName="60 - 63.5kg (light-welterweight)" sportID="S10" discID="D13" participation="individual"/>
+   <event eventID="E294" eventName="60 - 64 kg" sportID="S10" discID="D13" participation="individual"/>
+   <event eventID="E295" eventName="60 - 65kg (half-lightweight)" sportID="S25" discID="D35" participation="individual"/>
+   <event eventID="E296" eventName="60 - 66kg" sportID="S47" discID="D69" participation="individual"/>
+   <event eventID="E297" eventName="60 - 66kg" sportID="S47" discID="D70" participation="individual"/>
+   <event eventID="E298" eventName="60 - 66kg (half-lightweight)" sportID="S25" discID="D35" participation="individual"/>
+   <event eventID="E299" eventName="60 - 67.5kg (lightweight)" sportID="S47" discID="D69" participation="individual"/>
+   <event eventID="E300" eventName="60 - 67.5kg (lightweight)" sportID="S47" discID="D70" participation="individual"/>
+   <event eventID="E301" eventName="60 - 67.5kg, one-two hand 3 events (lightweight)" sportID="S46" discID="D68" participation="individual"/>
+   <event eventID="E302" eventName="60 - 67.5kg, one-two hand 5 events (lightweight)" sportID="S46" discID="D68" participation="individual"/>
+   <event eventID="E303" eventName="60 - 67.5kg, total (lightweight)" sportID="S46" discID="D68" participation="individual"/>
+   <event eventID="E304" eventName="60.3 - 66.6kg (lightweight)" sportID="S47" discID="D69" participation="individual"/>
+   <event eventID="E305" eventName="600m free rifle" sportID="S35" discID="D49" participation="individual"/>
+   <event eventID="E306" eventName="600m free rifle, individual" sportID="S35" discID="D49" participation="individual"/>
+   <event eventID="E307" eventName="600m free rifle, prone" sportID="S35" discID="D49" participation="individual"/>
+   <event eventID="E308" eventName="600m free rifle, team" sportID="S35" discID="D49" participation="team"/>
+   <event eventID="E309" eventName="60m" sportID="S3" discID="D4" participation="individual"/>
+   <event eventID="E310" eventName="61 - 66kg (lightweight)" sportID="S47" discID="D69" participation="individual"/>
+   <event eventID="E311" eventName="61 - 66kg (lightweight)" sportID="S47" discID="D70" participation="individual"/>
+   <event eventID="E312" eventName="61 - 66kg (middleweight)" sportID="S25" discID="D35" participation="individual"/>
+   <event eventID="E313" eventName="61 - 67kg (lightweight)" sportID="S47" discID="D70" participation="individual"/>
+   <event eventID="E314" eventName="61.23 - 65.77kg (lightweight)" sportID="S47" discID="D69" participation="individual"/>
+   <event eventID="E315" eventName="61.24 - 65.77kg (welterweight)" sportID="S10" discID="D13" participation="individual"/>
+   <event eventID="E316" eventName="61.24 - 66.68kg (welterweight)" sportID="S10" discID="D13" participation="individual"/>
+   <event eventID="E317" eventName="62 - 67.5kg (lightweight)" sportID="S47" discID="D70" participation="individual"/>
+   <event eventID="E318" eventName="62 - 67kg (welterweight)" sportID="S10" discID="D13" participation="individual"/>
+   <event eventID="E319" eventName="62 - 68kg (lightweight)" sportID="S47" discID="D69" participation="individual"/>
+   <event eventID="E320" eventName="62 - 68kg (lightweight)" sportID="S47" discID="D70" participation="individual"/>
+   <event eventID="E321" eventName="62kg" sportID="S46" discID="D68" participation="individual"/>
+   <event eventID="E322" eventName="63 - 67kg (lightweight)" sportID="S47" discID="D69" participation="individual"/>
+   <event eventID="E323" eventName="63 - 69kg" sportID="S47" discID="D69" participation="individual"/>
+   <event eventID="E324" eventName="63 - 69kg" sportID="S47" discID="D70" participation="individual"/>
+   <event eventID="E325" eventName="63 - 70kg (half-middleweight)" sportID="S25" discID="D35" participation="individual"/>
+   <event eventID="E326" eventName="63 - 70kg (lightweight)" sportID="S47" discID="D69" participation="individual"/>
+   <event eventID="E327" eventName="63 - 70kg (lightweight)" sportID="S47" discID="D70" participation="individual"/>
+   <event eventID="E328" eventName="63 - 70kg (middleweight)" sportID="S25" discID="D35" participation="individual"/>
+   <event eventID="E329" eventName="63 - 72kg" sportID="S47" discID="D69" participation="individual"/>
+   <event eventID="E330" eventName="63.5 - 67kg (welterweight)" sportID="S10" discID="D13" participation="individual"/>
+   <event eventID="E331" eventName="63.5 - 71.67kg (middleweight)" sportID="S10" discID="D13" participation="individual"/>
+   <event eventID="E332" eventName="63kg" sportID="S46" discID="D68" participation="individual"/>
+   <event eventID="E333" eventName="64 - 69 kg" sportID="S10" discID="D13" participation="individual"/>
+   <event eventID="E334" eventName="64 - 70kg, total (lightweight)" sportID="S46" discID="D68" participation="individual"/>
+   <event eventID="E335" eventName="65 - 71kg (lightweight)" sportID="S25" discID="D35" participation="individual"/>
+   <event eventID="E336" eventName="65.77 - 71.67kg (middleweight)" sportID="S10" discID="D13" participation="individual"/>
+   <event eventID="E337" eventName="65.77 - 71.67kg (welterweight)" sportID="S47" discID="D69" participation="individual"/>
+   <event eventID="E338" eventName="66 - 72kg (half-heavyweight)" sportID="S25" discID="D35" participation="individual"/>
+   <event eventID="E339" eventName="66 - 72kg (welterweight)" sportID="S47" discID="D69" participation="individual"/>
+   <event eventID="E340" eventName="66 - 72kg (welterweight)" sportID="S47" discID="D70" participation="individual"/>
+   <event eventID="E341" eventName="66 - 73kg (lightweight)" sportID="S25" discID="D35" participation="individual"/>
+   <event eventID="E342" eventName="66 - 74kg" sportID="S47" discID="D69" participation="individual"/>
+   <event eventID="E343" eventName="66 - 74kg" sportID="S47" discID="D70" participation="individual"/>
+   <event eventID="E344" eventName="66.6 - 73kg (middleweight)" sportID="S47" discID="D69" participation="individual"/>
+   <event eventID="E345" eventName="66.6 - 73kg (middleweight)" sportID="S47" discID="D70" participation="individual"/>
+   <event eventID="E346" eventName="66.68 - 72.57kg (middleweight)" sportID="S10" discID="D13" participation="individual"/>
+   <event eventID="E347" eventName="67 - 71kg (light-middleweight)" sportID="S10" discID="D13" participation="individual"/>
+   <event eventID="E348" eventName="67 - 73kg (middleweight)" sportID="S10" discID="D13" participation="individual"/>
+   <event eventID="E349" eventName="67 - 73kg (welterweight)" sportID="S47" discID="D69" participation="individual"/>
+   <event eventID="E350" eventName="67 - 73kg (welterweight)" sportID="S47" discID="D70" participation="individual"/>
+   <event eventID="E351" eventName="67.5 - 75kg (middleweight)" sportID="S47" discID="D69" participation="individual"/>
+   <event eventID="E352" eventName="67.5 - 75kg (middleweight)" sportID="S47" discID="D70" participation="individual"/>
+   <event eventID="E353" eventName="67.5 - 75kg, one-two hand 3 events (middleweight)" sportID="S46" discID="D68" participation="individual"/>
+   <event eventID="E354" eventName="67.5 - 75kg, one-two hand 5 events (middleweight)" sportID="S46" discID="D68" participation="individual"/>
+   <event eventID="E355" eventName="67.5 - 75kg, total (middleweight)" sportID="S46" discID="D68" participation="individual"/>
+   <event eventID="E356" eventName="68 - 74kg (welterweight)" sportID="S47" discID="D69" participation="individual"/>
+   <event eventID="E357" eventName="68 - 74kg (welterweight)" sportID="S47" discID="D70" participation="individual"/>
+   <event eventID="E358" eventName="68 - 80 kg" sportID="S40" discID="D59" participation="individual"/>
+   <event eventID="E359" eventName="68 - 80kg (middleweight)" sportID="S25" discID="D35" participation="individual"/>
+   <event eventID="E360" eventName="69 - 75 kg" sportID="S10" discID="D13" participation="individual"/>
+   <event eventID="E361" eventName="69 - 76kg" sportID="S47" discID="D69" participation="individual"/>
+   <event eventID="E362" eventName="69 - 76kg" sportID="S47" discID="D70" participation="individual"/>
+   <event eventID="E363" eventName="69kg" sportID="S46" discID="D68" participation="individual"/>
+   <event eventID="E364" eventName="6m" sportID="S34" discID="D48" participation="individual"/>
+   <event eventID="E365" eventName="6m (rating 1907)" sportID="S34" discID="D48" participation="individual"/>
+   <event eventID="E366" eventName="6m (rating 1919)" sportID="S34" discID="D48" participation="individual"/>
+   <event eventID="E367" eventName="7.5km" sportID="S8" discID="D10" participation="individual"/>
+   <event eventID="E368" eventName="70 - 76kg, total (middleweight)" sportID="S46" discID="D68" participation="individual"/>
+   <event eventID="E369" eventName="70 - 78kg (half-heavyweight)" sportID="S25" discID="D35" participation="individual"/>
+   <event eventID="E370" eventName="70 - 78kg (welterweight)" sportID="S47" discID="D69" participation="individual"/>
+   <event eventID="E371" eventName="70 - 78kg (welterweight)" sportID="S47" discID="D70" participation="individual"/>
+   <event eventID="E372" eventName="70 - 80kg (middleweight)" sportID="S25" discID="D35" participation="individual"/>
+   <event eventID="E373" eventName="71 - 78kg (half-middleweight)" sportID="S25" discID="D35" participation="individual"/>
+   <event eventID="E374" eventName="71-75kg" sportID="S10" discID="D13" participation="individual"/>
+   <event eventID="E375" eventName="72 - 79kg (middleweight)" sportID="S47" discID="D69" participation="individual"/>
+   <event eventID="E376" eventName="72 - 79kg (middleweight)" sportID="S47" discID="D70" participation="individual"/>
+   <event eventID="E377" eventName="72.57 - 79.38kg (light-heavyweight)" sportID="S10" discID="D13" participation="individual"/>
+   <event eventID="E378" eventName="73 - 79kg (middleweight)" sportID="S47" discID="D69" participation="individual"/>
+   <event eventID="E379" eventName="73 - 79kg (middleweight)" sportID="S47" discID="D70" participation="individual"/>
+   <event eventID="E380" eventName="73 - 80kg (light-heavyweight)" sportID="S10" discID="D13" participation="individual"/>
+   <event eventID="E381" eventName="73 - 81kg (half-middleweight)" sportID="S25" discID="D35" participation="individual"/>
+   <event eventID="E382" eventName="73 - 93kg (light-heavyweight)" sportID="S47" discID="D70" participation="individual"/>
+   <event eventID="E383" eventName="74 - 82kg (middleweight)" sportID="S47" discID="D69" participation="individual"/>
+   <event eventID="E384" eventName="74 - 82kg (middleweight)" sportID="S47" discID="D70" participation="individual"/>
+   <event eventID="E385" eventName="74 - 84kg" sportID="S47" discID="D69" participation="individual"/>
+   <event eventID="E386" eventName="74 - 84kg" sportID="S47" discID="D70" participation="individual"/>
+   <event eventID="E387" eventName="75 - 80kg (light-heavyweight)" sportID="S47" discID="D69" participation="individual"/>
+   <event eventID="E388" eventName="75 - 81kg (light-heavyweight)" sportID="S10" discID="D13" participation="individual"/>
+   <event eventID="E389" eventName="75 - 82.5kg (light-heavyweight)" sportID="S47" discID="D70" participation="individual"/>
+   <event eventID="E390" eventName="75 - 82.5kg, one-two hand 3 e. (light-heavyweight)" sportID="S46" discID="D68" participation="individual"/>
+   <event eventID="E391" eventName="75 - 82.5kg, one-two hand 5 e. (light-heavyweight)" sportID="S46" discID="D68" participation="individual"/>
+   <event eventID="E392" eventName="75 - 82.5kg, total (light-heavyweight)" sportID="S46" discID="D68" participation="individual"/>
+   <event eventID="E393" eventName="75 - 82kg (light-heavyweight)" sportID="S47" discID="D70" participation="individual"/>
+   <event eventID="E394" eventName="75kg" sportID="S46" discID="D68" participation="individual"/>
+   <event eventID="E395" eventName="76 - 83kg, total (light-heavyweight)" sportID="S46" discID="D68" participation="individual"/>
+   <event eventID="E396" eventName="76 - 85kg" sportID="S47" discID="D69" participation="individual"/>
+   <event eventID="E397" eventName="76 - 85kg" sportID="S47" discID="D70" participation="individual"/>
+   <event eventID="E398" eventName="77kg" sportID="S46" discID="D68" participation="individual"/>
+   <event eventID="E399" eventName="78 - 86kg (middleweight)" sportID="S25" discID="D35" participation="individual"/>
+   <event eventID="E400" eventName="78 - 87kg (middleweight)" sportID="S47" discID="D69" participation="individual"/>
+   <event eventID="E401" eventName="78 - 87kg (middleweight)" sportID="S47" discID="D70" participation="individual"/>
+   <event eventID="E402" eventName="79 - 87kg (light-heavyweight)" sportID="S47" discID="D69" participation="individual"/>
+   <event eventID="E403" eventName="79 - 87kg (light-heavyweight)" sportID="S47" discID="D70" participation="individual"/>
+   <event eventID="E404" eventName="7m" sportID="S34" discID="D48" participation="individual"/>
+   <event eventID="E405" eventName="80 - 93kg (half-heavyweight)" sportID="S25" discID="D35" participation="individual"/>
+   <event eventID="E406" eventName="800m" sportID="S3" discID="D4" participation="individual"/>
+   <event eventID="E407" eventName="800m freestyle" sportID="S1" discID="D56" participation="individual"/>
+   <event eventID="E408" eventName="80m hurdles" sportID="S3" discID="D4" participation="individual"/>
+   <event eventID="E409" eventName="81 - 90kg (middleweight)" sportID="S25" discID="D35" participation="individual"/>
+   <event eventID="E410" eventName="81 - 91kg (heavyweight)" sportID="S10" discID="D13" participation="individual"/>
+   <event eventID="E411" eventName="82 - 90kg (light-heavyweight)" sportID="S47" discID="D69" participation="individual"/>
+   <event eventID="E412" eventName="82 - 90kg (light-heavyweight)" sportID="S47" discID="D70" participation="individual"/>
+   <event eventID="E413" eventName="82.5 - 90kg, total (middle-heavyweight)" sportID="S46" discID="D68" participation="individual"/>
+   <event eventID="E414" eventName="83 - 91kg, total (middle-heavyweight)" sportID="S46" discID="D68" participation="individual"/>
+   <event eventID="E415" eventName="84 - 96kg" sportID="S47" discID="D69" participation="individual"/>
+   <event eventID="E416" eventName="84 - 96kg" sportID="S47" discID="D70" participation="individual"/>
+   <event eventID="E417" eventName="85 - 97kg" sportID="S47" discID="D69" participation="individual"/>
+   <event eventID="E418" eventName="85 - 97kg" sportID="S47" discID="D70" participation="individual"/>
+   <event eventID="E419" eventName="85kg" sportID="S46" discID="D68" participation="individual"/>
+   <event eventID="E420" eventName="86 - 95kg (half-heavyweight)" sportID="S25" discID="D35" participation="individual"/>
+   <event eventID="E421" eventName="87 - 97kg (light-heavyweight)" sportID="S47" discID="D69" participation="individual"/>
+   <event eventID="E422" eventName="87 - 97kg (light-heavyweight)" sportID="S47" discID="D70" participation="individual"/>
+   <event eventID="E423" eventName="880y freestyle (804.66m)" sportID="S1" discID="D56" participation="individual"/>
+   <event eventID="E424" eventName="8m" sportID="S34" discID="D48" participation="individual"/>
+   <event eventID="E425" eventName="8m (rating 1907)" sportID="S34" discID="D48" participation="individual"/>
+   <event eventID="E426" eventName="8m (rating 1919)" sportID="S34" discID="D48" participation="individual"/>
+   <event eventID="E427" eventName="8m class C" sportID="S45" discID="D66" participation="individual"/>
+   <event eventID="E428" eventName="90 - 100kg (half-heavyweight)" sportID="S25" discID="D35" participation="individual"/>
+   <event eventID="E429" eventName="90 - 100kg (heavyweight)" sportID="S47" discID="D69" participation="individual"/>
+   <event eventID="E430" eventName="90 - 100kg (heavyweight)" sportID="S47" discID="D70" participation="individual"/>
+   <event eventID="E431" eventName="90 - 100kg, total (first-heavyweight)" sportID="S46" discID="D68" participation="individual"/>
+   <event eventID="E432" eventName="91 - 110kg, total (heavyweight)" sportID="S46" discID="D68" participation="individual"/>
+   <event eventID="E433" eventName="91 - 99kg, total (first-heavyweight)" sportID="S46" discID="D68" participation="individual"/>
+   <event eventID="E434" eventName="94kg" sportID="S46" discID="D68" participation="individual"/>
+   <event eventID="E435" eventName="96 - 120kg" sportID="S47" discID="D69" participation="individual"/>
+   <event eventID="E436" eventName="96 - 120kg" sportID="S47" discID="D70" participation="individual"/>
+   <event eventID="E437" eventName="97 - 130kg" sportID="S47" discID="D69" participation="individual"/>
+   <event eventID="E438" eventName="97 - 130kg" sportID="S47" discID="D70" participation="individual"/>
+   <event eventID="E439" eventName="99 - 108kg, total (heavyweight)" sportID="S46" discID="D68" participation="individual"/>
+   <event eventID="E440" eventName="aerials" sportID="S37" discID="D71" participation="individual"/>
+   <event eventID="E441" eventName="all-around Dumbbell contest" sportID="S46" discID="D68" participation="individual"/>
+   <event eventID="E442" eventName="Alpine combined" sportID="S37" discID="D1" participation="individual"/>
+   <event eventID="E443" eventName="army rifle, 200m" sportID="S35" discID="D49" participation="individual"/>
+   <event eventID="E444" eventName="army rifle, 300m" sportID="S35" discID="D49" participation="individual"/>
+   <event eventID="E445" eventName="army rifle, 300m, 3 positions" sportID="S35" discID="D49" participation="individual"/>
+   <event eventID="E446" eventName="army rifle, 300m, kneeling" sportID="S35" discID="D49" participation="individual"/>
+   <event eventID="E447" eventName="army rifle, 300m, prone" sportID="S35" discID="D49" participation="individual"/>
+   <event eventID="E448" eventName="army rifle, 300m, standing" sportID="S35" discID="D49" participation="individual"/>
+   <event eventID="E449" eventName="au chapelet, 33m" sportID="S2" discID="D2" participation="individual"/>
+   <event eventID="E450" eventName="au chapelet, 50m" sportID="S2" discID="D2" participation="individual"/>
+   <event eventID="E451" eventName="au cordon dore, 33m" sportID="S2" discID="D2" participation="individual"/>
+   <event eventID="E452" eventName="au cordon dore, 50m" sportID="S2" discID="D2" participation="individual"/>
+   <event eventID="E453" eventName="balance beam" sportID="S20" discID="D3" participation="individual"/>
+   <event eventID="E454" eventName="baseball" sportID="S5" discID="D6" participation="team"/>
+   <event eventID="E455" eventName="basketball" sportID="S6" discID="D7" participation="team"/>
+   <event eventID="E456" eventName="beach volleyball" sportID="S44" discID="D9" participation="team"/>
+   <event eventID="E457" eventName="board (division II)" sportID="S34" discID="D48" participation="individual"/>
+   <event eventID="E458" eventName="board (lechner)" sportID="S34" discID="D48" participation="individual"/>
+   <event eventID="E459" eventName="board (Mistral)" sportID="S34" discID="D48" participation="individual"/>
+   <event eventID="E460" eventName="board (windglider)" sportID="S34" discID="D48" participation="individual"/>
+   <event eventID="E461" eventName="C-1 (canoe single)" sportID="S11" discID="D15" participation="individual"/>
+   <event eventID="E462" eventName="C-1 10000m" sportID="S11" discID="D14" participation="individual"/>
+   <event eventID="E463" eventName="C-1 1000m (canoe single)" sportID="S11" discID="D14" participation="individual"/>
+   <event eventID="E464" eventName="C-1 500m (canoe single)" sportID="S11" discID="D14" participation="individual"/>
+   <event eventID="E465" eventName="C-2 (canoe double)" sportID="S11" discID="D15" participation="duo"/>
+   <event eventID="E466" eventName="C-2 10000m" sportID="S11" discID="D14" participation="duo"/>
+   <event eventID="E467" eventName="C-2 1000m (canoe double)" sportID="S11" discID="D14" participation="duo"/>
+   <event eventID="E468" eventName="C-2 500m (canoe double)" sportID="S11" discID="D14" participation="duo"/>
+   <event eventID="E469" eventName="cesta punta" sportID="S7" discID="D8" participation="individual"/>
+   <event eventID="E470" eventName="class B up to 60 feet" sportID="S45" discID="D66" participation="individual"/>
+   <event eventID="E471" eventName="clay pigeons, team" sportID="S35" discID="D49" participation="individual"/>
+   <event eventID="E472" eventName="club swinging" sportID="S20" discID="D3" participation="individual"/>
+   <event eventID="E473" eventName="Combined (4 events)" sportID="S36" discID="D55" participation="individual"/>
+   <event eventID="E474" eventName="Combined 10km + 15km pursuit" sportID="S37" discID="D18" participation="individual"/>
+   <event eventID="E475" eventName="Combined 15 + 15km mass start" sportID="S37" discID="D18" participation="duo"/>
+   <event eventID="E476" eventName="combined 3 events" sportID="S20" discID="D3" participation="individual"/>
+   <event eventID="E477" eventName="combined 4 events" sportID="S20" discID="D3" participation="individual"/>
+   <event eventID="E478" eventName="Combined 5km + 10km pursuit" sportID="S37" discID="D18" participation="individual"/>
+   <event eventID="E479" eventName="Combined 7.5 + 7.5km mass start" sportID="S37" discID="D18" participation="duo"/>
+   <event eventID="E480" eventName="continental style 50m" sportID="S2" discID="D2" participation="individual"/>
+   <event eventID="E481" eventName="coxed fours Jugriggers" sportID="S32" discID="D46" participation="individual"/>
+   <event eventID="E482" eventName="coxless four (4-)" sportID="S32" discID="D46" participation="team"/>
+   <event eventID="E483" eventName="coxless pair (2-)" sportID="S32" discID="D46" participation="duo"/>
+   <event eventID="E484" eventName="cricket" sportID="S12" discID="D16" participation="team"/>
+   <event eventID="E485" eventName="cross country individual" sportID="S3" discID="D4" participation="individual"/>
+   <event eventID="E486" eventName="cross country team" sportID="S3" discID="D4" participation="team"/>
+   <event eventID="E487" eventName="cross-country" sportID="S15" discID="D40" participation="individual"/>
+   <event eventID="E488" eventName="curling" sportID="S14" discID="D19" participation="team"/>
+   <event eventID="E489" eventName="decathlon" sportID="S3" discID="D4" participation="individual"/>
+   <event eventID="E490" eventName="discus throw" sportID="S3" discID="D4" participation="individual"/>
+   <event eventID="E491" eventName="discus throw ancient style" sportID="S3" discID="D4" participation="individual"/>
+   <event eventID="E492" eventName="discus throw, both hands" sportID="S3" discID="D4" participation="individual"/>
+   <event eventID="E493" eventName="double" sportID="S13" discID="D17" participation="individual"/>
+   <event eventID="E494" eventName="double" sportID="S30" discID="D43" participation="individual"/>
+   <event eventID="E495" eventName="double american round (60y - 50y - 40y)" sportID="S2" discID="D2" participation="individual"/>
+   <event eventID="E496" eventName="double columbia round (50y - 40y - 30y)" sportID="S2" discID="D2" participation="individual"/>
+   <event eventID="E497" eventName="double national round (60y - 50y)" sportID="S2" discID="D2" participation="individual"/>
+   <event eventID="E498" eventName="double sculls (2x)" sportID="S32" discID="D46" participation="duo"/>
+   <event eventID="E499" eventName="double trap (120 targets)" sportID="S35" discID="D49" participation="individual"/>
+   <event eventID="E500" eventName="double trap (150 targets)" sportID="S35" discID="D49" participation="individual"/>
+   <event eventID="E501" eventName="double york round (100y - 80y - 60y)" sportID="S2" discID="D2" participation="individual"/>
+   <event eventID="E503" eventName="doubles" sportID="S27" discID="D38" participation="duo"/>
+   <event eventID="E504" eventName="doubles" sportID="S39" discID="D58" participation="duo"/>
+   <event eventID="E502" eventName="doubles" sportID="S4" discID="D5" participation="duo"/>
+   <event eventID="E505" eventName="doubles" sportID="S41" discID="D60" participation="duo"/>
+   <event eventID="E506" eventName="doubles indoor" sportID="S41" discID="D60" participation="duo"/>
+   <event eventID="E507" eventName="downhill" sportID="S37" discID="D1" participation="individual"/>
+   <event eventID="E508" eventName="dragon" sportID="S34" discID="D48" participation="duo"/>
+   <event eventID="E509" eventName="duet" sportID="S1" discID="D57" participation="duo"/>
+   <event eventID="E510" eventName="eight with coxswain (8+)" sportID="S32" discID="D46" participation="team"/>
+   <event eventID="E511" eventName="epee individual" sportID="S17" discID="D25" participation="individual"/>
+   <event eventID="E512" eventName="epee team" sportID="S17" discID="D25" participation="team"/>
+   <event eventID="E513" eventName="epee, amateurs and masters" sportID="S17" discID="D25" participation="individual"/>
+   <event eventID="E514" eventName="epee, masters" sportID="S17" discID="D25" participation="individual"/>
+   <event eventID="E515" eventName="figure riding individual" sportID="S16" discID="D64" participation="individual"/>
+   <event eventID="E516" eventName="figure riding team" sportID="S16" discID="D64" participation="team"/>
+   <event eventID="E517" eventName="Finn - Heavyweight Dinghy" sportID="S34" discID="D48" participation="individual"/>
+   <event eventID="E518" eventName="firefly class" sportID="S34" discID="D48" participation="team"/>
+   <event eventID="E519" eventName="five-man" sportID="S9" discID="D12" participation="team"/>
+   <event eventID="E520" eventName="fixed bird target large birds" sportID="S2" discID="D2" participation="individual"/>
+   <event eventID="E521" eventName="fixed bird target large birds teams" sportID="S2" discID="D2" participation="individual"/>
+   <event eventID="E522" eventName="fixed bird target small bird, teams" sportID="S2" discID="D2" participation="individual"/>
+   <event eventID="E523" eventName="fixed bird target small birds" sportID="S2" discID="D2" participation="individual"/>
+   <event eventID="E524" eventName="fleet/match race keelboat open (Soling)" sportID="S34" discID="D48" participation="individual"/>
+   <event eventID="E525" eventName="floor exercises" sportID="S20" discID="D3" participation="individual"/>
+   <event eventID="E526" eventName="flying dutchman" sportID="S34" discID="D48" participation="team"/>
+   <event eventID="E527" eventName="foil individual" sportID="S17" discID="D25" participation="individual"/>
+   <event eventID="E528" eventName="foil team" sportID="S17" discID="D25" participation="team"/>
+   <event eventID="E529" eventName="foil, masters" sportID="S17" discID="D25" participation="individual"/>
+   <event eventID="E530" eventName="folding K-1 10000m" sportID="S11" discID="D14" participation="individual"/>
+   <event eventID="E531" eventName="folding K-2 10000m" sportID="S11" discID="D14" participation="individual"/>
+   <event eventID="E532" eventName="football" sportID="S18" discID="D28" participation="team"/>
+   <event eventID="E533" eventName="four without coxswain (4-)" sportID="S32" discID="D46" participation="team"/>
+   <event eventID="E534" eventName="four-man" sportID="S9" discID="D12" participation="team"/>
+   <event eventID="E535" eventName="four-oared shell with coxswain (4-)" sportID="S32" discID="D46" participation="team"/>
+   <event eventID="E536" eventName="free rifle, team" sportID="S35" discID="D49" participation="team"/>
+   <event eventID="E537" eventName="Giant parallel slalom" sportID="S37" discID="D53" participation="individual"/>
+   <event eventID="E538" eventName="giant slalom" sportID="S37" discID="D1" participation="individual"/>
+   <event eventID="E539" eventName="giant-slalom" sportID="S37" discID="D53" participation="individual"/>
+   <event eventID="E540" eventName="group competition" sportID="S20" discID="D44" participation="team"/>
+   <event eventID="E541" eventName="Half-pipe" sportID="S37" discID="D53" participation="individual"/>
+   <event eventID="E542" eventName="hammer throw" sportID="S3" discID="D4" participation="individual"/>
+   <event eventID="E543" eventName="handball" sportID="S21" discID="D30" participation="team"/>
+   <event eventID="E544" eventName="heavyweight - one hand lift" sportID="S46" discID="D68" participation="individual"/>
+   <event eventID="E545" eventName="heavyweight - two hand lift" sportID="S46" discID="D68" participation="individual"/>
+   <event eventID="E546" eventName="heptathlon" sportID="S3" discID="D4" participation="individual"/>
+   <event eventID="E548" eventName="high jump" sportID="S16" discID="D36" participation="individual"/>
+   <event eventID="E547" eventName="high jump" sportID="S3" discID="D4" participation="individual"/>
+   <event eventID="E549" eventName="high jump, standing" sportID="S3" discID="D4" participation="individual"/>
+   <event eventID="E550" eventName="hockey" sportID="S22" discID="D31" participation="team"/>
+   <event eventID="E551" eventName="horizontal bar" sportID="S20" discID="D3" participation="individual"/>
+   <event eventID="E552" eventName="ice dancing" sportID="S36" discID="D26" participation="duo"/>
+   <event eventID="E553" eventName="ice hockey" sportID="S23" discID="D32" participation="team"/>
+   <event eventID="E554" eventName="indian clubs" sportID="S20" discID="D3" participation="individual"/>
+   <event eventID="E555" eventName="Individual" sportID="S15" discID="D11" participation="individual"/>
+   <event eventID="E556" eventName="Individual" sportID="S16" discID="D23" participation="individual"/>
+   <event eventID="E557" eventName="Individual" sportID="S16" discID="D24" participation="individual"/>
+   <event eventID="E558" eventName="Individual" sportID="S16" discID="D36" participation="individual"/>
+   <event eventID="E559" eventName="Individual" sportID="S19" discID="D29" participation="individual"/>
+   <event eventID="E560" eventName="Individual" sportID="S20" discID="D61" participation="individual"/>
+   <event eventID="E561" eventName="Individual" sportID="S24" discID="D34" participation="individual"/>
+   <event eventID="E563" eventName="Individual" sportID="S30" discID="D43" participation="individual"/>
+   <event eventID="E564" eventName="Individual" sportID="S31" discID="D45" participation="individual"/>
+   <event eventID="E565" eventName="Individual" sportID="S36" discID="D26" participation="individual"/>
+   <event eventID="E562" eventName="Individual" sportID="S37" discID="D41" participation="individual"/>
+   <event eventID="E567" eventName="Individual" sportID="S42" discID="D62" participation="individual"/>
+   <event eventID="E990" eventName="individual" sportID="S9" discID="D12" participation="individual"/>
+   <event eventID="E566" eventName="Individual" sportID="S9" discID="D51" participation="individual"/>
+   <event eventID="E568" eventName="individual (FITA Olympic round - 70m)" sportID="S2" discID="D2" participation="individual"/>
+   <event eventID="E569" eventName="individual 1 ball" sportID="S13" discID="D17" participation="individual"/>
+   <event eventID="E570" eventName="individual 2 balls" sportID="S13" discID="D17" participation="individual"/>
+   <event eventID="E571" eventName="individual all-round" sportID="S20" discID="D3" participation="individual"/>
+   <event eventID="E572" eventName="individual all-round" sportID="S20" discID="D44" participation="individual"/>
+   <event eventID="E573" eventName="Individual competition" sportID="S28" discID="D39" participation="individual"/>
+   <event eventID="E574" eventName="individual FITA round" sportID="S2" discID="D2" participation="individual"/>
+   <event eventID="E575" eventName="Individual Pursuit" sportID="S15" discID="D21" participation="individual"/>
+   <event eventID="E576" eventName="individual road race" sportID="S15" discID="D20" participation="individual"/>
+   <event eventID="E577" eventName="Individual sprint" sportID="S37" discID="D41" participation="individual"/>
+   <event eventID="E578" eventName="individual time trial" sportID="S15" discID="D20" participation="individual"/>
+   <event eventID="E579" eventName="javelin throw" sportID="S3" discID="D4" participation="individual"/>
+   <event eventID="E580" eventName="javelin throw freestyle" sportID="S3" discID="D4" participation="individual"/>
+   <event eventID="E581" eventName="javelin throw, both hands" sportID="S3" discID="D4" participation="individual"/>
+   <event eventID="E582" eventName="K-1 (kayak single)" sportID="S11" discID="D15" participation="individual"/>
+   <event eventID="E583" eventName="K-1 10000m" sportID="S11" discID="D14" participation="individual"/>
+   <event eventID="E584" eventName="K-1 1000m (kayak single)" sportID="S11" discID="D14" participation="individual"/>
+   <event eventID="E585" eventName="K-1 4x500m" sportID="S11" discID="D14" participation="individual"/>
+   <event eventID="E586" eventName="K-1 500m (kayak single)" sportID="S11" discID="D14" participation="individual"/>
+   <event eventID="E587" eventName="K120 individual (90m)" sportID="S37" discID="D52" participation="individual"/>
+   <event eventID="E588" eventName="K120 team (90m)" sportID="S37" discID="D52" participation="team"/>
+   <event eventID="E589" eventName="K-2 10000m" sportID="S11" discID="D14" participation="individual"/>
+   <event eventID="E590" eventName="K-2 1000m (kayak double)" sportID="S11" discID="D14" participation="duo"/>
+   <event eventID="E591" eventName="K-2 500m (kayak double)" sportID="S11" discID="D14" participation="duo"/>
+   <event eventID="E592" eventName="K-4 1000m (kayak four)" sportID="S11" discID="D14" participation="team"/>
+   <event eventID="E593" eventName="K-4 500m (kayak four)" sportID="S11" discID="D14" participation="team"/>
+   <event eventID="E594" eventName="K90 individual (70m)" sportID="S37" discID="D52" participation="individual"/>
+   <event eventID="E595" eventName="Keirin" sportID="S15" discID="D21" participation="individual"/>
+   <event eventID="E596" eventName="lacrosse" sportID="S26" discID="D37" participation="team"/>
+   <event eventID="E597" eventName="Laser - One Person Dinghy" sportID="S34" discID="D48" participation="individual"/>
+   <event eventID="E598" eventName="Laser Radial - One Person Dinghy" sportID="S34" discID="D48" participation="individual"/>
+   <event eventID="E599" eventName="lightweight coxless four (4-)" sportID="S32" discID="D46" participation="team"/>
+   <event eventID="E600" eventName="lightweight double sculls (2x)" sportID="S32" discID="D46" participation="duo"/>
+   <event eventID="E601" eventName="long jump" sportID="S3" discID="D4" participation="individual"/>
+   <event eventID="E602" eventName="long jump individual" sportID="S16" discID="D36" participation="individual"/>
+   <event eventID="E603" eventName="long jump, standing" sportID="S3" discID="D4" participation="individual"/>
+   <event eventID="E604" eventName="Madison" sportID="S15" discID="D21" participation="individual"/>
+   <event eventID="E605" eventName="marathon" sportID="S3" discID="D4" participation="individual"/>
+   <event eventID="E606" eventName="marathon 10km" sportID="S1" discID="D56" participation="individual"/>
+   <event eventID="E607" eventName="military patrol" sportID="S8" discID="D10" participation="individual"/>
+   <event eventID="E608" eventName="mixed doubles" sportID="S41" discID="D60" participation="duo"/>
+   <event eventID="E609" eventName="mixed doubles indoor" sportID="S41" discID="D60" participation="duo"/>
+   <event eventID="E610" eventName="moguls" sportID="S37" discID="D71" participation="individual"/>
+   <event eventID="E611" eventName="moving bird target 28m teams" sportID="S2" discID="D2" participation="individual"/>
+   <event eventID="E612" eventName="moving bird target 33m teams" sportID="S2" discID="D2" participation="individual"/>
+   <event eventID="E613" eventName="moving bird target 50m teams" sportID="S2" discID="D2" participation="individual"/>
+   <event eventID="E614" eventName="moving bird target, 28m" sportID="S2" discID="D2" participation="individual"/>
+   <event eventID="E615" eventName="moving bird target, 33m" sportID="S2" discID="D2" participation="individual"/>
+   <event eventID="E616" eventName="moving bird target, 50m" sportID="S2" discID="D2" participation="individual"/>
+   <event eventID="E617" eventName="national round (60y - 50y)" sportID="S2" discID="D2" participation="individual"/>
+   <event eventID="E618" eventName="olympic class monotype" sportID="S34" discID="D48" participation="individual"/>
+   <event eventID="E619" eventName="Olympic Sprint" sportID="S15" discID="D21" participation="individual"/>
+   <event eventID="E620" eventName="One lap (660y) sprint" sportID="S15" discID="D21" participation="individual"/>
+   <event eventID="E621" eventName="open category" sportID="S25" discID="D35" participation="individual"/>
+   <event eventID="E622" eventName="open class" sportID="S34" discID="D48" participation="team"/>
+   <event eventID="E623" eventName="open class A" sportID="S45" discID="D66" participation="team"/>
+   <event eventID="E624" eventName="open event" sportID="S47" discID="D70" participation="individual"/>
+   <event eventID="E625" eventName="pair without coxswain (2-)" sportID="S32" discID="D46" participation="duo"/>
+   <event eventID="E626" eventName="pair-oared shell with coxswain (2+)" sportID="S32" discID="D46" participation="team"/>
+   <event eventID="E627" eventName="pairs" sportID="S36" discID="D26" participation="duo"/>
+   <event eventID="E628" eventName="parallel bars" sportID="S20" discID="D3" participation="individual"/>
+   <event eventID="E629" eventName="pentathlon" sportID="S3" discID="D4" participation="individual"/>
+   <event eventID="E630" eventName="plain high diving" sportID="S1" discID="D22" participation="individual"/>
+   <event eventID="E631" eventName="plunge for distance" sportID="S1" discID="D22" participation="individual"/>
+   <event eventID="E632" eventName="Points Race" sportID="S15" discID="D21" participation="individual"/>
+   <event eventID="E633" eventName="pole vault" sportID="S3" discID="D4" participation="individual"/>
+   <event eventID="E634" eventName="polo" sportID="S29" discID="D42" participation="team"/>
+   <event eventID="E635" eventName="pommel horse" sportID="S20" discID="D3" participation="individual"/>
+   <event eventID="E636" eventName="quadruple sculls with coxswain (4x)" sportID="S32" discID="D46" participation="team"/>
+   <event eventID="E637" eventName="quadruple sculls without coxswain (4x)" sportID="S32" discID="D46" participation="team"/>
+   <event eventID="E638" eventName="rifle, team" sportID="S35" discID="D49" participation="team"/>
+   <event eventID="E639" eventName="rings" sportID="S20" discID="D3" participation="individual"/>
+   <event eventID="E640" eventName="rope climbing" sportID="S20" discID="D3" participation="individual"/>
+   <event eventID="E641" eventName="RS:X - Windsurfer" sportID="S34" discID="D48" participation="individual"/>
+   <event eventID="E642" eventName="rugby" sportID="S33" discID="D47" participation="team"/>
+   <event eventID="E643" eventName="sabre individual" sportID="S17" discID="D25" participation="individual"/>
+   <event eventID="E644" eventName="sabre team" sportID="S17" discID="D25" participation="team"/>
+   <event eventID="E645" eventName="sabre, masters" sportID="S17" discID="D25" participation="individual"/>
+   <event eventID="E646" eventName="sharpie 12m2" sportID="S34" discID="D48" participation="individual"/>
+   <event eventID="E647" eventName="shot put" sportID="S3" discID="D4" participation="individual"/>
+   <event eventID="E648" eventName="shot put, both hands" sportID="S3" discID="D4" participation="individual"/>
+   <event eventID="E649" eventName="Sidehorse vault" sportID="S20" discID="D3" participation="individual"/>
+   <event eventID="E650" eventName="single sculls (1x)" sportID="S32" discID="D46" participation="individual"/>
+   <event eventID="E651" eventName="single-handed dinghy (Europe)" sportID="S34" discID="D48" participation="individual"/>
+   <event eventID="E652" eventName="single-handed dinghy (Finn)" sportID="S34" discID="D48" participation="individual"/>
+   <event eventID="E653" eventName="single-handed dinghy open (Laser)" sportID="S34" discID="D48" participation="individual"/>
+   <event eventID="E655" eventName="singles" sportID="S27" discID="D38" participation="individual"/>
+   <event eventID="E656" eventName="singles" sportID="S39" discID="D58" participation="individual"/>
+   <event eventID="E654" eventName="singles" sportID="S4" discID="D5" participation="individual"/>
+   <event eventID="E657" eventName="singles" sportID="S41" discID="D60" participation="individual"/>
+   <event eventID="E658" eventName="singles indoor" sportID="S41" discID="D60" participation="individual"/>
+   <event eventID="E659" eventName="skeet (125 targets)" sportID="S35" discID="D49" participation="individual"/>
+   <event eventID="E660" eventName="skeet (75 targets)" sportID="S35" discID="D49" participation="individual"/>
+   <event eventID="E661" eventName="slalom" sportID="S37" discID="D1" participation="individual"/>
+   <event eventID="E662" eventName="Snowboard Cross" sportID="S37" discID="D53" participation="individual"/>
+   <event eventID="E663" eventName="softball" sportID="S38" discID="D54" participation="team"/>
+   <event eventID="E664" eventName="solo" sportID="S1" discID="D57" participation="individual"/>
+   <event eventID="E665" eventName="special figures" sportID="S36" discID="D26" participation="individual"/>
+   <event eventID="E666" eventName="sprint" sportID="S15" discID="D21" participation="individual"/>
+   <event eventID="E667" eventName="sprint 1.5km" sportID="S37" discID="D18" participation="individual"/>
+   <event eventID="E668" eventName="Sprint individual" sportID="S15" discID="D21" participation="individual"/>
+   <event eventID="E669" eventName="Star - Keelboat" sportID="S34" discID="D48" participation="duo"/>
+   <event eventID="E670" eventName="stick, single" sportID="S17" discID="D25" participation="individual"/>
+   <event eventID="E671" eventName="super-G" sportID="S37" discID="D1" participation="individual"/>
+   <event eventID="E672" eventName="sur la perche Ã  la herse" sportID="S2" discID="D2" participation="individual"/>
+   <event eventID="E673" eventName="sur la perche Ã  la pyramide" sportID="S2" discID="D2" participation="individual"/>
+   <event eventID="E674" eventName="swallow (golondrina)" sportID="S34" discID="D48" participation="individual"/>
+   <event eventID="E675" eventName="synchronized diving 10m platform" sportID="S1" discID="D22" participation="duo"/>
+   <event eventID="E676" eventName="synchronized diving 3m springboard" sportID="S1" discID="D22" participation="duo"/>
+   <event eventID="E677" eventName="team" sportID="S1" discID="D57" participation="team"/>
+   <event eventID="E678" eventName="team" sportID="S16" discID="D23" participation="team"/>
+   <event eventID="E679" eventName="team" sportID="S16" discID="D24" participation="team"/>
+   <event eventID="E680" eventName="team" sportID="S16" discID="D36" participation="team"/>
+   <event eventID="E681" eventName="team" sportID="S19" discID="D29" participation="team"/>
+   <event eventID="E682" eventName="team" sportID="S37" discID="D41" participation="team"/>
+   <event eventID="E683" eventName="team" sportID="S39" discID="D58" participation="team"/>
+   <event eventID="E684" eventName="team (FITA Olympic round - 70m)" sportID="S2" discID="D2" participation="team"/>
+   <event eventID="E685" eventName="Team competition" sportID="S20" discID="D3" participation="team"/>
+   <event eventID="E686" eventName="Team competition" sportID="S28" discID="D39" participation="team"/>
+   <event eventID="E687" eventName="Team pursuit" sportID="S36" discID="D55" participation="team"/>
+   <event eventID="E688" eventName="Team Pursuit (4000m)" sportID="S15" discID="D21" participation="team"/>
+   <event eventID="E689" eventName="team round 60y" sportID="S2" discID="D2" participation="team"/>
+   <event eventID="E690" eventName="Team sprint" sportID="S15" discID="D21" participation="team"/>
+   <event eventID="E691" eventName="Team sprint" sportID="S37" discID="D18" participation="team"/>
+   <event eventID="E692" eventName="team time trial" sportID="S15" discID="D20" participation="team"/>
+   <event eventID="E693" eventName="team, free system" sportID="S20" discID="D3" participation="team"/>
+   <event eventID="E694" eventName="team, horizontal bar" sportID="S20" discID="D3" participation="team"/>
+   <event eventID="E695" eventName="team, parallel bars" sportID="S20" discID="D3" participation="team"/>
+   <event eventID="E696" eventName="team, portable apparatus" sportID="S20" discID="D3" participation="team"/>
+   <event eventID="E697" eventName="team, Swedish system" sportID="S20" discID="D3" participation="team"/>
+   <event eventID="E698" eventName="teams FITA round" sportID="S2" discID="D2" participation="team"/>
+   <event eventID="E699" eventName="tempest" sportID="S34" discID="D48" participation="team"/>
+   <event eventID="E700" eventName="Tornado - Multihull" sportID="S34" discID="D48" participation="individual"/>
+   <event eventID="E701" eventName="trap (125 targets)" sportID="S35" discID="D49" participation="individual"/>
+   <event eventID="E702" eventName="trap (75 targets)" sportID="S35" discID="D49" participation="individual"/>
+   <event eventID="E703" eventName="triathlon (long jump / shot put / 100 yards)" sportID="S3" discID="D4" participation="individual"/>
+   <event eventID="E704" eventName="triple jump" sportID="S3" discID="D4" participation="individual"/>
+   <event eventID="E705" eventName="triple jump, standing" sportID="S3" discID="D4" participation="individual"/>
+   <event eventID="E706" eventName="tug of war" sportID="S43" discID="D63" participation="team"/>
+   <event eventID="E707" eventName="tumbling" sportID="S20" discID="D3" participation="individual"/>
+   <event eventID="E708" eventName="two-man" sportID="S9" discID="D12" participation="duo"/>
+   <event eventID="E709" eventName="two-person keelboat open (Star)" sportID="S34" discID="D48" participation="duo"/>
+   <event eventID="E710" eventName="underwater swimming" sportID="S1" discID="D56" participation="individual"/>
+   <event eventID="E711" eventName="uneven bars" sportID="S20" discID="D3" participation="individual"/>
+   <event eventID="E712" eventName="vault" sportID="S20" discID="D3" participation="individual"/>
+   <event eventID="E713" eventName="volleyball" sportID="S44" discID="D65" participation="team"/>
+   <event eventID="E714" eventName="water polo" sportID="S1" discID="D67" participation="team"/>
+   <event eventID="E715" eventName="Yngling - Keelboat" sportID="S34" discID="D48" participation="individual"/>
+   <event eventID="E716" eventName="york round (100y - 80y - 60y)" sportID="S2" discID="D2" participation="individual"/>
+</events>

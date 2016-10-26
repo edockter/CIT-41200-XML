@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!-- 
+   New Perspectives on XML
+   Tutorial 4
+   Case Problem 2
+   Chester's Restaurant oatmeal
+
+   Author:    Eric Dockter
+   Date:      10/20/2016
+
+   Filename:         menu.xml
+   Supporting Files: menu.css, menu.xsd, recipe.css, recipe.xsd
+-->
+
+<menuItem xmlns="http://example.com/chestershartland/menu">
+   <itemName>Oatmeal Breakfast</itemName>
+   <description>
+   <![CDATA[Our oatmeal is served warm with fresh fruit, pecans, raisins,
+      and 100% maple syrup. Available all day.
+   ]]>
+   </description>
+   <price>6.95</price>
+   <icon>&#9824;</icon>  
+   <icon>&#9829;</icon>
+   
+</menuItem>
+

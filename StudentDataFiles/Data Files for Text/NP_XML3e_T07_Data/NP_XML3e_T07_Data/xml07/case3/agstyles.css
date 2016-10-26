@@ -1,0 +1,114 @@
+/*
+   New Perspectives on XML, 3rd Edition
+   Tutorial 7
+   Case Problem 2
+
+   Asian Gardens style sheet
+  
+
+   Filename:         agstyles.css
+   Supporting Files: none
+
+*/
+
+/* Default styles */
+
+* {
+   margin: 0px;
+}
+
+header, section, article {
+   display: block;
+}
+
+
+
+/* Body styles */
+body {
+   font-family: Verdana, Geneva, sans-serif;
+   background-color: #fad6a1;
+}
+
+div#wrap {
+   background-color: white;
+   margin: 0px auto;
+   width: 1200px;
+   border-left: 2px solid rgb(151, 151, 151);
+   border-right: 2px solid rgb(151, 151, 151);
+
+   box-shadow: rgb(51, 51, 51) 10px 0px 30px,
+               rgb(51, 51, 51) -10px 0px 30px;
+   padding-bottom: 50px;
+}
+
+
+div#wrap >  h1 {
+   font-size: 2.5em;
+   letter-spacing: 0.12em;
+   font-weight: normal;
+   color: #942923;
+   text-shadow: #fad6a1 1px 1px 1px;
+   padding: 15px 0px;  
+   font-family: 'Century Gothic', sans-serif;
+   text-align: left;
+   margin-left: 100px;
+}
+
+table.summary {
+   border-collapse: collapse;
+   margin: 5px 0px 0px 100px;
+   border: 2px solid #942923;
+}
+
+table.summary th {
+   font-size: 0.8em;
+   font-weight: normal;
+   padding: 3px;
+}
+
+table.summary thead th {
+    text-align: center;
+    color: rgb(231, 231, 231);
+    background-color: #942923;
+    letter-spacing: 4px;
+}
+
+table.summary tbody th {
+   font-size: 0.7em;
+   text-align: left;
+   border: 1px solid rgb(191, 191, 191);
+   width: 200px;
+   background-color: #fce6b3;
+   padding: 5px;
+}
+
+table.summary td {
+   font-size: 0.7em;
+   text-align: right;
+   border: 1px solid rgb(191, 191, 191);
+   width: 54px;
+   padding: 3px;
+   vertical-align: top;
+}
+
+table.summary tr td:last-of-type {
+   border-left: 5px double rgb(191, 191, 191);
+}
+
+table.summary tfoot tr td, table.summary tfoot tr th {
+   border-top: 5px double rgb(191, 191, 191);
+}
+
+table.summary tfoot th {
+   font-size: 0.8em;
+   text-align: left;
+   border: 1px solid rgb(191, 191, 191);
+   width: 200px;
+   background-color: #fce6b3;
+   padding: 5px;
+}
+
+table.summary tfoot td:last-of-type {
+   background-color: #fce6b3;
+}
+

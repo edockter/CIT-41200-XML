@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+   New Perspectives on XML, 3rd Edition
+   Tutorial 9
+   Case Problem 3
+
+   List of Olympic Disciplines
+
+   Filename:         disciplines.xml
+   Supporting Files: 
+-->
+
+<disciplines>
+   <discipline discID="D1" disciplineName="Alpine Skiing"/>
+   <discipline discID="D2" disciplineName="Archery"/>
+   <discipline discID="D3" disciplineName="Artistic G."/>
+   <discipline discID="D4" disciplineName="Athletics"/>
+   <discipline discID="D5" disciplineName="Badminton"/>
+   <discipline discID="D6" disciplineName="Baseball"/>
+   <discipline discID="D7" disciplineName="Basketball"/>
+   <discipline discID="D8" disciplineName="Basque Pelota"/>
+   <discipline discID="D9" disciplineName="Beach volley."/>
+   <discipline discID="D10" disciplineName="Biathlon"/>
+   <discipline discID="D11" disciplineName="BMX"/>
+   <discipline discID="D12" disciplineName="Bobsleigh"/>
+   <discipline discID="D13" disciplineName="Boxing"/>
+   <discipline discID="D14" disciplineName="Canoe / Kayak F"/>
+   <discipline discID="D15" disciplineName="Canoe / Kayak S"/>
+   <discipline discID="D16" disciplineName="Cricket"/>
+   <discipline discID="D17" disciplineName="Croquet"/>
+   <discipline discID="D18" disciplineName="Cross Country S"/>
+   <discipline discID="D19" disciplineName="Curling"/>
+   <discipline discID="D20" disciplineName="Cycling Road"/>
+   <discipline discID="D21" disciplineName="Cycling Track"/>
+   <discipline discID="D22" disciplineName="Diving"/>
+   <discipline discID="D23" disciplineName="Dressage"/>
+   <discipline discID="D24" disciplineName="Eventing"/>
+   <discipline discID="D25" disciplineName="Fencing"/>
+   <discipline discID="D26" disciplineName="Figure skating"/>
+   <discipline discID="D28" disciplineName="Football"/>
+   <discipline discID="D71" disciplineName="Freestyle Ski."/>
+   <discipline discID="D29" disciplineName="Golf"/>
+   <discipline discID="D30" disciplineName="Handball"/>
+   <discipline discID="D31" disciplineName="Hockey"/>
+   <discipline discID="D32" disciplineName="Ice Hockey"/>
+   <discipline discID="D34" disciplineName="Jeu de paume"/>
+   <discipline discID="D35" disciplineName="Judo"/>
+   <discipline discID="D36" disciplineName="Jumping"/>
+   <discipline discID="D37" disciplineName="Lacrosse"/>
+   <discipline discID="D38" disciplineName="Luge"/>
+   <discipline discID="D39" disciplineName="Modern Pentath."/>
+   <discipline discID="D40" disciplineName="Mountain Bike"/>
+   <discipline discID="D41" disciplineName="Nordic Combined"/>
+   <discipline discID="D42" disciplineName="Polo"/>
+   <discipline discID="D43" disciplineName="Rackets"/>
+   <discipline discID="D44" disciplineName="Rhythmic G."/>
+   <discipline discID="D45" disciplineName="Roque"/>
+   <discipline discID="D46" disciplineName="Rowing"/>
+   <discipline discID="D47" disciplineName="Rugby"/>
+   <discipline discID="D48" disciplineName="Sailing"/>
+   <discipline discID="D49" disciplineName="Shooting"/>
+   <discipline discID="D50" disciplineName="Short Track S."/>
+   <discipline discID="D51" disciplineName="Skeleton"/>
+   <discipline discID="D52" disciplineName="Ski Jumping"/>
+   <discipline discID="D53" disciplineName="Snowboard"/>
+   <discipline discID="D54" disciplineName="Softball"/>
+   <discipline discID="D55" disciplineName="Speed skating"/>
+   <discipline discID="D56" disciplineName="Swimming"/>
+   <discipline discID="D57" disciplineName="Synchronized Swim"/>
+   <discipline discID="D58" disciplineName="Table Tennis"/>
+   <discipline discID="D59" disciplineName="Taekwondo"/>
+   <discipline discID="D60" disciplineName="Tennis"/>
+   <discipline discID="D61" disciplineName="Trampoline"/>
+   <discipline discID="D62" disciplineName="Triathlon"/>
+   <discipline discID="D63" disciplineName="Tug of War"/>
+   <discipline discID="D64" disciplineName="Vaulting"/>
+   <discipline discID="D65" disciplineName="Volleyball"/>
+   <discipline discID="D66" disciplineName="Water Motorsports"/>
+   <discipline discID="D67" disciplineName="Water Polo"/>
+   <discipline discID="D68" disciplineName="Weightlifting"/>
+   <discipline discID="D69" disciplineName="Wrestling Free."/>
+   <discipline discID="D70" disciplineName="Wrestling Gre-R"/>
+</disciplines>

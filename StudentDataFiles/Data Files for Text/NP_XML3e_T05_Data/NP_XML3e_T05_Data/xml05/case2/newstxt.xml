@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+   New Perspectives on XML 3rd Edition
+   Tutorial 5
+   Case Problem 2
+
+   Twin Life News Feed
+   Author: 
+   Date:   
+
+   Filename:         news.xml
+   Supporting Files: feed.xsl, feedstyles.css
+
+-->
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" 
+                   xmlns:story="http://example.com/news/" 
+                   xmlns:media="http://example.com/media/">
+   <channel>
+      <title>Twin Life News Feed</title>
+      <description>You are viewing a feed that contains frequently updated content.
+        Receive notifications on updates to this feed by subscribing to
+        Twin Life News. Updated information from the feed is 
+        automatically downloaded to your computer and can be viewed in 
+        your browser.
+      </description>
+     <link>http://twinlife.example.com/news.html</link>
+     <atom:link rel="self" href="http://twinlife.example.com/news.html" />
+     <lastBuildDate>Mon, 13 Feb 2017 03:30:11 +0000</lastBuildDate>
+     <language>en-us</language>
+     <item>
+        <title>Multiple Births on the Increase</title>
+        <link>article128.html</link>
+        <guid isPermaLink="false">article128</guid>
+        <description><![CDATA[<p><b>Incidences of multiple birth pregnancies 
+         have increased by 8% in the past 10 years.</b> The increase has been 
+         attributed to later pregnancies by working mothers, which are more 
+         likely to result in twin births and the increased use of fertility 
+         drugs. "Twins and even triplet births are much more common these 
+         days, " says nurse Denise Schoeder of St. Judes hospital in Beaverton, 
+         Illinois. "Fortunately we are much better equipped to handle the 
+         special complications that arise with these type of pregnancies than 
+         we were, even five years ago." Statistics bear this out. Complications 
+         resulting from low birthweight babies (a common occurence with 
+         multiple births) are down 25% in the past ten years.</p><p>In 
+         Dade County, Florida, two quadruplets have been born in the past 
+         18 months. "I think we'll need to increase the size of our marternity 
+         ward if this keeps up," says Dr. Lawrence Jacobs of Miami Community 
+         Hospital.</p>]]></description>
+        <story:author>Miriam Lasker, PhD</story:author>
+        <story:subhead>Dr. Miriam Lasker reports on the increase in
+         multiple births</story:subhead>
+        <story:departments>Current Events</story:departments>
+        <story:tags>news, births, statistics</story:tags>
+        <category>News</category>
+        <pubDate>Tue, 07 Feb 2017 11:48:11 +0000</pubDate>
+     </item>
+     <item>
+        <title>Twins and Talking</title>
+        <link>article127.html</link>
+        <guid isPermaLink="false">article127</guid>
+        <description><![CDATA[<p><b>Communication occurs long before speech.</b> 
+         Babies communicate with their parents through crying, laughter, 
+         smiling and pointing. The attentive parent quickly becomes 
+         attuned to this "non-speech" communication. At some point, usually 
+         in the second year of life, babies will begin to add a single 
+         words to these acts of expression. A baby will point to a cup 
+         and say, "drink." The names "Mama" and "Dada" are among the 
+         first out of the baby's mouth.</p><p>As the child gets older, 
+         he or she will add new words to these expressions and will begin 
+         to use words in combination: "get drink me." The parents provide 
+         visually and audio feedback to the child, encouraging the development 
+         of the speech process. Through a process called "echoing", parents 
+         will naturally repeat what their child says, proving an important 
+         confirmation that what the child has said has been heard and 
+         understood.</p><p>With twins, the situation may be slightly different. 
+         Often parents cannot provide the one-to-one feedback that single 
+         children routinely enjoy. It may be that the one most often listing 
+         to the twin and providing feedback is the other twin.</p>]]></description>
+        <story:author>Peter Kuhlman, PhD, Hughes Medical</story:author>
+        <story:subhead>Dr. Peter Kuhlman explores twin communication.</story:subhead>
+        <story:departments>Features</story:departments>
+        <story:tags>talking, commmunication, language, development</story:tags>
+        <category>News</category>
+        <pubDate>Thu, 26 Jan 2017 15:23:41 +0000</pubDate>
+     </item>
+     <item>
+        <title>Switching Roles</title>
+        <link>article126.html</link>
+        <guid isPermaLink="false">article126</guid>
+        <description><![CDATA[<p><b>Role playing is a common twin behavior.</b> 
+         One twin will become the leader and the other will become the 
+         follower. One may become the talker and the other, the listener. 
+         In some cases, these roles become permanent and the behavior 
+         associated with those roles become part of the child's personality. 
+         In many other cases however, these roles will be switched on a 
+         periodic basis, leaving their confused parents' heads spinning! 
+         This behavior can be found in other sibling pairs, but it is most 
+         pronounced with twins.</p>]]></description>
+        <story:author>Karen Kerkman, PhD, Hughes Medical</story:author>
+        <story:subhead>Dr. Karen Kerman examines role playing in twins
+         and looks at "role switching."</story:subhead>
+        <story:departments>Features</story:departments>
+        <story:tags>development, behavior</story:tags>
+        <category>News</category>
+        <pubDate>Mon, 23 Jan 2017 09:53:37 +0000</pubDate>
+     </item>
+     <item>
+        <title>Chicago Convention A Great Event</title>
+        <link>article125.html</link>
+        <guid isPermaLink="false">article125</guid>
+        <description><![CDATA[<p><b>The annual meeting of the Midwest 
+         chapter of the Multiple Birth Association was another eagerly 
+         anticipated and much-enjoyed event.</b> Almost 120 parents of twins, 
+         triplets, quadruplets and even-more-plets gathered together at 
+         the Hilton Hotel in downtown Chicago for three days of 
+         information, support and fun. Dr. Brenda Patterson, president 
+         of the Illinois chapter (and a mother of triplets to boot) opened 
+         the proceedings on Friday afternoon with a welcoming speech and 
+         new information on the psychology of multiple births babies. 
+         The speech was fascinating and Twin Life hopes to have a copy of 
+         her talk in an upcoming issue.</p>]]></description>
+        <story:author>Miriam Lasker, PhD</story:author>
+        <story:subhead>Dr. Miriam Lasker reports on the events at the 
+         Midwest convention in Chicago.</story:subhead>
+        <story:departments>News</story:departments>
+        <story:tags>convention, news, current events</story:tags>
+        <category>News</category>
+        <pubDate>Fri, 13 Jan 2017 16:37:21 +0000</pubDate>
+     </item>
+     <item>
+        <title>Twin Tips</title>
+        <link>article124.html</link>
+        <guid isPermaLink="false">article124</guid>
+        <description><![CDATA[<p><i>Dear TT:<br /><br />Dressing 
+         twins alike is considered "cute", however I don't want 
+         my children to be considered objects and I dislike the 
+         confusion that comes from dressing them alike. On the 
+         other hand, it's extra work to shop for two different 
+         styles of clothes all of the time. What do you suggest?
+         <br /><br /> --- D.P. Otomawa, IA</i></p><p>The desire to dress 
+         identical twins alike is almost irresistible, and you're 
+         right, it does save time shopping as well. It's hard to find 
+         clothing in the style, size and price that you want, and 
+         why double your trouble? Consider purchasing clothing that 
+         is similar in style, but not identical. Most clothing 
+         patterns will come in different varieties (blue stripes 
+         versus red stripes, etc.). Purchase these combinations. 
+         Your twins will be dressed similarly, but not exactly alike. 
+         You should also remember to go to resales offered by 
+         your local twins or multiple births organizations. You will 
+         probably be able to make substantial savings compared to 
+         buying the clothes new.</p>]]></description>
+        <story:author>Lucas Lawson, PhD</story:author>
+        <story:subhead>Dr. Lucas Lawson answers your questions on
+         raising twins and multiplies.</story:subhead>
+        <story:departments>Features</story:departments>
+        <story:tags>advice, tips</story:tags>
+        <category>Features</category>
+        <pubDate>Wed, 11 Jan 2017 17:12:18 +0000</pubDate>
+     </item>
+   </channel>
+</rss>

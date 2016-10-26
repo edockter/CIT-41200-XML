@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!--
+   New Perspectives on XML 3rd Edition
+   Tutorial 6
+   Case Problem 3
+
+   Orders from Homes of Dreams
+
+   Author: 
+   Date: 
+   Filename:         hdorders.xml
+   Supporting Files: hdorders.xsl
+
+-->
+
+
+<orders>
+   <order orderID="4122" custID="cust2222" orderDate="11/1/2017" shipping="8.95" tax="6.21">
+      <item itemID="DH007" qty="1" price="74.99" />
+      <item itemID="BD002" qty="3" price="40.99" />
+      <item itemID="BH003" qty="1" price="21.99"/>
+      <item itemID="DR002" qty="1" price="20.99"/>
+      <item itemID="KR009" qty="1" price="53.99" />
+   </order>
+   <order orderID="4121" custID="cust1140" orderDate="10/31/2017" shipping="5.21" tax="2.97">
+      <item itemID="BD001" qty="2" price="33.49" />
+      <item itemID="DR006" qty="1" price="53.28"/>
+   </order>
+   <order orderID="4120" custID="cust2917" orderDate="10/30/2017" shipping="6.14" tax="2.72">
+      <item itemID="KR001" qty="1" price="62.21" />
+      <item itemID="BH004" qty="2" price="18.99" />
+   </order>
+   <order orderID="4119" custID="cust2855" orderDate="10/28/2017" shipping="14.11" tax="19.31">
+      <item itemID="DH004" qty="1" price="279" />
+      <item itemID="BH006" qty="3" price="24.99"/>
+      <item itemID="BD004" qty="2" price="37.24" />
+      <item itemID="DR003" qty="1" price="50.99" />
+   </order>
+   <order orderID="4118" custID="cust2222" orderDate="10/25/2017" shipping="5.37" tax="3.14">
+      <item itemID="DH001" qty="1" price="69.99" />
+      <item itemID="BD001" qty="2" price="33.49" />
+   </order>
+   <order orderID="4117" custID="cust2917" orderDate="10/21/2017" shipping="2.47" tax="2.11">
+      <item itemID="DR001" qty="1" price="69.99" />
+   </order>
+</orders>
