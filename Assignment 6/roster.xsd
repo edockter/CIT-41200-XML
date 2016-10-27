@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+   New Perspectives on XML
+   Tutorial 3
+   Case Problem 3
+   
+   The Save Exotic Animals Trust schema
+   Author:   Eric Dockter
+   Date:     10/26/2016
+   
+   Filename:         roster.xsd
+   Supporting Files: roster.xml
+-->      
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <xs:simpleType name="pType">
+      <xs:restriction base="xs:string">
+         <xs:enumeration value="home" />
+         <xs:enumeration value="cell" />
+         <xs:enumeration value="work" />
+      </xs:restriction>
+   </xs:simpleType>   
+   
+   <xs:complexType name="phoneType">
+      <xs:sequence>
+         <xs:element name="phone">
+            <xs:simpleType>
+               <xs:restriction base="xs:string">
+                  <xs:pattern value="\(\d{3}\) \d{3}-\d{4}" />
+               </xs:restriction>
+            </xs:simpleType>
+         </xs:element>
+      </xs:sequence>
+      <xs:attribute name="type" type="pType" />
+   </xs:complexType>
+   
+   <xs:simpleType name="methodType">
+      <xs:restriction base="xs:string">
+         <xs:enumeration value="Phone" />
+         <xs:enumeration value="Personal" />
+         <xs:enumeration value="Mail" />
+      </xs:restriction>
+   </xs:simpleType>
+   
+   <xs:simpleType name="levelType">
+      <xs:restriction base="xs:string">
+         <xs:enumeration value="founder" />
+         <xs:enumeration value="sponsor" />
+         <xs:enumeration value="patron" />
+         <xs:enumeration value="friendship" />
+      </xs:restriction>
+   </xs:simpleType>
+   
+   <xs:element name="roster">
+      <xs:complexType>         
+         <xs:sequence>
+            <xs:element name="donor" minOccurs="1" maxOccurs="unbounded">
+            </xs:element>
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+   
+   <xs:element name="donor">
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element name="name" type="xs:string" minOccurs="1" />
+            <xs:element name="address" type="xs:string"  minOccurs="1" />
+            <xs:element name="phone" type="phoneType" minOccurs="1" maxOccurs="2" />            
+            <xs:element name="email" type="xs:string" minOccurs="0" />
+            <xs:element name="donation" type="xs:decimal" minOccurs="1" />
+            <xs:element name="method" type="methodType" minOccurs="1" />
+            <xs:element name="effectiveDate" type="xs:date" minOccurs="1" />
+         </xs:sequence>
+         <xs:attribute name="level" use="required" type="levelType" />
+      </xs:complexType>
+   </xs:element>  
+</xs:schema>
