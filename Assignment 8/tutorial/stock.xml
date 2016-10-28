@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="stock.xsl" ?>
 <!--
    New Perspectives on XML 3rd Edition
    Tutorial 5
    Tutorial Case
 
    Chesterton Financial Stock Information
-   Author: 
-   Date:   
+   Author:  Eric Dockter
+   Date:    10/26/2016
 
    Filename:         stock.xml
    Supporting Files: down.png, same.png, stock.css, stock.xsl, up.png
 
 -->
 
-<portfolio>
-
+<portfolio>   
    <author>Rafael Garcia</author>
    <date>4/17/2017</date>
    <time>13:17</time>
