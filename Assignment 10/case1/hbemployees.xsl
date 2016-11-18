@@ -5,8 +5,8 @@
    Case Problem 1
 
    Harris and Barnes Style Sheet
-   Author: 
-   Date:   
+   Author: Eric Dockter
+   Date:   11/17/2016
 
    Filename:         hbemployees.xsl
    Supporting Files: 
