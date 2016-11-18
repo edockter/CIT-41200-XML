@@ -6,13 +6,13 @@
 
    Employee List
    Author: Eric Dockter
-   Date:   11/17/2016s
+   Date:   11/17/2016
 
    Filename:         hbemployees.xml
    Supporting Files: hbemployees.xsl
 
 -->
-
+<?xml-stylesheet type="text/xsl" href="hbemployees.xsl" ?>
 
 <employees xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <employee empID="4">
