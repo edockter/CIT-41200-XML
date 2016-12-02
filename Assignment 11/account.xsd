@@ -24,57 +24,104 @@
                             <xs:element name="name">
                                 <xs:complexType>
                                     <xs:sequence>
-                                        <xs:element name="first" />
-                                        <xs:element name="last" />                                        
+                                        <xs:element name="first" type="xs:string"  />
+                                        <xs:element name="last" type="xs:string" />
                                     </xs:sequence>
                                 </xs:complexType>
-                            </xs:element>                            
-                            <xs:element name="address">
+                            </xs:element>
+                            <xs:element name="address" minOccurs="1" maxOccurs="1" >
                                 <xs:complexType>
                                     <xs:sequence>
-                                        <xs:element name="street" />
-                                        <xs:element name="city" />
-                                        <xs:element name="state" />
-                                        <xs:element name="zip" />
+                                        <xs:element name="street" type="xs:string" minOccurs="1" maxOccurs="1" />
+                                        <xs:element name="city" type="xs:string" minOccurs="1" maxOccurs="1" />
+                                        <xs:element name="state" minOccurs="1" maxOccurs="1">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:string">
+                                                    <xs:pattern value="[A-Za-z]{2}" />
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
+                                        <xs:element name="zip" minOccurs="1" maxOccurs="1">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:integer">
+                                                    <xs:pattern value="[0-9]{5}" />
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
                                     </xs:sequence>
                                 </xs:complexType>
-                            </xs:element>                            
+                            </xs:element>
                         </xs:sequence>
-                    </xs:complexType>                    
-                </xs:element>  
+                    </xs:complexType>
+                </xs:element>
                 <xs:choice maxOccurs="unbounded">
                     <xs:element name="deposit">
-                        <xs:complexType >            
+                        <xs:complexType >
                             <xs:sequence>
-                                <xs:element name="from" type="fromType" />
-                                <xs:element ref="amount" />
-                                <xs:element ref="date" />
-                                <xs:element ref="description" minOccurs="0" />
-                            </xs:sequence>
-                            <xs:attribute name="type" type="typeType"/>            
-                        </xs:complexType>        
-                    </xs:element>                    
-                    <xs:element name="payment" >
-                        <xs:complexType>            
-                            <xs:sequence>
-                                <xs:element name="to" type="fromType" />
+                                <xs:element name="from">
+                                    <xs:complexType>
+                                        <xs:simpleContent>
+                                            <xs:extension base="xs:string">
+                                                <xs:attribute name="category" type="categoryType" />
+                                            </xs:extension>
+                                        </xs:simpleContent>
+                                    </xs:complexType>
+                                </xs:element>
                                 <xs:element ref="amount" />
                                 <xs:element ref="date" />
                                 <xs:element ref="description" minOccurs="0" />
                             </xs:sequence>
                             <xs:attribute name="type" type="typeType"/>
-                            <xs:attribute name="checknum" type="checknumType"/>
-                        </xs:complexType>        
-                    </xs:element>      
-                </xs:choice>                
-            </xs:sequence>            
+                        </xs:complexType>
+                    </xs:element>
+                    <xs:element name="payment">
+                        <xs:complexType>
+                            <xs:sequence>
+                                <xs:element name="to">
+                                    <xs:complexType>
+                                        <xs:simpleContent>
+                                            <xs:extension base="xs:string">
+                                                <xs:attribute name="category" type="categoryType" />
+                                            </xs:extension>
+                                        </xs:simpleContent>
+                                    </xs:complexType>
+                                </xs:element>
+                                <xs:element ref="amount" />
+                                <xs:element ref="date" />
+                                <xs:element ref="description" minOccurs="0" />
+                            </xs:sequence>
+                            <xs:attribute name="type" type="typeType"/>
+                            <xs:attribute name="checknum">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:pattern value="C\d{1,4}" />
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:attribute>
+                        </xs:complexType>
+                    </xs:element>
+                </xs:choice>
+            </xs:sequence>
             <xs:attribute name="type" type="typeType" />
             <xs:attribute name="number" type="xs:string" />
         </xs:complexType>
     </xs:element>
     
-    <xs:element name="amount" type="amountType" />
-    <xs:element name="date" type="dateType" />
+    <xs:element name="amount">
+        <xs:simpleType>
+            <xs:restriction base="xs:decimal">
+                <xs:minInclusive value="0" />
+                <xs:fractionDigits value="2" />
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+    
+    <xs:element name="date">
+        <xs:simpleType>
+            <xs:restriction base="xs:date"/>
+        </xs:simpleType>
+    </xs:element>
+    
     <xs:element name="description" type="xs:string" />
     
     <xs:simpleType name="categoryType">
@@ -89,6 +136,7 @@
             <xs:enumeration value="entertainment" />
         </xs:restriction>
     </xs:simpleType>
+    
     <xs:simpleType name="typeType">
         <xs:restriction base="xs:string">
             <xs:enumeration value="direct" />
@@ -96,34 +144,8 @@
             <xs:enumeration value="check" />
             <xs:enumeration value="cash" />
             <xs:enumeration value="transfer" />
-            <xs:enumeration value="atm" />            
+            <xs:enumeration value="atm" />
         </xs:restriction>
     </xs:simpleType>
-    <xs:simpleType name="stateType">
-        <xs:restriction base="xs:string">
-            <xs:pattern value="[A-Za-z]{2}" />            
-        </xs:restriction>
-    </xs:simpleType>
-    <xs:simpleType name="checknumType">
-        <xs:restriction base="xs:string">
-            <xs:pattern value="C\d{1,4}" />            
-        </xs:restriction>
-    </xs:simpleType>
-    <xs:simpleType name="dateType">
-        <xs:restriction base="xs:date"/>        
-    </xs:simpleType>   
-    <xs:simpleType name="amountType">
-        <xs:restriction base="xs:decimal">
-            <xs:minInclusive value="0" />
-            <xs:fractionDigits value="2" />             
-        </xs:restriction>
-    </xs:simpleType>
-    <xs:complexType name="fromType">
-        <xs:simpleContent>
-            <xs:extension base="xs:string">
-                <xs:attribute name="category" type="categoryType" />
-            </xs:extension>
-        </xs:simpleContent>                
-    </xs:complexType>
-    
+
 </xs:schema>
