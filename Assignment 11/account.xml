@@ -1,8 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<account xmlns="http://www.engr.iupui.edu/~efernand/account" type="checking" number="C22233475" >
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<account xmlns="http://www.engr.iupui.edu/~efernand/account" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="account.xsd" type="checking" number="C22233475" >
    <owner>
       <name>
-         <first>Ashley</first><last>Wilkes</last>
+         <first>Ashley</first>
+         <last>Wilkes</last>
       </name>
       <address>
          <street>321 Ashburn</street>
