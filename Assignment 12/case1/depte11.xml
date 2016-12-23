@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+   New Perspectives on XML 3rd Edition
+   Tutorial 8
+   Case Problem 1
+
+   Employee Information from Department E11
+
+   Filename:         depte11.xml
+
+-->
+<employees>
+	<employee empID="50">
+		<firstName>Alicia</firstName>
+		<middleInt>J</middleInt>
+		<lastName>Silva</lastName>
+		<department>E11</department>
+		<phone>6789</phone>
+		<email>Silva.50@example.com/horizons</email>
+		<dateHired>2013-08-17</dateHired>
+		<title>Manager</title>
+		<edLevel>16</edLevel>
+		<gender>M</gender>
+		<birthDate>1960-09-15</birthDate>
+		<salary>92400</salary>
+		<bonus>1800</bonus>
+		<commission>7400</commission>
+	</employee>
+	<employee empID="90">
+		<firstName>Ila</firstName>
+		<middleInt>R</middleInt>
+		<lastName>Leclerc</lastName>
+		<department>E11</department>
+		<phone>5498</phone>
+		<email>Leclerc.51@example.com/horizons</email>
+		<dateHired>2005-08-15</dateHired>
+		<title>Manager</title>
+		<edLevel>16</edLevel>
+		<gender>F</gender>
+		<birthDate>1976-05-15</birthDate>
+		<salary>68400</salary>
+		<bonus>1400</bonus>
+		<commission>5500</commission>
+	</employee>
+	<employee empID="280">
+		<firstName>Jonathan</firstName>
+		<middleInt>R</middleInt>
+		<lastName>Horowitz</lastName>
+		<department>E11</department>
+		<phone>8997</phone>
+		<email>Horowitz.57@example.com/horizons</email>
+		<dateHired>2002-03-24</dateHired>
+		<title>Programmer</title>
+		<edLevel>17</edLevel>
+		<gender>F</gender>
+		<birthDate>1971-03-28</birthDate>
+		<salary>60400</salary>
+		<bonus>1200</bonus>
+		<commission>4800</commission>
+	</employee>
+	<employee empID="290">
+		<firstName>Maribel</firstName>
+		<middleInt>R</middleInt>
+		<lastName>Tollett</lastName>
+		<department>E11</department>
+		<phone>4502</phone>
+		<email>Tollett.92@example.com/horizons</email>
+		<dateHired>2015-05-30</dateHired>
+		<title>Programmer</title>
+		<edLevel>12</edLevel>
+		<gender>M</gender>
+		<birthDate>1981-07-09</birthDate>
+		<salary>35300</salary>
+		<bonus>700</bonus>
+		<commission>2800</commission>
+	</employee>
+	<employee empID="300">
+		<firstName>Jan</firstName>
+		<middleInt>X</middleInt>
+		<lastName>Brinker</lastName>
+		<department>E11</department>
+		<phone>2095</phone>
+		<email>Brinker.39@example.com/horizons</email>
+		<dateHired>2007-06-19</dateHired>
+		<title>Programmer</title>
+		<edLevel>14</edLevel>
+		<gender>M</gender>
+		<birthDate>1971-10-27</birthDate>
+		<salary>40800</salary>
+		<bonus>900</bonus>
+		<commission>3300</commission>
+	</employee>
+	<employee empID="310">
+		<firstName>Lori</firstName>
+		<middleInt>F</middleInt>
+		<lastName>Ayers</lastName>
+		<department>E11</department>
+		<phone>3332</phone>
+		<email>Ayers.37@example.com/horizons</email>
+		<dateHired>1999-09-12</dateHired>
+		<title>Programmer</title>
+		<edLevel>12</edLevel>
+		<gender>F</gender>
+		<birthDate>1966-04-21</birthDate>
+		<salary>36600</salary>
+		<bonus>700</bonus>
+		<commission>2900</commission>
+	</employee>
+	<employee empID="640">
+		<firstName>Elvis</firstName>
+		<middleInt>R</middleInt>
+		<lastName>Box</lastName>
+		<department>E11</department>
+		<phone>8997</phone>
+		<email>Box.61@example.com/horizons</email>
+		<dateHired>2002-03-24</dateHired>
+		<title>Programmer</title>
+		<edLevel>17</edLevel>
+		<gender>F</gender>
+		<birthDate>1971-03-28</birthDate>
+		<salary>60400</salary>
+		<bonus>1200</bonus>
+		<commission>4800</commission>
+	</employee>
+	<employee empID="660">
+		<firstName>Melanie</firstName>
+		<middleInt>F</middleInt>
+		<lastName>Dennison</lastName>
+		<department>E11</department>
+		<phone>3332</phone>
+		<email>Dennison.52@example.com/horizons</email>
+		<dateHired>1999-09-12</dateHired>
+		<title>Programmer</title>
+		<edLevel>12</edLevel>
+		<gender>F</gender>
+		<birthDate>1966-04-21</birthDate>
+		<salary>36600</salary>
+		<bonus>700</bonus>
+		<commission>2900</commission>
+	</employee>
+</employees>

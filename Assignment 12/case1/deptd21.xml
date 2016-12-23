@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+   New Perspectives on XML 3rd Edition
+   Tutorial 8
+   Case Problem 1
+
+   Employee Information from Department D21
+
+   Filename:         deptd21.xml
+
+-->
+<employees>
+	<employee empID="70">
+		<firstName>William</firstName>
+		<middleInt>P</middleInt>
+		<lastName>Kimble</lastName>
+		<department>D21</department>
+		<phone>7831</phone>
+		<email>Kimble.87@example.com/horizons</email>
+		<dateHired>2015-09-30</dateHired>
+		<title>Manager</title>
+		<edLevel>16</edLevel>
+		<gender>F</gender>
+		<birthDate>1988-05-26</birthDate>
+		<salary>83200</salary>
+		<bonus>1600</bonus>
+		<commission>6700</commission>
+	</employee>
+	<employee empID="230">
+		<firstName>Kevin</firstName>
+		<middleInt>J</middleInt>
+		<lastName>Smith</lastName>
+		<department>D21</department>
+		<phone>2094</phone>
+		<email>Smith.77@example.com/horizons</email>
+		<dateHired>2001-11-21</dateHired>
+		<title>Clerk</title>
+		<edLevel>14</edLevel>
+		<gender>M</gender>
+		<birthDate>1970-05-30</birthDate>
+		<salary>51000</salary>
+		<bonus>900</bonus>
+		<commission>4100</commission>
+	</employee>
+	<employee empID="240">
+		<firstName>Patrick</firstName>
+		<middleInt>M</middleInt>
+		<lastName>Trexler</lastName>
+		<department>D21</department>
+		<phone>3780</phone>
+		<email>Trexler.63@example.com/horizons</email>
+		<dateHired>2014-12-05</dateHired>
+		<title>Clerk</title>
+		<edLevel>17</edLevel>
+		<gender>M</gender>
+		<birthDate>1989-03-31</birthDate>
+		<salary>66100</salary>
+		<bonus>1400</bonus>
+		<commission>5300</commission>
+	</employee>
+	<employee empID="250">
+		<firstName>Daniel</firstName>
+		<middleInt>S</middleInt>
+		<lastName>Lujan</lastName>
+		<department>D21</department>
+		<phone>961</phone>
+		<email>Lujan.17@example.com/horizons</email>
+		<dateHired>2004-10-30</dateHired>
+		<title>Clerk</title>
+		<edLevel>15</edLevel>
+		<gender>M</gender>
+		<birthDate>1974-11-12</birthDate>
+		<salary>44100</salary>
+		<bonus>900</bonus>
+		<commission>3500</commission>
+	</employee>
+	<employee empID="260">
+		<firstName>Violet</firstName>
+		<middleInt>P</middleInt>
+		<lastName>Neal</lastName>
+		<department>D21</department>
+		<phone>8953</phone>
+		<email>Neal.92@example.com/horizons</email>
+		<dateHired>2010-09-11</dateHired>
+		<title>Clerk</title>
+		<edLevel>16</edLevel>
+		<gender>F</gender>
+		<birthDate>1971-10-05</birthDate>
+		<salary>39700</salary>
+		<bonus>700</bonus>
+		<commission>3200</commission>
+	</employee>
+	<employee empID="270">
+		<firstName>Maria</firstName>
+		<middleInt>L</middleInt>
+		<lastName>Sanders</lastName>
+		<department>D21</department>
+		<phone>9001</phone>
+		<email>Sanders.79@example.com/horizons</email>
+		<dateHired>2015-09-30</dateHired>
+		<title>Clerk</title>
+		<edLevel>15</edLevel>
+		<gender>F</gender>
+		<birthDate>1988-05-26</birthDate>
+		<salary>63000</salary>
+		<bonus>1200</bonus>
+		<commission>5000</commission>
+	</employee>
+	<employee empID="620">
+		<firstName>Hazel</firstName>
+		<middleInt>M</middleInt>
+		<lastName>Buteau</lastName>
+		<department>D21</department>
+		<phone>3780</phone>
+		<email>Buteau.66@example.com/horizons</email>
+		<dateHired>2014-12-05</dateHired>
+		<title>Clerk</title>
+		<edLevel>17</edLevel>
+		<gender>M</gender>
+		<birthDate>1989-03-31</birthDate>
+		<salary>66100</salary>
+		<bonus>1400</bonus>
+		<commission>5300</commission>
+	</employee>
+</employees>

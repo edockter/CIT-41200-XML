@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+   New Perspectives on XML 3rd Edition
+   Tutorial 8
+   Case Problem 1
+
+   Employee Information from Department C01
+
+   Filename:         deptc01.xml
+
+-->
+<employees>
+	<employee empID="20">
+		<firstName>Dorothy</firstName>
+		<middleInt>D</middleInt>
+		<lastName>Lock</lastName>
+		<department>C01</department>
+		<phone>3476</phone>
+		<email>Lock.36@example.com/horizons</email>
+		<dateHired>2008-10-10</dateHired>
+		<title>Manager</title>
+		<edLevel>18</edLevel>
+		<gender>M</gender>
+		<birthDate>1983-02-02</birthDate>
+		<salary>94900</salary>
+		<bonus>1800</bonus>
+		<commission>7600</commission>
+	</employee>
+	<employee empID="30">
+		<firstName>Douglas</firstName>
+		<middleInt>F</middleInt>
+		<lastName>Espino</lastName>
+		<department>C01</department>
+		<phone>4738</phone>
+		<email>Espino.65@example.com/horizons</email>
+		<dateHired>2010-04-05</dateHired>
+		<title>Manager</title>
+		<edLevel>20</edLevel>
+		<gender>F</gender>
+		<birthDate>1976-05-11</birthDate>
+		<salary>88000</salary>
+		<bonus>1800</bonus>
+		<commission>7000</commission>
+	</employee>
+	<employee empID="130">
+		<firstName>Thomas</firstName>
+		<middleInt>M</middleInt>
+		<lastName>Gray</lastName>
+		<department>C01</department>
+		<phone>4578</phone>
+		<email>Gray.57@example.com/horizons</email>
+		<dateHired>2006-07-28</dateHired>
+		<title>Analyst</title>
+		<edLevel>16</edLevel>
+		<gender>F</gender>
+		<birthDate>1960-09-15</birthDate>
+		<salary>54700</salary>
+		<bonus>1200</bonus>
+		<commission>4400</commission>
+	</employee>
+	<employee empID="140">
+		<firstName>Marie</firstName>
+		<middleInt>A</middleInt>
+		<lastName>Cervantes</lastName>
+		<department>C01</department>
+		<phone>1793</phone>
+		<email>Cervantes.99@example.com/horizons</email>
+		<dateHired>2011-12-15</dateHired>
+		<title>Analyst</title>
+		<edLevel>18</edLevel>
+		<gender>F</gender>
+		<birthDate>1981-01-19</birthDate>
+		<salary>65400</salary>
+		<bonus>1400</bonus>
+		<commission>5200</commission>
+	</employee>
+	<employee empID="550">
+		<firstName>Maria</firstName>
+		<middleInt>N</middleInt>
+		<lastName>Splawn</lastName>
+		<department>C01</department>
+		<phone>1793</phone>
+		<email>Splawn.43@example.com/horizons</email>
+		<dateHired>2011-12-15</dateHired>
+		<title>Analyst</title>
+		<edLevel>18</edLevel>
+		<gender>F</gender>
+		<birthDate>1981-01-19</birthDate>
+		<salary>65400</salary>
+		<bonus>1400</bonus>
+		<commission>5200</commission>
+	</employee>
+</employees>
